@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "grid": {
+    "size": 320,
+    "stepMetres": 10,
+    "minLocalMetres": -1600,
+    "indexOrder": "z rows, x columns"
+  },
+  "region": "South slopes, southeast of the campus athletics area",
+  "fromClass": 30,
+  "toClass": 60,
+  "runs": [
+    [
+      71873,
+      1
+    ],
+    [
+      72188,
+      9
+    ],
+    [
+      72507,
+      11
+    ],
+    [
+      72826,
+      2
+    ],
+    [
+      72830,
+      5
+    ],
+    [
+      73146,
+      2
+    ],
+    [
+      73150,
+      3
+    ],
+    [
+      73466,
+      2
+    ],
+    [
+      73786,
+      3
+    ]
+  ],
+  "cells": 38,
+  "displayAreaSquareMetres": 3800,
+  "centreRangeLocalMetres": [
+    265,
+    645,
+    375,
+    705
+  ],
+  "baseCoverProduct": "ESA WorldCover 2021 v200, CC BY 4.0",
+  "annualClassification": {
+    "product": "Esri, Microsoft and Impact Observatory Sentinel-2 10m Land Use/Land Cover Time Series",
+    "classCode": 8,
+    "projection": "UTM 51N (EPSG:32651), native 10 m; nearest pixel to project grid",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "productUrl": "https://livingatlas.arcgis.com/landcover/",
+    "annualTiles": [
+      "https://lulctimeseries.blob.core.windows.net/lulctimeseriesv003/lc2024/51S_20240101-20241231.tif",
+      "https://lulctimeseries.blob.core.windows.net/lulctimeseriesv003/lc2025/51S_20250101-20251231.tif"
+    ]
+  },
+  "spectralChecks": {
+    "product": "Copernicus Sentinel-2 Collection 1 L2A, T51STB",
+    "productUrl": "https://sentinels.copernicus.eu/-/collection-1-level-2a",
+    "dates": [
+      {
+        "date": "2025-06-11T02:47:26.399000Z",
+        "scene": "S2B_T51STB_20250611T024655_L2A"
+      },
+      {
+        "date": "2025-07-11T02:47:31.596000Z",
+        "scene": "S2B_T51STB_20250711T024551_L2A"
+      },
+      {
+        "date": "2025-07-26T02:47:50.391000Z",
+        "scene": "S2C_T51STB_20250726T023610_L2A"
+      },
+      {
+        "date": "2025-08-10T02:47:29.955000Z",
+        "scene": "S2B_T51STB_20250810T024658_L2A"
+      },
+      {
+        "date": "2025-09-02T02:57:24.147000Z",
+        "scene": "S2B_T51STB_20250902T025513_L2A"
+      },
+      {
+        "date": "2026-06-11T02:47:27.469000Z",
+        "scene": "S2C_T51STB_20260611T024435_L2A"
+      },
+      {
+        "date": "2026-07-21T02:47:29.476000Z",
+        "scene": "S2C_T51STB_20260721T023837_L2A"
+      },
+      {
+        "date": "2026-08-08T02:57:23.300000Z",
+        "scene": "S2B_T51STB_20260808T025628_L2A"
+      },
+      {
+        "date": "2026-09-02T02:57:21.895000Z",
+        "scene": "S2C_T51STB_20260902T024700_L2A"
+      }
+    ],
+    "heldOutScene": {
+      "date": "2026-10-14T02:47:26.745000Z",
+      "scene": "S2B_T51STB_20261014T024532_L2A",
+      "supportedCells": 38
+    },
+    "observationRule": "At least three clear bare pavement or soil signals in each of 2025 and 2026 before the held-out scene. SCL 5, NDVI at most 0.25, BSI at least 0.005 and red surface reflectance at least 0.075. Reject clear greening, water and cloud or shadow adjacent cells.",
+    "nativeResolutionMetres": {
+      "visibleAndNIR": 10,
+      "SCLAndSWIR": 20
+    },
+    "oneCellStableCount": 7
+  },
+  "limitations": "Approximate ground cover after resampling. Some boundary pixels may mix grass, exposed rock, soil or hardscape. The 10 m grid does not establish a survey boundary, substrate type, or date of change."
+}

@@ -1,0 +1,158 @@
+{
+  "center": [
+    -227.324,
+    399.077
+  ],
+  "id": "B071",
+  "ring": [
+    [
+      -277.964,
+      388.71
+    ],
+    [
+      -194.011,
+      357.973
+    ],
+    [
+      -187.242,
+      378.704
+    ],
+    [
+      -180.129,
+      401.436
+    ],
+    [
+      -180.778,
+      404.822
+    ],
+    [
+      -187.528,
+      408.221
+    ],
+    [
+      -191.308,
+      410.421
+    ],
+    [
+      -262.302,
+      436.263
+    ]
+  ],
+  "layout": {
+    "angle": -0.3431317,
+    "width": 94.0,
+    "depth": 56.0,
+    "blueCourtsXZLocal": [
+      [
+        -34.2,
+        -8.75
+      ],
+      [
+        -20.4,
+        -8.97
+      ],
+      [
+        -6.55,
+        -9.15
+      ],
+      [
+        7.36,
+        -9.22
+      ],
+      [
+        21.1,
+        -9.37
+      ],
+      [
+        34.35,
+        -9.58
+      ]
+    ],
+    "redPanelsXZLocal": [
+      [
+        -32.45,
+        15.8
+      ],
+      [
+        -10.55,
+        15.57
+      ],
+      [
+        11.25,
+        15.1
+      ],
+      [
+        32.95,
+        14.85
+      ]
+    ],
+    "redPanelSizeMetres": [
+      17.95,
+      9.45
+    ],
+    "apronXZLocal": [
+      [
+        -44.2,
+        -26.8
+      ],
+      [
+        45.2,
+        -27.5
+      ],
+      [
+        44.6,
+        -5.7
+      ],
+      [
+        43.65,
+        18.1
+      ],
+      [
+        41.9,
+        21.07
+      ],
+      [
+        34.4,
+        22.0
+      ],
+      [
+        30.1,
+        22.8
+      ],
+      [
+        -45.45,
+        23.25
+      ]
+    ],
+    "redBandXZLocal": [
+      [
+        -42.95,
+        9.6
+      ],
+      [
+        43.03,
+        8.7
+      ],
+      [
+        42.05,
+        20.85
+      ],
+      [
+        34.0,
+        22.1
+      ],
+      [
+        -43.4,
+        22.45
+      ]
+    ],
+    "paintAngle": -0.015
+  },
+  "evidence": {
+    "attribution": "Contains modified Copernicus Sentinel data (2025–2026)",
+    "bandPlacement": "2025-06-02 WorldView Legion 2 (0.34 m native; 0.60 m service sampling). The six blue surfaces and the four red panels are distinct. The area was bare in the 2024-03-09 reference image.",
+    "layoutBasis": "Court centres, orientation and red panel extents are interpreted from the 2025 image. Tennis line dimensions follow ITF. The red surface use and any internal markings remain unconfirmed.",
+    "elevationBasis": "Existing terrain surface, local absolute court elevations unmeasured.",
+    "source": "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.70266%2C37.80239%2C18"
+  }
+}

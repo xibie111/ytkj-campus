@@ -1,0 +1,450 @@
+{
+  "origin": [
+    120.70525,
+    37.80598
+  ],
+  "frame": "meters in local x=east, z=south; ring is unclosed",
+  "buildings": [
+    {
+      "id": "B040",
+      "name": "文化餐厅",
+      "kind": "cultureDining",
+      "ring": [
+        [
+          -145.17,
+          77.1
+        ],
+        [
+          -131.52,
+          77.14
+        ],
+        [
+          -131.53,
+          83.44
+        ],
+        [
+          -139.93,
+          83.42
+        ],
+        [
+          -139.96,
+          89.73
+        ],
+        [
+          -120.0,
+          89.79
+        ],
+        [
+          -119.84,
+          39.31
+        ],
+        [
+          -151.24,
+          7.67
+        ],
+        [
+          -161.78,
+          18.15
+        ],
+        [
+          -154.45,
+          25.54
+        ],
+        [
+          -150.24,
+          21.34
+        ],
+        [
+          -145.01,
+          26.62
+        ]
+      ],
+      "holes": [],
+      "center": [
+        -134.94,
+        51.6
+      ],
+      "centerWgs84": [
+        120.703716,
+        37.805515
+      ],
+      "floors": 3,
+      "height": 12.1,
+      "heightSource": "CNBH 2020 遥感估高；12/14 个有效像元，中位数12.10米",
+      "sourceFragments": [
+        "B040",
+        "B041",
+        "B043"
+      ],
+      "suppressStandaloneIds": [
+        "B041",
+        "B043"
+      ],
+      "preserveSeparateIds": [
+        "B038"
+      ],
+      "sourceParts": [
+        {
+          "id": "B040",
+          "gersId": "c7467cda-bc00-479e-97e4-5f325bd00de4",
+          "ring": [
+            [
+              -145.17,
+              77.1
+            ],
+            [
+              -131.52,
+              77.14
+            ],
+            [
+              -131.53,
+              83.44
+            ],
+            [
+              -139.93,
+              83.42
+            ],
+            [
+              -139.96,
+              89.73
+            ],
+            [
+              -120.0,
+              89.79
+            ],
+            [
+              -119.84,
+              39.31
+            ],
+            [
+              -151.24,
+              7.67
+            ],
+            [
+              -161.78,
+              18.15
+            ],
+            [
+              -154.45,
+              25.54
+            ],
+            [
+              -150.24,
+              21.34
+            ],
+            [
+              -145.01,
+              26.62
+            ]
+          ],
+          "holes": [],
+          "cnbh2020": {
+            "height_m": 12.09982967376709,
+            "valid_cells": 12,
+            "footprint_cells": 14,
+            "valid_fraction": 0.857,
+            "min_m": 11.168590545654297,
+            "max_m": 13.094293594360352
+          },
+          "globfp2020": 7.44,
+          "globfpId": "G051"
+        },
+        {
+          "id": "B041",
+          "gersId": "de7911b0-5dfe-4995-8e8a-e932358238c6",
+          "ring": [
+            [
+              -155.39,
+              27.52
+            ],
+            [
+              -152.83,
+              35.53
+            ],
+            [
+              -149.82,
+              34.56
+            ],
+            [
+              -152.39,
+              26.55
+            ]
+          ],
+          "holes": [],
+          "cnbh2020": {
+            "height_m": null,
+            "valid_cells": 0,
+            "footprint_cells": 0,
+            "valid_fraction": null,
+            "min_m": null,
+            "max_m": null
+          },
+          "globfp2020": 10.26,
+          "globfpId": "G049"
+        },
+        {
+          "id": "B043",
+          "gersId": "fdd30385-0f56-40d9-90d5-52c495b4b4db",
+          "ring": [
+            [
+              -117.26,
+              83.99
+            ],
+            [
+              -111.41,
+              85.04
+            ],
+            [
+              -110.35,
+              79.18
+            ],
+            [
+              -116.2,
+              78.13
+            ]
+          ],
+          "holes": [],
+          "cnbh2020": {
+            "height_m": null,
+            "valid_cells": 0,
+            "footprint_cells": 0,
+            "valid_fraction": null,
+            "min_m": null,
+            "max_m": null
+          },
+          "globfp2020": 7.86,
+          "globfpId": "G052"
+        }
+      ],
+      "geometryMethod": "保留B040原始主体屋顶。B041为同屋面小片，B043位于南端屋檐/附属体附近，均不作独立多层楼。B038与主体之间有间隔，保留为独立候选。弧形临街立面由校方照片支持，半径与转折位置尚缺实测。",
+      "entranceNormal": [
+        0.99027,
+        0.13917
+      ],
+      "diningEntrance": [
+        -117.94,
+        50.13
+      ],
+      "diningApronCenter": [
+        -117.94,
+        64.83
+      ],
+      "entranceBearingDeg": 98,
+      "entranceBearingRangeDeg": [
+        90,
+        110
+      ],
+      "entranceBasis": "校方正面照的红雨篷与 2024-03-09、2025-06-02 影像均位于同一东侧开间。锚点取靠近较清晰的 2025 影像的模型开间外，门槛待测。",
+      "entranceSources": [
+        "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+        "https://livingatlas.arcgis.com/wayback/#active=13192&mapCenter=120.70391%2C37.80553%2C18",
+        "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.70391%2C37.80553%2C18"
+      ],
+      "positionConfidence": "主体身份高；屋顶公开几何局部；入口侧向中高；具体门口未测",
+      "identitySource": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+      "facadeSource": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+      "notes": "校方资料为三层、32个档口；未使用公告面积绘制占地。"
+    },
+    {
+      "id": "B031",
+      "name": "仙境食府",
+      "kind": "xianjingDining",
+      "ring": [
+        [
+          310.67,
+          -168.08
+        ],
+        [
+          343.58,
+          -184.54
+        ],
+        [
+          356.39,
+          -158.93
+        ],
+        [
+          323.48,
+          -142.47
+        ]
+      ],
+      "holes": [],
+      "center": [
+        333.53,
+        -163.5
+      ],
+      "centerWgs84": [
+        120.709042,
+        37.807453
+      ],
+      "floors": 3,
+      "height": 10.06,
+      "heightSource": "3D-GloBFP 2020 同楼两屋面分片9.01米及10.06米；展示取较高分片约10米，CNBH两片均缺测",
+      "sourceFragments": [
+        "B031",
+        "B033"
+      ],
+      "suppressStandaloneIds": [
+        "B033"
+      ],
+      "sourceParts": [
+        {
+          "id": "B031",
+          "gersId": "10053bd3-7bbf-47dd-9d3e-ee741f0eb4a9",
+          "ring": [
+            [
+              319.6,
+              -150.22
+            ],
+            [
+              352.49,
+              -166.66
+            ],
+            [
+              343.58,
+              -184.54
+            ],
+            [
+              310.69,
+              -168.09
+            ]
+          ],
+          "holes": [],
+          "cnbh2020": {
+            "height_m": null,
+            "valid_cells": 0,
+            "footprint_cells": 8,
+            "valid_fraction": 0.0,
+            "min_m": null,
+            "max_m": null
+          },
+          "globfp2020": 9.01,
+          "globfpId": "G038"
+        },
+        {
+          "id": "B033",
+          "gersId": "8c26a53d-bfd2-43e7-9edf-d5c6ca18bda5",
+          "ring": [
+            [
+              347.15,
+              -158.98
+            ],
+            [
+              328.44,
+              -152.02
+            ],
+            [
+              329.9,
+              -148.08
+            ],
+            [
+              348.61,
+              -155.04
+            ]
+          ],
+          "holes": [],
+          "cnbh2020": {
+            "height_m": null,
+            "valid_cells": 0,
+            "footprint_cells": 2,
+            "valid_fraction": 0.0,
+            "min_m": null,
+            "max_m": null
+          },
+          "globfp2020": 10.06,
+          "globfpId": "G039"
+        }
+      ],
+      "roofDimensionsM": [
+        36.8,
+        28.6
+      ],
+      "longAxisBearingDeg": 63.43,
+      "geometryMethod": "以B031已知长轴63.43°框取B031、B033两个公开分片的紧致矩形。长边未向无数据处延伸；南向屋面边界采用已知分片的外缘。校方航拍支持矩形屋盖与外挑深色屋檐，实际檐边尚待实测。",
+      "entranceNormal": [
+        -0.89439,
+        0.44729
+      ],
+      "diningEntrance": [
+        315.29,
+        -154.38
+      ],
+      "entranceBearingDeg": 243.43,
+      "entranceBearingRangeDeg": [
+        235,
+        250
+      ],
+      "entranceBasis": "校方航拍及正面照匹配短端竖窗、红色楼名、台阶及西南偏西停车前场。点取估算矩形西南短端中点外2米，仅作展示。",
+      "positionConfidence": "主体身份高；长轴高；短端主门方向高；边缘与门点未实测",
+      "identitySource": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+      "facadeSource": "https://zwc.ytkj.edu.cn/__local/E/D7/30/3FD9205091A767496642F0D37F2_3FCAECBB_16D1A9.png",
+      "aerialSource": "https://www.ytkj.edu.cn/info/1049/8478.htm",
+      "notes": "校方资料为三层、28个档口；未使用公告面积绘制占地。"
+    }
+  ],
+  "existingDining": [
+    {
+      "id": "west-arc",
+      "name": "专家公寓（厚德餐厅）",
+      "diningName": "厚德餐厅",
+      "diningFloor": 1,
+      "centerWgs84": [
+        120.70214,
+        37.80906
+      ],
+      "sourceFragments": [
+        "B002"
+      ],
+      "diningEntrance": [
+        -247.33,
+        -339.99
+      ],
+      "entranceNormal": [
+        0.81918,
+        -0.57354
+      ],
+      "entranceBasis": "机电学院北门全景中，厚德餐厅红色门额位于广场立面靠图文楼的一段。以校门、图文楼和公寓两端估计照片中的门位，楼前定位点取在旋转门外，具体开间待测。",
+      "geometryNote": "北门全景与后勤指南入口照校核五排凸窗、底层石材和屋面两端的开敞列柱。400平方米为餐厅口径。门位、凸窗进深、屋面构架和屋顶房尺寸按照片估计。",
+      "panoramaSource": "https://eng.ytkj.edu.cn/static/images/xyfg2.png",
+      "source": "https://zwc.ytkj.edu.cn/info/1090/1684.htm"
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "houde",
+      "name": "厚德餐厅",
+      "en": "HOUDE DINING HALL",
+      "buildingId": "west-arc",
+      "span": 100,
+      "tagHeight": 6,
+      "note": "北门西侧，专家公寓一层。",
+      "meta": "6 个档口 · 具体门位按照片估放"
+    },
+    {
+      "id": "wenhua",
+      "name": "文化餐厅",
+      "en": "WENHUA DINING HALL",
+      "buildingId": "B040",
+      "span": 120,
+      "tagHeight": 14,
+      "note": "创意大道西侧，弧形正门面向停车区。",
+      "meta": "三层 · 32 个档口 · 遥感估高约 12 米"
+    },
+    {
+      "id": "xianjing",
+      "name": "仙境食府",
+      "en": "XIANJING DINING HALL",
+      "buildingId": "B031",
+      "span": 98,
+      "tagHeight": 12,
+      "note": "东山片区，正门台阶朝西南偏西。",
+      "meta": "三层 · 28 个档口 · 遥感估高约 10 米"
+    }
+  ],
+  "sources": {
+    "identity": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+    "footprints": "https://stac.overturemaps.org/2026-11-18.0/buildings/building/collection.json",
+    "upstream": "https://zenodo.org/records/8174931",
+    "heights": "https://zenodo.org/records/7923866",
+    "globfp": "https://doi.org/10.6084/m9.figshare.28906499"
+  }
+}

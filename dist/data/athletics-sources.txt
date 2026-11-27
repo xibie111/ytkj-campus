@@ -1,0 +1,35 @@
+田径场平台标高
+本模型从田径场内七个 Copernicus GLO-30 栅格中心取高程中位数，按 54.4 米绘制。其为基于 DSM 的近似场地标高，绝对高度及排水坡度未经现场校测。
+
+produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved.
+The organisations in charge of the Copernicus programme by law or by delegation do not incur any liability for any use of the Copernicus WorldDEM-30.
+
+Copernicus GLO-30 数据及许可
+https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM
+https://doi.org/10.5270/ESA-c5d3d65
+
+场地铺装外包络
+Contains modified Copernicus Sentinel data (2025, 2026). Sentinel-2 L2A acquisitions S2C_51STB_20250520_0_L2A, S2B_51STB_20250611_0_L2A and S2B_51STB_20261014_0_L2A. The location of the red paving edge was extracted from the original 10 metre SWIR-free true-colour composites. Individual lanes and surveyed offsets cannot be resolved by Sentinel-2.
+
+足球场横向训练场和草皮条带
+学校第十三届运动会影片约 25.2 秒与 30.9 秒的相反机位可辨两块黄色训练场、中圈和弧形禁区。现场火炬仪式背景写有 2024 年 5 月 30 日。利用大场白色罚球区和球门区的角点校正透视，小场约长 40 米、宽 20 米，草皮条带宽约 4 米。未获场地测绘资料。模型使用原创几何和纹理。
+https://www.ytkj.edu.cn/info/1115/6346.htm
+
+南侧主席台
+影片的屋顶剪影有五个峰、四个高于前檐的鞍部，前檐下方是可透空的桁架。峰高约 16 米、前檐约 13 米，按大场标线建立相机投影后估算。既有 CNBH 8.7 米、3D-GloBFP 9.64 米保留在模型的 heightChecks 中。两翼露天台阶的长度约 51 米，阶数和进深依据照片近似。
+https://www.ytkj.edu.cn/info/1081/3549.htm
+https://www.ytkj.edu.cn/info/1115/6346.htm
+
+田径场北直道旗台与旗杆
+2024-05-30 校方田径运动会录像 25.2 秒和校方 2025-09-22 军训报道照片均能辨认三根旗杆、阶梯与后沿混凝土。2024-03-09 WV03 与 2025-06-02 LG02 正射复核独立台地和西侧通道。杆高约 14.4、14.9、14.4 米为影像估计，台阶深度和栏墙高程未经现场测量。台地从原有 54.4 米模型场坪起建。
+https://www.ytkj.edu.cn/info/1115/6346.htm
+https://www.ytkj.edu.cn/info/1081/6881.htm
+
+主席台正面栏杆与两端楼梯扶手
+2022 年 9 月 8 日校方典礼照片中可辨三层正面栏杆和两端楼梯扶手。模型按既有看台、楼梯接点安装。栏杆高度和杆距为展示估算。
+https://www.ytkj.edu.cn/info/1081/3549.htm
+
+足球场两端白色球门
+2026 年 9 月 19 至 20 日校方开学典礼与军训总结照片中，足球场两端的白色门框、球网和后侧斜撑可辨，模型装在两端现有球门线中心。7.32 米净宽和 2.44 米净高按 IFAB 规则参考值建模，球门本身未现场量测。其他照片中的临时训练门未定位。
+https://www.ytkj.edu.cn/info/1081/8367.htm
+https://www.theifab.com/laws/latest/the-field-of-play/

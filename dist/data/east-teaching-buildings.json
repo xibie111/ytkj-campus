@@ -1,0 +1,71 @@
+{
+  "coordinateSystem": "局部米制坐标，X 向东，Z 向南；角度从 X 轴在 XZ 平面旋转。",
+  "campusGuide": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+  "roofData": {
+    "name": "Copernicus Sentinel-2 L2A B04",
+    "url": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2B_51STB_20261014_0_L2A",
+    "crs": "EPSG:32651",
+    "resolutionMetres": 10,
+    "scenes": [
+      "S2C_51STB_20250520_0_L2A",
+      "S2B_51STB_20250611_0_L2A",
+      "S2B_51STB_20261014_0_L2A"
+    ],
+    "attribution": "Contains modified Copernicus Sentinel data 2025, 2026",
+    "method": "对三期原生红波段做共同朝向的屋面矩形拟合。面积混合像元同时拟合背景与屋面，位置与尺寸取整。高德图和校方导览校核名称与相邻关系。"
+  },
+  "roofDetailSources": [
+    "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.70790%2C37.80869%2C18",
+    "https://livingatlas.arcgis.com/wayback/#active=13192&mapCenter=120.70790%2C37.80869%2C18"
+  ],
+  "darkSlopedCoping": {
+    "sources": ["https://www.ytkj.edu.cn/info/1049/8465.htm", "https://www.ytkj.edu.cn/info/1049/8478.htm"],
+    "photoDates": ["2024-11-30", "2025-04-08"],
+    "basis": "双机位可辨深灰浅坡檐口及浅色平屋面。檐口剖面按已有屋面边缘比例估算。"
+  },
+  "buildings": [
+    {
+      "id": "east-building-17",
+      "name": "17号楼",
+      "kind": "dorm",
+      "center": [219, -281],
+      "angle": -32,
+      "width": 54,
+      "depth": 19,
+      "height": 32,
+      "floors": 10,
+      "roofStructure": {"offset": [14.5, -4.4], "width": 12.3, "depth": 8.4, "height": 1.8},
+      "roofDetails": [{"offset": [-18.4, -4.0], "width": 3.3, "depth": 3.5, "height": 0.45, "color": "#c9c3b0"}],
+      "geometryBasis": "三期开放影像拟合楼体。两期高分辨率影像复核屋面凸体与另一端的小构件，构件高度为估算。",
+      "note": "东山片区，位于 5 号教学楼西南侧。楼高、窗列与屋顶构筑物为展示近似。",
+      "facadeFinish": {"normalXZ": [0.53, 0.848], "spans": [[0, 0.118], [0.244, 0.357], [0.48, 0.601]], "color": "#cba184", "sources": ["https://livingatlas.arcgis.com/wayback/#active=13192&mapCenter=120.707728%2C37.808542%2C18", "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.707728%2C37.808542%2C18"], "dates": ["2024-03-09", "2025-06-02"], "basis": "两期高分影像可辨东南长墙三段浅赭色分带，分带尺寸依影像比例估计。"},
+      "viewDirection": [0.38, 0.6, 0.94],
+      "viewWidth": 84,
+      "labelSpan": 64,
+      "identitySource": "https://zwc.ytkj.edu.cn/info/1090/1684.htm"
+    },
+    {
+      "id": "east-teaching-5",
+      "name": "5号教学楼",
+      "kind": "teaching",
+      "center": [283.5, -319.5],
+      "angle": -32,
+      "width": 60,
+      "depth": 23,
+      "height": 30,
+      "floors": 10,
+      "roofStructure": {"offset": [-14.1, -5.1], "width": 14.7, "depth": 10.4, "height": 1.8},
+      "roofDetails": [{"offset": [22.0, -4.4], "width": 3.5, "depth": 4.2, "height": 0.45, "color": "#c9c3b0"}],
+      "geometryBasis": "三期开放影像拟合楼体。两期高分辨率影像复核屋面凸体与另一端的小构件，构件高度为估算。",
+      "note": "东山片区。学校活动记录提到五教 301 教室，楼高、总楼层和屋顶构筑物仍待实测。",
+      "facadeFinish": {"normalXZ":[0.53,0.848],"spans":[[0.15,0.25],[0.38,0.48],[0.6,0.72]],"color":"#cba184","sources":["https://livingatlas.arcgis.com/wayback/#active=13192&mapCenter=120.70845%2C37.80886%2C18","https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.70845%2C37.80886%2C18","https://www.ytkj.edu.cn/info/1049/8465.htm"],"dates":["2024-03-09","2025-06-02","2024-11-30"],"basis":"两期卫星分别按檐脚展开，东南面近路侧可辨三段浅赭色窗带，校方另机位记录同一楼面窗列。按各期重合范围表达立面色带，窗深、结构进深和入口细部待核。"},
+      "identitySource": "https://shangxy.ytkj.edu.cn/info/1007/2053.htm",
+      "minimumConfirmedFloors": 3
+    }
+  ],
+  "excludedRegionalRoof": {
+    "fid": 942778,
+    "reason": "五教所在屋面的不完整旧识别片段，随校内五教体量补建去重。",
+    "source": "https://doi.org/10.6084/m9.figshare.28906499"
+  }
+}

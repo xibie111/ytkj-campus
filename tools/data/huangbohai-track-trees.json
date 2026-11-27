@@ -1,0 +1,124 @@
+{
+  "photo": "https://www.ytkj.edu.cn/__local/4/AE/F4/EC39BD46E57E35DA7C935115075_9F33D088_C604F.jpg",
+  "article": "https://www.ytkj.edu.cn/info/1081/8367.htm",
+  "size": [
+    992,
+    661
+  ],
+  "principal": [
+    496,
+    330.5
+  ],
+  "cameraXZHeightAnglesFocalNote": "Camera parameters below give X, Y above football pitch, Z, yaw, pitch, roll (degrees), focal length (pixels). Fitted to halfway line, centre circle and north goal. Control RMSE 1.55 px; held-out far upper goal corner 2.51 px.",
+  "camera": [
+    -244.03510436,
+    4.43005301,
+    25.69165895,
+    -30.37266846,
+    -6.25306987,
+    0.59204827,
+    589.06705583
+  ],
+  "columns": [
+    "u",
+    "trackEdgeV",
+    "crownTopV",
+    "crownWidthPx"
+  ],
+  "picks": [
+    [
+      19,
+      291,
+      240,
+      20
+    ],
+    [
+      55,
+      291,
+      236,
+      19
+    ],
+    [
+      90,
+      290,
+      245,
+      18
+    ],
+    [
+      121,
+      289,
+      245,
+      17
+    ],
+    [
+      153,
+      289,
+      211,
+      18
+    ],
+    [
+      175,
+      289,
+      218,
+      15
+    ],
+    [
+      202,
+      288,
+      221,
+      21
+    ],
+    [
+      240,
+      287,
+      250,
+      21
+    ],
+    [
+      286,
+      287,
+      249,
+      23
+    ]
+  ],
+  "limits": "近景九组树冠。照片分辨树带及大致树形，单株树根、树高、冠幅和后排株数均为估算。原生正射标称 0.31 米，水平精度元数据 5 米。",
+  "rootCorrectionsXZ": {
+    "19": [
+      -208.37,
+      -69.91
+    ],
+    "55": [
+      -203.45,
+      -70.87
+    ],
+    "90": [
+      -199.26,
+      -71.245
+    ],
+    "121": [
+      -194.26,
+      -71.39
+    ],
+    "153": [
+      -188.2,
+      -73.31
+    ]
+  },
+  "rootCorrectionEvidence": {
+    "acquired": "2025-04-13",
+    "sourceResolutionM": 0.31,
+    "serviceSampleM": 0.6,
+    "sourceHorizontalAccuracyM": 5,
+    "orthophotoMetadata": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.98450303077698%2C37.73226126380545&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_DESC%2CSRC_ACC%2CSAMP_RES&returnGeometry=false",
+    "flyover": "https://www.ytkj.edu.cn/info/1115/8321.htm",
+    "flyoverFramesSec": [
+      306.0,
+      308.2
+    ],
+    "method": "以建成后俯视图和校方照片明确跑道北弯与人行带之间的栽植带。只重定位与铺装冲突的前五个组，沿原照片方位选择靠近模型栽植带中心的点，按调整后的观察距离推定冠幅和高度。",
+    "thirdCrownWidthPx": {
+      "width": 18,
+      "basis": "近景第三组的轮廓和低矮灌木在边缘叠合，采用保守的可见冠宽读数。"
+    }
+  }
+}

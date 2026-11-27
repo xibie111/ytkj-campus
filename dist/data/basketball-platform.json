@@ -1,0 +1,975 @@
+{
+  "schemaVersion": 1,
+  "id": "B057",
+  "ringXZ": [
+    [
+      -198.0,
+      348.0
+    ],
+    [
+      -107.2,
+      301.5
+    ],
+    [
+      -87.9,
+      339.1
+    ],
+    [
+      -178.7,
+      385.7
+    ]
+  ],
+  "centerXZ": [
+    -142.95,
+    343.575
+  ],
+  "levelMetres": 43.8,
+  "verticalCRS": "EPSG:3855 / EGM2008 height in metres; ATL03 height above WGS84 ellipsoid minus shared PROJ EGM2008 grid",
+  "grading": {
+    "shoulderMetres": 3.1,
+    "blendMetres": 14,
+    "subdivisions": 18,
+    "protectedClearanceMetres": [
+      1.05,
+      4.6
+    ],
+    "adjacentClearanceMetres": [
+      1.05,
+      3.1
+    ]
+  },
+  "nearestKnownPavingMetres": 7.868,
+  "source": {
+    "nativePhotonProduct": "https://doi.org/10.5067/ATLAS/ATL03.007",
+    "api": "https://openaltimetry.earthdatacloud.nasa.gov/data/api/icesat2/atl03",
+    "missionSpecs": "https://icesat-2.gsfc.nasa.gov/science/specs",
+    "surfaceBandSource": "https://dataspace.copernicus.eu/terms-and-conditions",
+    "attribution": "Neumann et al. (2025), ATLAS/ICESat-2 L2A Global Geolocated Photon Data (ATL03), Version 7, NASA NSIDC DAAC, two relative ground tracks crossing the Yantai campus, accessed 2026-11-23. Contains modified Copernicus Sentinel data (2025–2026). Adjacent road polygons © OpenStreetMap contributors, ODbL."
+  },
+  "imageryEnvelope": {
+    "rectangle": {
+      "centerXZ": [
+        -142.9,
+        343.6
+      ],
+      "degreesEastTowardSouth": -27.12,
+      "lengthWidth": [
+        102.0,
+        42.2
+      ],
+      "ringXZ": [
+        [
+          -198.0,
+          348.0
+        ],
+        [
+          -107.2,
+          301.5
+        ],
+        [
+          -87.9,
+          339.1
+        ],
+        [
+          -178.7,
+          385.7
+        ]
+      ]
+    },
+    "oldCenterDistanceM": 30.59,
+    "oldOverlapWithCandidateM2": 1607.2,
+    "oldSurface": {
+      "areaM2": 2736.0,
+      "roadOverlapM2": 49.4,
+      "buildingsOverlapM2": 0.0
+    },
+    "candidateSurface": {
+      "areaM2": 4311.0,
+      "roadOverlapM2": 0.0,
+      "buildingsOverlapM2": 0.0
+    },
+    "dates": [
+      {
+        "scene": "S2B_51STB_20250611_0_L2A",
+        "observedPixels": 31,
+        "oldContained": 14,
+        "candidateContained": 29,
+        "holdout": {
+          "observedPixels": 31,
+          "oldContained": 14,
+          "candidateContained": 29
+        },
+        "singleDateCandidate": {
+          "centerXZ": [
+            -141.4,
+            342.9
+          ],
+          "degreesEastTowardSouth": -25.59,
+          "lengthWidth": [
+            95.5,
+            43.5
+          ],
+          "ringXZ": [
+            [
+              -193.9,
+              343.9
+            ],
+            [
+              -107.8,
+              302.6
+            ],
+            [
+              -89.0,
+              341.9
+            ],
+            [
+              -175.1,
+              383.1
+            ]
+          ]
+        }
+      },
+      {
+        "scene": "S2B_51STB_20261014_0_L2A",
+        "observedPixels": 25,
+        "oldContained": 12,
+        "candidateContained": 24,
+        "holdout": {
+          "observedPixels": 25,
+          "oldContained": 12,
+          "candidateContained": 23
+        },
+        "singleDateCandidate": {
+          "centerXZ": [
+            -142.0,
+            342.8
+          ],
+          "degreesEastTowardSouth": -29.44,
+          "lengthWidth": [
+            98.3,
+            38.8
+          ],
+          "ringXZ": [
+            [
+              -194.3,
+              350.0
+            ],
+            [
+              -108.8,
+              301.7
+            ],
+            [
+              -89.7,
+              335.6
+            ],
+            [
+              -175.2,
+              383.8
+            ]
+          ]
+        }
+      },
+      {
+        "scene": "S2C_51STB_20250520_0_L2A",
+        "observedPixels": 5,
+        "oldContained": 2,
+        "candidateContained": 5,
+        "holdout": {
+          "observedPixels": 5,
+          "oldContained": 2,
+          "candidateContained": 5
+        },
+        "singleDateCandidate": null
+      }
+    ]
+  },
+  "laser": {
+    "usedAcquisitionCount": 9,
+    "usedRelativeTrackIds": [
+      "1253",
+      "392"
+    ],
+    "usedAlongTrackReturns": 352,
+    "validationInsetMetres": 10,
+    "passDetails": {
+      "2019-06-19-1253-gt2l": {
+        "status": "no signal in safety inset"
+      },
+      "2019-06-19-1253-gt2r": {
+        "status": "supported platform profile",
+        "highConfidence": 96,
+        "mediumConfidence": 1,
+        "mainSurfaceReturns": 96,
+        "offModeReturns": 1,
+        "rangeRawM": [
+          43.001,
+          43.637,
+          43.748,
+          43.821,
+          43.945
+        ],
+        "rangeMainM": [
+          43.24,
+          43.642,
+          43.748,
+          43.821,
+          43.945
+        ],
+        "rangeModelM": [
+          34.943,
+          34.96,
+          35.116,
+          35.361,
+          35.514
+        ],
+        "observedXYSpanM": [
+          2.4,
+          24.81
+        ],
+        "xzExtentM": [
+          [
+            -134.11,
+            325.34
+          ],
+          [
+            -131.71,
+            350.14
+          ]
+        ]
+      },
+      "2021-07-19-392-gt2l": {
+        "status": "supported platform profile",
+        "highConfidence": 0,
+        "mediumConfidence": 22,
+        "mainSurfaceReturns": 22,
+        "offModeReturns": 0,
+        "rangeRawM": [
+          43.506,
+          43.646,
+          43.778,
+          43.846,
+          43.92
+        ],
+        "rangeMainM": [
+          43.506,
+          43.646,
+          43.778,
+          43.846,
+          43.92
+        ],
+        "rangeModelM": [
+          37.746,
+          37.776,
+          38.415,
+          39.009,
+          39.146
+        ],
+        "observedXYSpanM": [
+          2.04,
+          21.96
+        ],
+        "xzExtentM": [
+          [
+            -163.55,
+            342.07
+          ],
+          [
+            -161.5,
+            364.03
+          ]
+        ]
+      },
+      "2021-07-19-392-gt2r": {
+        "status": "no signal in safety inset"
+      },
+      "2021-09-13-1253-gt2r": {
+        "status": "supported platform profile",
+        "highConfidence": 10,
+        "mediumConfidence": 0,
+        "mainSurfaceReturns": 10,
+        "offModeReturns": 0,
+        "rangeRawM": [
+          43.45,
+          43.611,
+          43.743,
+          43.792,
+          43.822
+        ],
+        "rangeMainM": [
+          43.45,
+          43.611,
+          43.743,
+          43.792,
+          43.822
+        ],
+        "rangeModelM": [
+          32.436,
+          32.436,
+          32.486,
+          32.544,
+          32.544
+        ],
+        "observedXYSpanM": [
+          0.83,
+          8.48
+        ],
+        "xzExtentM": [
+          [
+            -106.32,
+            328.31
+          ],
+          [
+            -105.5,
+            336.78
+          ]
+        ]
+      },
+      "2022-01-16-392-gt2l": {
+        "status": "supported platform profile",
+        "highConfidence": 88,
+        "mediumConfidence": 0,
+        "mainSurfaceReturns": 86,
+        "offModeReturns": 2,
+        "rangeRawM": [
+          43.07,
+          43.64,
+          43.778,
+          43.892,
+          46.874
+        ],
+        "rangeMainM": [
+          43.37,
+          43.645,
+          43.778,
+          43.89,
+          44.307
+        ],
+        "rangeModelM": [
+          38.881,
+          38.93,
+          39.364,
+          40.197,
+          40.342
+        ],
+        "observedXYSpanM": [
+          2.13,
+          23.19
+        ],
+        "xzExtentM": [
+          [
+            -176.27,
+            348.27
+          ],
+          [
+            -174.14,
+            371.46
+          ]
+        ]
+      },
+      "2022-01-16-392-gt2r": {
+        "status": "no signal in safety inset"
+      },
+      "2023-03-12-1253-gt2l": {
+        "status": "no signal in safety inset"
+      },
+      "2023-03-12-1253-gt2r": {
+        "status": "supported platform profile",
+        "highConfidence": 80,
+        "mediumConfidence": 0,
+        "mainSurfaceReturns": 80,
+        "offModeReturns": 0,
+        "rangeRawM": [
+          43.421,
+          43.598,
+          43.739,
+          43.86,
+          43.952
+        ],
+        "rangeMainM": [
+          43.421,
+          43.598,
+          43.739,
+          43.86,
+          43.952
+        ],
+        "rangeModelM": [
+          34.93,
+          34.948,
+          35.04,
+          35.385,
+          35.48
+        ],
+        "observedXYSpanM": [
+          2.53,
+          25.44
+        ],
+        "xzExtentM": [
+          [
+            -134.09,
+            325.44
+          ],
+          [
+            -131.56,
+            350.88
+          ]
+        ]
+      },
+      "2023-07-15-392-gt2l": {
+        "status": "insufficient in-inset profile length",
+        "highConfidence": 1,
+        "mediumConfidence": 0,
+        "mainSurfaceReturns": 1,
+        "offModeReturns": 0,
+        "rangeRawM": [
+          43.68,
+          43.68,
+          43.68,
+          43.68,
+          43.68
+        ],
+        "rangeMainM": [
+          43.68,
+          43.68,
+          43.68,
+          43.68,
+          43.68
+        ],
+        "rangeModelM": [
+          41.17,
+          41.17,
+          41.17,
+          41.17,
+          41.17
+        ],
+        "observedXYSpanM": [
+          0.0,
+          0.0
+        ],
+        "xzExtentM": [
+          [
+            -184.07,
+            352.66
+          ],
+          [
+            -184.07,
+            352.66
+          ]
+        ]
+      },
+      "2023-07-15-392-gt2r": {
+        "status": "no signal in safety inset"
+      },
+      "2024-01-13-392-gt2l": {
+        "status": "supported platform profile",
+        "highConfidence": 8,
+        "mediumConfidence": 0,
+        "mainSurfaceReturns": 8,
+        "offModeReturns": 0,
+        "rangeRawM": [
+          43.546,
+          43.596,
+          43.732,
+          43.826,
+          43.851
+        ],
+        "rangeMainM": [
+          43.546,
+          43.596,
+          43.732,
+          43.826,
+          43.851
+        ],
+        "rangeModelM": [
+          38.001,
+          38.056,
+          38.542,
+          38.898,
+          39.074
+        ],
+        "observedXYSpanM": [
+          1.52,
+          15.62
+        ],
+        "xzExtentM": [
+          [
+            -164.69,
+            345.16
+          ],
+          [
+            -163.17,
+            360.78
+          ]
+        ]
+      },
+      "2024-01-13-392-gt2r": {
+        "status": "no signal in safety inset"
+      },
+      "2024-03-09-1253-gt2l": {
+        "status": "no signal in safety inset"
+      },
+      "2024-03-09-1253-gt2r": {
+        "status": "supported platform profile",
+        "highConfidence": 27,
+        "mediumConfidence": 0,
+        "mainSurfaceReturns": 26,
+        "offModeReturns": 1,
+        "rangeRawM": [
+          43.006,
+          43.529,
+          43.753,
+          43.853,
+          44.016
+        ],
+        "rangeMainM": [
+          43.29,
+          43.575,
+          43.754,
+          43.858,
+          44.016
+        ],
+        "rangeModelM": [
+          35.031,
+          35.042,
+          35.166,
+          35.432,
+          35.563
+        ],
+        "observedXYSpanM": [
+          2.28,
+          24.3
+        ],
+        "xzExtentM": [
+          [
+            -134.82,
+            327.08
+          ],
+          [
+            -132.54,
+            351.38
+          ]
+        ]
+      },
+      "2024-09-07-1253-gt2l": {
+        "status": "no signal in safety inset"
+      },
+      "2024-09-07-1253-gt2r": {
+        "status": "supported platform profile",
+        "highConfidence": 12,
+        "mediumConfidence": 0,
+        "mainSurfaceReturns": 11,
+        "offModeReturns": 1,
+        "rangeRawM": [
+          43.194,
+          43.702,
+          43.769,
+          43.875,
+          43.915
+        ],
+        "rangeMainM": [
+          43.702,
+          43.706,
+          43.78,
+          43.875,
+          43.915
+        ],
+        "rangeModelM": [
+          34.217,
+          34.226,
+          34.299,
+          34.502,
+          34.512
+        ],
+        "observedXYSpanM": [
+          1.91,
+          19.72
+        ],
+        "xzExtentM": [
+          [
+            -128.02,
+            325.68
+          ],
+          [
+            -126.12,
+            345.4
+          ]
+        ]
+      },
+      "2025-07-11-392-gt2l": {
+        "status": "supported platform profile",
+        "highConfidence": 0,
+        "mediumConfidence": 13,
+        "mainSurfaceReturns": 13,
+        "offModeReturns": 0,
+        "rangeRawM": [
+          43.655,
+          43.689,
+          43.884,
+          43.954,
+          43.961
+        ],
+        "rangeMainM": [
+          43.655,
+          43.689,
+          43.884,
+          43.954,
+          43.961
+        ],
+        "rangeModelM": [
+          37.094,
+          37.208,
+          37.552,
+          38.137,
+          38.478
+        ],
+        "observedXYSpanM": [
+          2.01,
+          21.22
+        ],
+        "xzExtentM": [
+          [
+            -156.2,
+            338.41
+          ],
+          [
+            -154.19,
+            359.62
+          ]
+        ]
+      },
+      "2025-07-11-392-gt2r": {
+        "status": "no signal in safety inset"
+      }
+    },
+    "holdout": {
+      "dateHoldoutThreeMetreMedians": {
+        "threeMetreProfileBins": 66,
+        "old": {
+          "medianBiasM": -8.259,
+          "maeM": 7.386,
+          "rmseM": 7.659
+        },
+        "heldOutPlatform": {
+          "medianBiasM": 0.001,
+          "maeM": 0.063,
+          "rmseM": 0.083
+        }
+      },
+      "oppositeTrackHoldoutThreeMetreMedians": {
+        "threeMetreProfileBins": 66,
+        "old": {
+          "medianBiasM": -8.259,
+          "maeM": 7.386,
+          "rmseM": 7.659
+        },
+        "heldOutPlatform": {
+          "medianBiasM": 0.002,
+          "maeM": 0.064,
+          "rmseM": 0.085
+        }
+      },
+      "dateHoldoutIncludingUnscreenedPhotonModes": {
+        "threeMetreProfileBins": 67,
+        "old": {
+          "medianBiasM": -8.255,
+          "maeM": 7.39,
+          "rmseM": 7.659
+        },
+        "heldOutPlatform": {
+          "medianBiasM": 0.002,
+          "maeM": 0.077,
+          "rmseM": 0.129
+        }
+      },
+      "oppositeTrackHoldoutIncludingUnscreenedPhotonModes": {
+        "threeMetreProfileBins": 67,
+        "old": {
+          "medianBiasM": -8.255,
+          "maeM": 7.39,
+          "rmseM": 7.659
+        },
+        "heldOutPlatform": {
+          "medianBiasM": 0.003,
+          "maeM": 0.079,
+          "rmseM": 0.133
+        }
+      },
+      "perDate": {
+        "2019-06-19-1253-gt2r": {
+          "predictedFromOtherDatesM": 43.766,
+          "predictedFromOtherTrackM": 43.778,
+          "observedM": 43.748
+        },
+        "2021-07-19-392-gt2l": {
+          "predictedFromOtherDatesM": 43.751,
+          "predictedFromOtherTrackM": 43.748,
+          "observedM": 43.778
+        },
+        "2021-09-13-1253-gt2r": {
+          "predictedFromOtherDatesM": 43.766,
+          "predictedFromOtherTrackM": 43.778,
+          "observedM": 43.743
+        },
+        "2022-01-16-392-gt2l": {
+          "predictedFromOtherDatesM": 43.751,
+          "predictedFromOtherTrackM": 43.748,
+          "observedM": 43.778
+        },
+        "2023-03-12-1253-gt2r": {
+          "predictedFromOtherDatesM": 43.766,
+          "predictedFromOtherTrackM": 43.778,
+          "observedM": 43.739
+        },
+        "2024-01-13-392-gt2l": {
+          "predictedFromOtherDatesM": 43.766,
+          "predictedFromOtherTrackM": 43.748,
+          "observedM": 43.732
+        },
+        "2024-03-09-1253-gt2r": {
+          "predictedFromOtherDatesM": 43.763,
+          "predictedFromOtherTrackM": 43.778,
+          "observedM": 43.754
+        },
+        "2024-09-07-1253-gt2r": {
+          "predictedFromOtherDatesM": 43.751,
+          "predictedFromOtherTrackM": 43.778,
+          "observedM": 43.78
+        },
+        "2025-07-11-392-gt2l": {
+          "predictedFromOtherDatesM": 43.751,
+          "predictedFromOtherTrackM": 43.748,
+          "observedM": 43.883
+        }
+      }
+    }
+  },
+  "limitations": "The open imagery envelope is approximate at 10 m source pixel scale. ATL03 constrains the level along observed tracks. Exact individual court boundaries, paint, retaining features and drainage slope require independent survey.",
+  "adjacentPavingRings": [
+    [
+      [
+        -271.9,
+        388.5
+      ],
+      [
+        -195.8,
+        361.3
+      ],
+      [
+        -184.7,
+        392.3
+      ],
+      [
+        -260.8,
+        419.5
+      ]
+    ],
+    [
+      [
+        -264.6,
+        420.9
+      ],
+      [
+        -187.6,
+        393.4
+      ],
+      [
+        -181.7,
+        409.9
+      ],
+      [
+        -258.7,
+        437.4
+      ]
+    ]
+  ],
+  "markings": {
+    "platformAxisDegrees": -27.12,
+    "offsetsMetres": [
+      -30,
+      -10,
+      10,
+      30
+    ],
+    "referenceDimensionsMetres": [
+      28,
+      15
+    ],
+    "type": "schematic",
+    "rules": "https://assets.fiba.basketball/image/upload/documents-corporate-fiba-official-rules-2026-v1-1.pdf",
+    "basis": "Four illustrative courts retain the previous display count. Directions follow the open-imagery paving axis. Positions and count are not a survey.",
+    "observed": {
+      "courts": [
+        {
+          "id": "court-1",
+          "centerXZ": [
+            -176.7495,
+            355.036
+          ],
+          "angleDegrees": -30.9579,
+          "lengthMetres": 26.83,
+          "widthMetres": 14.75,
+          "keyWidthMetres": 4.8,
+          "keyDepthMetres": 4.9
+        },
+        {
+          "id": "court-2",
+          "centerXZ": [
+            -162.945,
+            346.473
+          ],
+          "angleDegrees": -30.4064,
+          "lengthMetres": 26.9023,
+          "widthMetres": 14.75,
+          "keyWidthMetres": 4.8,
+          "keyDepthMetres": 4.9
+        },
+        {
+          "id": "court-3",
+          "centerXZ": [
+            -149.367,
+            337.5945
+          ],
+          "angleDegrees": -31.1265,
+          "lengthMetres": 26.814,
+          "widthMetres": 14.75,
+          "keyWidthMetres": 4.8,
+          "keyDepthMetres": 4.9
+        },
+        {
+          "id": "court-4",
+          "centerXZ": [
+            -135.5115,
+            328.835
+          ],
+          "angleDegrees": -30.4937,
+          "lengthMetres": 26.7015,
+          "widthMetres": 14.75,
+          "keyWidthMetres": 4.8,
+          "keyDepthMetres": 4.9
+        },
+        {
+          "id": "court-5",
+          "centerXZ": [
+            -121.96,
+            320.5135
+          ],
+          "angleDegrees": -30.0732,
+          "lengthMetres": 26.7596,
+          "widthMetres": 14.75,
+          "keyWidthMetres": 4.8,
+          "keyDepthMetres": 4.9
+        },
+        {
+          "id": "court-6",
+          "centerXZ": [
+            -108.2875,
+            311.8205
+          ],
+          "angleDegrees": -30.432,
+          "lengthMetres": 26.9625,
+          "widthMetres": 14.75,
+          "keyWidthMetres": 4.8,
+          "keyDepthMetres": 4.9
+        },
+        {
+          "id": "court-7",
+          "centerXZ": [
+            -130.1435,
+            356.6775
+          ],
+          "angleDegrees": -121.4622,
+          "lengthMetres": 26.4256,
+          "widthMetres": 14.75,
+          "keyWidthMetres": 4.8,
+          "keyDepthMetres": 4.9
+        },
+        {
+          "id": "court-8",
+          "centerXZ": [
+            -101.599,
+            339.138
+          ],
+          "angleDegrees": -121.0504,
+          "lengthMetres": 26.6762,
+          "widthMetres": 14.75,
+          "keyWidthMetres": 4.8,
+          "keyDepthMetres": 4.9
+        }
+      ],
+      "planRingXZ": [
+        [
+          -192.9827,
+          347.2698
+        ],
+        [
+          -166.2752,
+          389.4345
+        ],
+        [
+          -83.9468,
+          337.0422
+        ],
+        [
+          -110.6567,
+          294.8741
+        ]
+      ],
+      "modelRingXZ": [
+        [
+          -169.6846,
+          384.0518
+        ],
+        [
+          -122.004,
+          360.4874
+        ],
+        [
+          -108.3659,
+          352.582
+        ],
+        [
+          -85.4775,
+          338.0163
+        ],
+        [
+          -94.6554,
+          320.1361
+        ],
+        [
+          -108.0651,
+          298.9657
+        ],
+        [
+          -125.5618,
+          306.9942
+        ],
+        [
+          -154.242,
+          322.6136
+        ],
+        [
+          -192.9827,
+          347.2698
+        ]
+      ],
+      "sources": [
+        {
+          "date": "2024-03-09",
+          "sensor": "WorldView-3",
+          "nativeMetres": 0.31,
+          "mapSampleMetres": 0.6,
+          "source": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r12/MapServer/5/query?f=json&geometry=120.70362413042602%2C37.802880705449894&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSRC_DESC%2CSAMP_RES%2CNICE_NAME&returnGeometry=False"
+        },
+        {
+          "date": "2025-06-02",
+          "sensor": "WorldView Legion 2",
+          "nativeMetres": 0.34,
+          "mapSampleMetres": 0.6,
+          "source": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.70362413042602%2C37.802880705449894&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSRC_DESC%2CSAMP_RES%2CNICE_NAME&returnGeometry=False"
+        }
+      ],
+      "layoutBasis": "两期识别8片全场，北排6片及南排2片。红区中心、对向关系和场地长轴来自影像。白线细部和线宽按标准示意，篮架实物未确认。",
+      "verticalSupport": "沿用原43.8米激光数据及高度函数。三维补绘限于双期可辨的铺装和现有平肩，新增边界以现有网页地形的12厘米网格采样核对，新增区地形高程约43.76至43.80米。八片布局保持，落在明显坡地的边线继续在平面完整示意。",
+      "maxFlatShoulderExtensionMetres": 3.48
+    }
+  }
+}

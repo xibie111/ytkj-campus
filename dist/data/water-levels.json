@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "units": "metres, approximate EGM2008 surface elevations",
+  "profiles": [
+    {
+      "osmWay": 1065203753,
+      "osmVersion": 1,
+      "osmTimestamp": "2022-05-30T15:05:12Z",
+      "osmTags": {"natural": "water", "water": "pond"},
+      "osmRecord": "https://api.openstreetmap.org/api/0.6/way/1065203753.json",
+      "levelMetres": 67.97,
+      "method": "Horizontal display surface at the rounded median of the four native DSM cell centres within the published OSM ring. The 15 cm below-surface display bed is a meshing allowance and does not represent pond depth.",
+      "insideCellCentresLocalXZAndHeight": [
+        [1321.737, 509.581, 65.498],
+        [1321.737, 540.413, 67.761],
+        [1321.737, 571.244, 68.180],
+        [1346.169, 602.075, 70.029]
+      ],
+      "sourceProduct": "Copernicus GLO-30 DSM (WGS84, approximate cell size 24.43 m east-west and 30.83 m north-south here)",
+      "sourceUrl": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N37_00_E120_00_DEM/Copernicus_DSM_COG_10_N37_00_E120_00_DEM.tif",
+      "limitations": "The four cells span 4.531 m in height and may contain adjacent land. Absolute water level, depth, seasonal extent and the shape of the bank have no survey control. The released plan uses the OSM ring unchanged."
+    }
+  ],
+  "observedSurfaces": [
+    {
+      "surfaceId": "quarry-stable-water-core",
+      "name": "南侧开挖积水核心",
+      "kind": "water",
+      "ring": [
+        [
+          -118.0,
+          940.0
+        ],
+        [
+          -119.0,
+          940.2679
+        ],
+        [
+          -119.7321,
+          941.0
+        ],
+        [
+          -120.0,
+          942.0
+        ],
+        [
+          -120.0,
+          948.0
+        ],
+        [
+          -119.7321,
+          949.0
+        ],
+        [
+          -119.0,
+          949.7321
+        ],
+        [
+          -118.0,
+          950.0
+        ],
+        [
+          -110.0,
+          950.0
+        ],
+        [
+          -102.0,
+          950.0
+        ],
+        [
+          -101.0,
+          949.7321
+        ],
+        [
+          -100.2679,
+          949.0
+        ],
+        [
+          -100.0,
+          948.0
+        ],
+        [
+          -100.0,
+          940.0
+        ],
+        [
+          -100.0,
+          932.0
+        ],
+        [
+          -100.2679,
+          931.0
+        ],
+        [
+          -101.0,
+          930.2679
+        ],
+        [
+          -102.0,
+          930.0
+        ],
+        [
+          -108.0,
+          930.0
+        ],
+        [
+          -109.0,
+          930.2679
+        ],
+        [
+          -109.7321,
+          931.0
+        ],
+        [
+          -110.0,
+          932.0
+        ],
+        [
+          -110.0,
+          939.7367
+        ],
+        [
+          -110.0,
+          940.0
+        ],
+        [
+          -110.2633,
+          940.0
+        ]
+      ],
+      "levelMetres": 40.63,
+      "datum": "EGM2008",
+      "coordinates": "Project-local metres. Origin WGS84 120.70525E, 37.80598N.",
+      "roundedAreaM2": 295.0,
+      "method": "Inward-rounded display footprint of three adjacent native 10 m Sentinel-2 spectral water cells recurring across multiple years. Display level is the median of field returns from 2023-03-12, when the Sentinel-2 image also supports water in all three cells.",
+      "spectralEvidence": {
+        "source": "Copernicus Sentinel-2 Collection 1 L2A",
+        "productUrl": "https://sentinels.copernicus.eu/-/collection-1-level-2a",
+        "termsUrl": "https://dataspace.copernicus.eu/terms-and-conditions",
+        "nativeGreenNIRMetres": 10,
+        "nativeSWIRMetres": 20,
+        "allThreeCellsWaterDates": [
+          "20210801",
+          "20210814",
+          "20210908",
+          "20210930",
+          "20240711",
+          "20240828",
+          "20250611",
+          "20250711",
+          "20250726",
+          "20250902",
+          "20260611",
+          "20260721",
+          "20260808",
+          "20260823",
+          "20260902",
+          "20261014"
+        ],
+        "sameDayScenes": [
+          {
+            "date": "2023-03-12",
+            "scene": "S2A_T51STB_20230312T025259_L2A",
+            "clearCorePixels": 3,
+            "pairedWaterCorePixels": 3
+          },
+          {
+            "date": "2024-01-13",
+            "scene": "S2A_T51STB_20240113T024046_L2A",
+            "clearCorePixels": 3,
+            "pairedWaterCorePixels": 3
+          }
+        ]
+      },
+      "elevationEvidence": {
+        "source": "NASA ICESat-2 ATL03 v007",
+        "productUrl": "https://nsidc.org/data/atl03/versions/7",
+        "laserPasses": [
+          {
+            "date": "2021-07-19",
+            "track": 392,
+            "beam": "gt2l",
+            "highPhotonsWithinRoundedCore": 14,
+            "medianEGM2008": 40.638,
+            "IQRmetres": 0.109,
+            "periodSource": "https://openaltimetry.earthdatacloud.nasa.gov/data/api/icesat2/atl03?minx=120.70248715869597&maxx=120.70600040134184&miny=37.79652895353761&maxy=37.79818671573883&date=2021-07-19&trackId=392&beamNames=gt2l&outputFormat=json&sampling=false"
+          },
+          {
+            "date": "2022-01-16",
+            "track": 392,
+            "beam": "gt2l",
+            "highPhotonsWithinRoundedCore": 209,
+            "medianEGM2008": 40.626,
+            "IQRmetres": 0.068,
+            "periodSource": "https://openaltimetry.earthdatacloud.nasa.gov/data/api/icesat2/atl03?minx=120.70248715869597&maxx=120.70600040134184&miny=37.79652895353761&maxy=37.79818671573883&date=2022-01-16&trackId=392&beamNames=gt2l&outputFormat=json&sampling=false"
+          },
+          {
+            "date": "2023-03-12",
+            "track": 1253,
+            "beam": "gt2l",
+            "highPhotonsWithinRoundedCore": 419,
+            "medianEGM2008": 40.63,
+            "IQRmetres": 0.096,
+            "periodSource": "https://openaltimetry.earthdatacloud.nasa.gov/data/api/icesat2/atl03?minx=120.70248715869597&maxx=120.70600040134184&miny=37.79652895353761&maxy=37.79818671573883&date=2023-03-12&trackId=1253&beamNames=gt2l&outputFormat=json&sampling=false"
+          },
+          {
+            "date": "2024-01-13",
+            "track": 392,
+            "beam": "gt2l",
+            "highPhotonsWithinRoundedCore": 40,
+            "medianEGM2008": 40.652,
+            "IQRmetres": 0.128,
+            "periodSource": "https://openaltimetry.earthdatacloud.nasa.gov/data/api/icesat2/atl03?minx=120.70248715869597&maxx=120.70600040134184&miny=37.79652895353761&maxy=37.79818671573883&date=2024-01-13&trackId=392&beamNames=gt2l&outputFormat=json&sampling=false"
+          }
+        ],
+        "levelDisplayUncertaintyMetres": 0.2
+      },
+      "limitations": "The footprint identifies a recurring water core. Outer shoreline, water depth, bank form and current water stage are unknown. The 0.15 m display bed and 5 m horizontal blend are geometric allowances. WorldCover outside the core retains its existing treatment."
+    }
+  ]
+}

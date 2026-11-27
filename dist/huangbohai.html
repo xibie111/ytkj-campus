@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN" data-campus="huangbohai">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f8f7f3">
+  <title>黄渤海校区 · 烟台科技学院校园图志</title>
+  <link rel="icon" href="data:,">
+  <script src="campus-theme.js"></script>
+  <script src="campus-picker.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="huangbohai.css">
+  <link rel="modulepreload" href="vendor/three.core.js">
+  <link rel="preload" href="data/huangbohai-models.json" as="fetch" crossorigin>
+  <link rel="preload" href="data/huangbohai-ground.json" as="fetch" crossorigin>
+  <script type="module" src="huangbohai.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <div id="modes" role="group" aria-label="地图视图"><button id="model" aria-pressed="true" disabled aria-label="三维模型"><span class="mode-label">三维模型</span><span class="mode-short" aria-hidden="true">三维</span></button><button id="plan" aria-pressed="false" disabled aria-label="平面地图"><span class="mode-label">平面地图</span><span class="mode-short" aria-hidden="true">平面</span></button></div>
+    <details class="campus-picker">
+      <summary role="button" aria-expanded="false" aria-controls="campus-options">切换校区</summary>
+      <nav id="campus-options" aria-label="选择校区">
+        <a href="index.html">蓬莱校区</a>
+        <a href="huangbohai.html" aria-current="page">黄渤海校区</a>
+      </nav>
+    </details>
+    <div class="header-tools">
+      <button id="sources" class="source-button" aria-label="地图怎么用" title="地图怎么用"><i data-icon="info" aria-hidden="true"></i><span>地图怎么用</span></button>
+      <fieldset id="appearance" aria-label="外观">
+        <label><input type="radio" name="appearance" aria-label="自动" value="auto" checked><span>自动</span></label>
+        <label title="浅色"><input type="radio" name="appearance" aria-label="浅色" value="light"><span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.6"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></span></label>
+        <label title="深色"><input type="radio" name="appearance" aria-label="深色" value="dark"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.1A8.8 8.8 0 0 1 9.9 3.5a8.8 8.8 0 1 0 10.6 10.6Z"/></svg></span></label>
+      </fieldset>
+    </div>
+  </header>
+  <main>
+    <div id="stage" data-exhibit="overview">
+      <div class="map-surfaces" aria-busy="true">
+        <canvas id="view" tabindex="0" aria-label="黄渤海校区三维沙盘，拖动转向，滚轮或双指缩放"></canvas>
+        <canvas id="flat" tabindex="0" hidden inert aria-label="黄渤海校区平面图，拖动平移，滚轮或双指缩放"></canvas>
+      </div>
+      <div id="labels"></div>
+      <section class="map-title" aria-labelledby="campus-title">
+        <div class="title-copy">
+          <p class="location"><span aria-hidden="true"></span>山东 · 烟台</p>
+          <h1 id="campus-title"><span class="school-name">烟台科技学院</span><span class="campus-name">黄渤海校区</span></h1>
+          <p class="address"><span lang="en">Huang-Bohai Campus</span><span class="separator" aria-hidden="true"></span>芝樱路 10 号</p>
+        </div>
+        <div class="hero-actions">
+          <button id="mobile-nav" aria-controls="rail" aria-expanded="false" aria-keyshortcuts="Control+K Meta+K" disabled><span>查找地点</span><i data-icon="arrow" aria-hidden="true"></i></button>
+          <div class="stage-top"><div class="layer-tool">
+            <button id="layers-button" aria-expanded="false" aria-controls="layers-panel" disabled><i data-icon="layers" aria-hidden="true"></i>图层</button>
+            <section id="layers-panel" aria-label="地图图层" hidden><div id="switches">
+              <button id="names" class="toggle" aria-pressed="true">显示地名<span class="switch"></span></button>
+              <button id="satellite" class="toggle" aria-pressed="false">卫星照片<span class="switch"></span></button>
+            </div>
+              <a id="imagery-reference" href="https://livingatlas.arcgis.com/wayback/#active=3692&amp;mapCenter=120.9875%2C37.7322%2C18" target="_blank" rel="noreferrer">看高清卫星图 <span aria-hidden="true">↗</span></a>
+            </section>
+          </div></div>
+        </div>
+      </section>
+      <div class="nav-tools" role="group" aria-label="地图操作">
+        <button id="north" disabled title="朝向正北" aria-label="朝向正北"><b>N</b><span id="needle" aria-hidden="true"></span></button>
+        <div class="zoom"><button id="plus" disabled title="放大" aria-label="放大"><i data-icon="plus"></i></button><button id="minus" disabled title="缩小" aria-label="缩小"><i data-icon="minus"></i></button></div>
+        <button id="home" disabled title="返回校园全景" aria-label="返回校园全景"><i data-icon="fit"></i></button>
+      </div>
+      <article id="detail" aria-labelledby="detail-name" hidden><button id="close-detail" class="icon-button" aria-label="关闭详情"><i data-icon="close"></i></button>
+        <h2 id="detail-name" tabindex="-1"></h2><p id="detail-note"></p><div id="detail-data"></div><a id="building-source" target="_blank" rel="noopener noreferrer" hidden>查看资料 ↗</a>
+      </article>
+      <p id="loading" role="status"><span class="loading-dot"></span>正在载入校园地图…</p><p id="map-notice" role="status" hidden></p>
+      <div class="stage-bottom">
+        <span class="gesture-hint"><i data-icon="mouse"></i><span id="gesture-text">拖动换角度 · 用滚轮放大或缩小</span><span class="touch-gesture"><span class="touch-orbit">一指转动</span><span class="touch-pan">一指移动</span> · 两指放大或缩小</span></span>
+        <div id="scale"><span></span><b></b></div>
+      </div>
+    </div>
+    <div id="drawer-scrim" aria-hidden="true" hidden></div>
+    <aside id="rail" aria-labelledby="directory-title" hidden>
+      <div class="directory-bar"><div class="section-heading"><h2 id="directory-title">找个地方</h2><span id="place-count" role="status"></span><button id="close-directory" class="icon-button" aria-label="收起地点列表"><i data-icon="close"></i></button></div>
+        <div class="search-field"><i data-icon="search"></i><input id="place-search" type="text" inputmode="search" enterkeyhint="search" placeholder="试试搜「蓬莱阁餐厅」" autocomplete="off" aria-label="搜索全部地点" aria-controls="landmarks" disabled><button id="clear-search" aria-label="清空搜索" hidden><i data-icon="close"></i></button></div>
+      </div><nav id="landmarks" aria-label="地点"></nav><p id="empty-results" hidden>没找到这个地方。试试只输楼名或楼号。</p>
+    </aside>
+  </main>
+  <dialog id="credits" aria-labelledby="credits-title"><div class="dialog-heading"><h2 id="credits-title">地图怎么用</h2><button id="close-sources" class="icon-button" aria-label="关闭地图帮助"><i data-icon="close"></i></button></div>
+    <section class="map-help" aria-label="常见问题">
+      <details open><summary>怎么找一栋楼？</summary><p>点<strong>「查找地点」</strong>，输入楼名或编号。比如搜「J5」可以找到教学楼，搜「快递」可以找到 G2 楼下的驿站。也可以直接点地图上的建筑。</p></details>
+      <details><summary>可以用键盘操作吗？</summary><p>按 <strong>Ctrl + K</strong>（Mac 上是 <strong>⌘ + K</strong>）打开搜索。选中地图后，用方向键移动，按加号或减号缩放。</p></details>
+      <details><summary>地图和实地有多像？</summary><p>建筑位置参考工程总图、学校导览和卫星照片。楼高、路宽和场地划线有些是<strong>估出来的</strong>。找入口时，以现场标识为准。</p></details>
+      <details><summary>为什么卫星照片放大后有点模糊？</summary><p>网页里的卫星照片，一个小格约是地面的 <strong>10 米</strong>。要看清屋顶，可以点「图层」里的「看高清卫星图」。</p></details>
+      <details><summary>为什么晚上地图会变暗？</summary><p>右上角选了<strong>「自动」</strong>，校区日落后就会变暗，日出后变亮。也可以直接点太阳或月亮。</p><p id="sun-times">黄渤海 · 日出 <strong id="sunrise-time"></strong> / 日落 <strong id="sunset-time"></strong></p></details>
+      <details class="map-source-details"><summary>地图资料从哪里来？</summary><div id="source-content"></div></details>
+      <p class="font-credit">本网站使用 HarmonyOS Sans 字体。<a href="harmonyos-sans-license.txt" target="_blank" rel="noopener noreferrer">字体许可</a></p>
+    </section>
+  </dialog>
+</body>
+</html>

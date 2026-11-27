@@ -1,0 +1,192 @@
+{
+  "description": "蓬莱南侧采挖区靠邹于村一侧的低台与南缘接坡。主台高程取至少两条独立轨道和 2026 年强束。图像仅约束低台的平面范围，外围接坡为展示近似。",
+  "baselineGridPatchSHA256": "f198ac7642e17dc47f3b2bb9f15c55f11f74e7aadafc8617b8e5801a9e2fc95f",
+  "heightDatum": "EGM2008",
+  "localOriginWGS84": [
+    120.70525,
+    37.80598
+  ],
+  "stationFields": [
+    "zM",
+    "heightM"
+  ],
+  "profileStations": [
+    [
+      560,
+      40.4
+    ],
+    [
+      580,
+      39.9
+    ],
+    [
+      600,
+      39.8
+    ],
+    [
+      620,
+      39.4
+    ],
+    [
+      640,
+      39.25
+    ],
+    [
+      660,
+      38.8
+    ],
+    [
+      680,
+      38.7
+    ],
+    [
+      700,
+      38.7
+    ],
+    [
+      720,
+      38.75
+    ],
+    [
+      730,
+      38.75
+    ],
+    [
+      740,
+      40.5
+    ],
+    [
+      750,
+      44.2
+    ],
+    [
+      760,
+      44.9
+    ],
+    [
+      780,
+      46.05
+    ],
+    [
+      800,
+      46.3
+    ],
+    [
+      820,
+      46.45
+    ]
+  ],
+  "lateralFields": [
+    "zM",
+    "westLimitX",
+    "westFullWeightX",
+    "eastFullWeightX",
+    "eastLimitX"
+  ],
+  "lateralEnvelope": [
+    [
+      550,
+      196,
+      224,
+      332,
+      376
+    ],
+    [
+      600,
+      196,
+      222,
+      334,
+      393
+    ],
+    [
+      650,
+      193,
+      225,
+      338,
+      404
+    ],
+    [
+      700,
+      194,
+      227,
+      341,
+      400
+    ],
+    [
+      730,
+      199,
+      239,
+      333,
+      393
+    ],
+    [
+      760,
+      210,
+      260,
+      328,
+      382
+    ],
+    [
+      780,
+      223,
+      282,
+      323,
+      370
+    ],
+    [
+      820,
+      243,
+      296,
+      318,
+      355
+    ]
+  ],
+  "longitudinalEnvelope": [
+    560,
+    603,
+    750,
+    820
+  ],
+  "observationSummaries": [
+    {
+      "date": "2020-09-15",
+      "track": 1253,
+      "beam": "gt1l",
+      "highCount": 27,
+      "medianMetres": 38.528,
+      "heightRangeP10P90": [
+        38.133,
+        38.839
+      ]
+    },
+    {
+      "date": "2020-10-19",
+      "track": 392,
+      "beam": "gt3r",
+      "highCount": 167,
+      "medianMetres": 38.627,
+      "heightRangeP10P90": [
+        38.053,
+        38.714
+      ]
+    },
+    {
+      "date": "2026-03-06",
+      "track": 1253,
+      "beam": "gt1r",
+      "highCount": 107,
+      "medianMetres": 38.73,
+      "heightRangeP10P90": [
+        38.571,
+        39.278
+      ]
+    }
+  ],
+  "references": {
+    "ATL03": "https://doi.org/10.5067/ATLAS/ATL03.007",
+    "EGM2008": "https://cdn.proj.org/us_nga_egm08_25.tif",
+    "orthophoto2024": "https://livingatlas.arcgis.com/wayback/#active=13192&mapCenter=120.70852%2C37.79992%2C18",
+    "orthophoto2025": "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.70852%2C37.79992%2C18",
+    "sentinel2026": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2B_T51STB_20261014T024532_L2A"
+  }
+}

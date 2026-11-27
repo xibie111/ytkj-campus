@@ -1,0 +1,99 @@
+{
+  "displayBounds": [
+    -484,
+    -440,
+    460,
+    504
+  ],
+  "source": "https://www.openstreetmap.org/copyright",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0.",
+  "siteRelationship": "https://mzj.yantai.gov.cn/art/2024/12/20/art_2383_2874550.html",
+  "laneWidthEstimateM": 3.5,
+  "roads": [
+    {
+      "id": "hbh-g228-1042964274",
+      "osmWayId": 1042964274,
+      "version": "7",
+      "timestamp": "2022-08-25T14:10:29Z",
+      "tags": {
+        "ref": "G228",
+        "name": "丹东线",
+        "oneway": "yes",
+        "lanes": "3",
+        "surface": "asphalt"
+      },
+      "ring": [
+        [
+          -550.0,
+          -95.366
+        ],
+        [
+          -477.709,
+          -9.956
+        ],
+        [
+          -387.555,
+          96.564
+        ],
+        [
+          -140.619,
+          385.745
+        ],
+        [
+          13.612,
+          570.0
+        ]
+      ],
+      "source": "https://api.openstreetmap.org/api/0.6/way/1042964274/full"
+    },
+    {
+      "id": "hbh-g228-1042964281",
+      "osmWayId": 1042964281,
+      "version": "6",
+      "timestamp": "2023-11-08T14:36:43Z",
+      "tags": {
+        "ref": "G228",
+        "name": "丹东线",
+        "oneway": "yes",
+        "lanes": "3",
+        "surface": "asphalt"
+      },
+      "ring": [
+        [
+          45.231,
+          570.0
+        ],
+        [
+          -125.969,
+          371.238
+        ],
+        [
+          -372.492,
+          85.01
+        ],
+        [
+          -418.396,
+          30.601
+        ],
+        [
+          -429.507,
+          17.426
+        ],
+        [
+          -474.989,
+          -36.472
+        ],
+        [
+          -550.0,
+          -125.376
+        ]
+      ],
+      "source": "https://api.openstreetmap.org/api/0.6/way/1042964281/full"
+    }
+  ],
+  "streetEndXZ": [
+    -429.507,
+    17.426
+  ],
+  "streetEndSource": "https://www.openstreetmap.org/node/11333153543"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "east-finance-bridge",
+  "name": "第四教学楼西连廊",
+  "kind": "teaching",
+  "center": [238.86, -183.84],
+  "ring": [
+    [230.12, -192.99], [233.75, -195.87], [234.03, -195.52],
+    [239.30, -192.43], [245.59, -182.79], [245.40, -174.49],
+    [245.85, -173.45], [241.60, -171.78], [240.61, -172.82],
+    [236.55, -176.48], [235.47, -181.25], [230.40, -192.64]
+  ],
+  "modelBaseMetres": 47.56,
+  "height": 18.6,
+  "planColor": "#beb7a9",
+  "heightSource": "校方双视航拍立面相对量测",
+  "roofSource": "https://www.ytkj.edu.cn/__local/3/F6/32/5241A8114C0D15B821962C7CB32_2114B07F_7811D.pdf#page=9",
+  "floorSources": [
+    "https://www.ytkj.edu.cn/info/1049/8478.htm",
+    "https://www.ytkj.edu.cn/info/1049/8465.htm"
+  ],
+  "geometryBasis": "2023 年校方场区图配准北翼与南翼，两处接缝处留有少量交叠。校方两张航拍可辨西侧的三道窗带及首层通道。2021 年 CBRA 对场区图翼楼之外约 138 平方米连廊屋面的覆盖约为 97%。",
+  "note": "架空通道从西侧通向内庭。",
+  "meta": "西立面据校方航拍重建，门槛标高借用西侧地面激光回波。",
+  "heightChecks": {
+    "gradeSource": "https://doi.org/10.5067/ATLAS/ATL03.007",
+    "gradeReferenceXZ": [227, -185],
+    "gradeReferenceMetresEGM2008": 47.56,
+    "controlFitRMSEMetresXZ": 2.286,
+    "method": "门槛标高借用 2020-10-19 相邻轨道地面回波拟合值。立面尺寸用两张航拍对应点及照片中的柱脚估计，未直接使用双视解的绝对坐标。",
+    "limits": "柱位、截面、窗棂间距与屋面收边为近似。内庭一侧的开窗与室内结构未核实。"
+  },
+  "passage": {
+    "soffitAboveThresholdMetres": 3.22,
+    "westWindowBandsMetres": [[5.38, 7.50], [9.71, 12.01], [13.90, 16.04]],
+    "westFacadeEdges": [8, 9, 10],
+    "pierCentersXZ": [[236.48, -179.35], [238.72, -175.20]],
+    "pierWidthMetres": 0.55,
+    "grade": {
+      "ringXZ": [[231, -182.6], [237, -185.8], [244.2, -188.6], [248.3, -188.7],
+                 [247, -182.7], [241.7, -177.4], [235.5, -176.9], [231, -177.5]],
+      "anchorXZ": [227, -185],
+      "levelMetres": 47.56,
+      "slopeXZ": [0, -0.01553],
+      "blendMetres": 12,
+      "pavingTransitionMetres": 21,
+      "allowFill": true,
+      "protectedBuildingIds": ["B024"],
+      "subdivisions": 18,
+      "basis": "西口借用附近 23 个地面回波拟合的缓坡。由西向内庭的高差采用模型插值，距已有铺面不足 21.8 米时逐步减弱入口约束，铺面边缘外留 0.8 米过渡网格，廊外 12 米内回接原地形。"
+    }
+  }
+}

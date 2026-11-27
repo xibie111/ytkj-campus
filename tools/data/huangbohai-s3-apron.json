@@ -1,0 +1,26 @@
+{
+  "ring": [
+    [76.789, -179.778],
+    [78.935, -182.349],
+    [82.373, -185.586],
+    [89.319, -191.253],
+    [95.188, -196.003],
+    [97.001, -196.061],
+    [97.102, -195.218],
+    [94.269, -192.0],
+    [87.384, -186.261],
+    [81.012, -180.649],
+    [78.047, -178.31]
+  ],
+  "evidence": {
+    "plan": "https://www.aiib.org/en/projects/details/2024/_download/China/ES-Impact-Assesment.pdf#page=15",
+    "opticalMetadata": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.98853883734418%2C37.73407696521402&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSAMP_RES%2CSRC_DESC%2CNICE_DESC&returnGeometry=false",
+    "acquired": "2025-04-13",
+    "sensor": "WorldView-3",
+    "nativePixelMetres": 0.31,
+    "sampledPixelMetres": 0.6,
+    "nominalHorizontalAccuracyMetres": 5,
+    "sceneGrid": "EPSG:3857",
+    "scope": "一期总图建筑编号 12 朝 13 的门前铺地，按 2025 年影像中 S3 东南侧亮色边缘近似勾画，并接入生活区既有步行道。东北端至植被遮蔽处，铺地材质纹样和高程沿用模型展示。"
+  }
+}

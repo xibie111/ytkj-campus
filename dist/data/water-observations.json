@@ -1,0 +1,81 @@
+{
+  "source": "Copernicus Sentinel-2 L2A, EPSG:32651. B03 and B08 10 m, SCL 20 m.",
+  "method": "Nearest samples on a 10 m local grid at least 10 m inside the OSM boundary. Positive green minus NIR has the sign of NDWI. SCL 4/5: vegetation or bare ground, 6: water.",
+  "ways": [
+    {
+      "osmWay": 134678879,
+      "interiorSamples": 45,
+      "omitOpenWaterFill": true,
+      "scenes": [
+        {
+          "scene": "S2C_51STB_20250520_0_L2A",
+          "vegetationOrBare": 45,
+          "waterClass": 0,
+          "positiveGreenMinusNir": 0
+        },
+        {
+          "scene": "S2B_51STB_20250611_0_L2A",
+          "vegetationOrBare": 45,
+          "waterClass": 0,
+          "positiveGreenMinusNir": 0
+        },
+        {
+          "scene": "S2B_51STB_20261014_0_L2A",
+          "vegetationOrBare": 45,
+          "waterClass": 0,
+          "positiveGreenMinusNir": 0
+        }
+      ]
+    },
+    {
+      "osmWay": 134678946,
+      "interiorSamples": 29,
+      "omitOpenWaterFill": true,
+      "scenes": [
+        {
+          "scene": "S2C_51STB_20250520_0_L2A",
+          "vegetationOrBare": 29,
+          "waterClass": 0,
+          "positiveGreenMinusNir": 0
+        },
+        {
+          "scene": "S2B_51STB_20250611_0_L2A",
+          "vegetationOrBare": 29,
+          "waterClass": 0,
+          "positiveGreenMinusNir": 0
+        },
+        {
+          "scene": "S2B_51STB_20261014_0_L2A",
+          "vegetationOrBare": 29,
+          "waterClass": 0,
+          "positiveGreenMinusNir": 0
+        }
+      ]
+    },
+    {
+      "osmWay": 1065203753,
+      "interiorSamples": 2,
+      "omitOpenWaterFill": false,
+      "scenes": [
+        {
+          "scene": "S2C_51STB_20250520_0_L2A",
+          "vegetationOrBare": 2,
+          "waterClass": 0,
+          "positiveGreenMinusNir": 2
+        },
+        {
+          "scene": "S2B_51STB_20250611_0_L2A",
+          "vegetationOrBare": 2,
+          "waterClass": 0,
+          "positiveGreenMinusNir": 2
+        },
+        {
+          "scene": "S2B_51STB_20261014_0_L2A",
+          "vegetationOrBare": 2,
+          "waterClass": 0,
+          "positiveGreenMinusNir": 2
+        }
+      ]
+    }
+  ]
+}

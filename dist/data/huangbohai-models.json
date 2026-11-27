@@ -1,0 +1,5562 @@
+{
+  "schema": 1,
+  "campus": "烟台科技学院黄渤海校区",
+  "originWGS84": [
+    120.9875,
+    37.7322
+  ],
+  "xMetresPerLongitudeDegree": 88040.73179669377,
+  "zMetresPerLatitudeDegree": 110993,
+  "axes": "X东、Z南、Y向上；局部米制。平面识别精度受总平与10米参考影像限制。Y以EGM2008粗地形为参考。",
+  "modelHeightStatus": "除文献楼层下限，其余高度、窗带及屋顶外形为形态估计。",
+  "fit": {
+    "scaleChipPixelsPerPlanPixel": [
+      0.13422953633685966,
+      0.0071158735215901565
+    ],
+    "chipOriginShift": [
+      3.1914952827428245,
+      45.935570264699564
+    ],
+    "sourceAffine": [
+      10.0,
+      0.0,
+      322240.0,
+      0.0,
+      -10.0,
+      4178850.0
+    ],
+    "fittedMetresPerPlanPixel": 1.3442,
+    "errorsM": [
+      {
+        "name": "athletics field",
+        "method": "leave-one-out",
+        "errorM": 5.67
+      },
+      {
+        "name": "indoor stadium",
+        "method": "leave-one-out",
+        "errorM": 3.14
+      },
+      {
+        "name": "J5",
+        "method": "leave-one-out",
+        "errorM": 8.51
+      },
+      {
+        "name": "cultural centre",
+        "method": "leave-one-out",
+        "errorM": 4.69
+      },
+      {
+        "name": "J1 NW teaching wing",
+        "method": "leave-one-out",
+        "errorM": 4.87
+      },
+      {
+        "name": "J4 SE teaching wing",
+        "method": "all-five external check",
+        "errorM": 19.06
+      }
+    ],
+    "EPSG": "32651 to 4326"
+  },
+  "sources": {
+    "plan": "https://www.aiib.org/en/projects/details/2024/_download/China/ES-Impact-Assesment.pdf#page=15",
+    "guide": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+    "guideDiagram": "https://zwc.ytkj.edu.cn/__local/B/39/32/2CC4EF2B803D335BBF682C58490_641A2F38_2BEA76.png",
+    "J5Office": "https://jwc.ytkj.edu.cn/info/1269/3224.htm",
+    "J5Review": "https://yantai.shaniaoyun.com/project/show-05433D5A5DC891A4-0.html",
+    "J5Name": "https://ypcj.ytkj.edu.cn/info/1002/1353.htm",
+    "ancillaryTable": "https://www.aiib.org/en/projects/details/2024/_download/China/ES-Impact-Assesment.pdf#page=16",
+    "J5NameAndCode": "https://srm.educationgroup.cn/yicai-base/th_project/publicProjectDetail.html?newsid=2c96808294d2c4340194d53a09da0038&projectid=2c96808294d2c4340194d512aa4f001b&ten=tender",
+    "asBuiltOblique": "https://www.ytkj.edu.cn/info/1081/8367.htm",
+    "southDiningPhoto": "https://zwc.ytkj.edu.cn/__local/F/0F/D9/442E5A2465B7BC10F10B880DEFD_B3063B51_7EA5E.png",
+    "sentinelScenes": [
+      "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2A_51SUB_20261014_1_L2A",
+      "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2B_51SUB_20261007_0_L2A",
+      "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2C_51SUB_20261002_1_L2A"
+    ]
+  },
+  "buildings": [
+    {
+      "code": "J1",
+      "name": "J1 教学楼",
+      "kind": "teaching",
+      "grossArea": 18443,
+      "polygons": [
+        {
+          "ring": [
+            [
+              -108.21,
+              115.04
+            ],
+            [
+              -174.89,
+              174.8
+            ],
+            [
+              -172.68,
+              179.24
+            ],
+            [
+              -177.18,
+              183.47
+            ],
+            [
+              -170.98,
+              189.05
+            ],
+            [
+              -160.41,
+              200.95
+            ],
+            [
+              -138.24,
+              183.69
+            ],
+            [
+              -102.72,
+              154.21
+            ],
+            [
+              -101.76,
+              155.3
+            ],
+            [
+              -86.39,
+              143.34
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan",
+      "labelXZ": [
+        -139.9,
+        165.05
+      ],
+      "areaM2": 3017.3,
+      "displayHeightM": 39.0,
+      "heightBasis": "校方《芳华》304.0、306.0、308.2 秒可辨田径场侧上段四排、下段两排玻璃与深色底层。屋面与高度据校方影像、田径场比例和卫星屋顶估算，法定层数及竣工檐高待核。",
+      "facadeDivisions": 7,
+      "baseM": 34.6,
+      "viewFrom": [
+        -0.31,
+        0.34,
+        -0.89
+      ],
+      "viewSpanM": 165,
+      "publicNote": "田径场侧可见上段四排窗、下段两排窗和深色底层。主檐高约 37 米，依据影像估算。",
+      "facadeEvidence": {
+        "page": "https://www.ytkj.edu.cn/info/1115/8321.htm",
+        "sources": {
+          "schoolDiagram": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+          "projectPlan": "https://www.aiib.org/en/projects/details/2024/_download/China/ES-Impact-Assesment.pdf#page=15",
+          "schoolFlyover": "https://www.ytkj.edu.cn/info/1115/8321.htm",
+          "flyoverFramesSec": [
+            304.0,
+            306.0,
+            308.2
+          ],
+          "satelliteReference": "Esri World Imagery Wayback 2025-04 local reference mosaic"
+        },
+        "athleticsEdgeXZ": [
+          [
+            -108.21,
+            115.04
+          ],
+          [
+            -174.89,
+            174.8
+          ]
+        ],
+        "podiumBoundsM": [
+          21.9,
+          89.8,
+          -0.6,
+          30.5
+        ],
+        "upperBoundsM": [
+          24.8,
+          86.8,
+          2.45,
+          23.75
+        ],
+        "datumHeightsM": [
+          5.9,
+          16.35,
+          17.55,
+          36.5
+        ],
+        "podiumGlassRelativeM": [
+          [
+            6.85,
+            10.05
+          ],
+          [
+            10.85,
+            14.35
+          ]
+        ],
+        "upperGlassRelativeM": [
+          [
+            18.8,
+            22.15
+          ],
+          [
+            23.0,
+            26.4
+          ],
+          [
+            27.2,
+            30.6
+          ],
+          [
+            31.4,
+            34.8
+          ]
+        ],
+        "roofVolumesBoundsM": [
+          [
+            27.1,
+            36.95,
+            6.4,
+            12.4
+          ],
+          [
+            74.2,
+            83.2,
+            6.4,
+            12.4
+          ]
+        ],
+        "observationLimits": "卫星亮顶长约 62 米。退台位置、出屋面体量、背面窗格及全部高程为展示模型估计值；画面可见窗带不等同正式楼层编号。仅生成几何与材质。",
+        "upperTrackFacade": {
+          "page": "https://www.ytkj.edu.cn/info/1115/8321.htm",
+          "film": "https://www.ytkj.edu.cn/__local/0/73/6F/EC927680FA0AF6ADDCFF78CF449_24F438E8_2BE03120.mp4?e=.mp4",
+          "frameSeconds": [
+            304,
+            306,
+            308.2
+          ],
+          "rectifiedSizePx": [
+            700,
+            230
+          ],
+          "frameCornersPx": {
+            "304.0": [
+              [
+                1293.8,
+                373.1
+              ],
+              [
+                1407.7,
+                365.2
+              ],
+              [
+                1405.2,
+                411.8
+              ],
+              [
+                1291.7,
+                422.2
+              ]
+            ],
+            "306.0": [
+              [
+                1259.1,
+                468.7
+              ],
+              [
+                1423.5,
+                465.6
+              ],
+              [
+                1421.5,
+                520.3
+              ],
+              [
+                1258.7,
+                524.4
+              ]
+            ],
+            "308.2": [
+              [
+                1264.1,
+                479.8
+              ],
+              [
+                1428.0,
+                475.5
+              ],
+              [
+                1425.9,
+                530.1
+              ],
+              [
+                1263.2,
+                534.6
+              ]
+            ]
+          },
+          "maxSeparatorSpreadPx": 6.0,
+          "minimumSeparatorContrast": 67.0,
+          "orientation": "临田径场高层长面，照片左端对应体育场侧北端。以既有校方航拍的田径场控制点交叉检查方向。",
+          "scope": "四条横窗带使用三帧角点配准所得相对位置。模型的体量和楼高沿用既有估计，近景无法证实玻璃开合结构和内部分隔用途。",
+          "openingsRows": [
+            {
+              "fromTop": [
+                0.11354,
+                0.27511
+              ],
+              "fromPhotoLeft": [
+                [
+                  0.06295,
+                  0.07868
+                ],
+                [
+                  0.08727,
+                  0.1073
+                ],
+                [
+                  0.11445,
+                  0.15737
+                ],
+                [
+                  0.17167,
+                  0.2103
+                ],
+                [
+                  0.21888,
+                  0.23748
+                ],
+                [
+                  0.2475,
+                  0.28898
+                ],
+                [
+                  0.30043,
+                  0.33906
+                ],
+                [
+                  0.34764,
+                  0.36624
+                ],
+                [
+                  0.37482,
+                  0.41917
+                ],
+                [
+                  0.43348,
+                  0.46924
+                ],
+                [
+                  0.47783,
+                  0.49642
+                ],
+                [
+                  0.50501,
+                  0.54793
+                ],
+                [
+                  0.56223,
+                  0.59943
+                ],
+                [
+                  0.60801,
+                  0.62661
+                ],
+                [
+                  0.63662,
+                  0.67668
+                ],
+                [
+                  0.69099,
+                  0.72818
+                ],
+                [
+                  0.73677,
+                  0.75536
+                ],
+                [
+                  0.76681,
+                  0.80544
+                ],
+                [
+                  0.81974,
+                  0.85694
+                ],
+                [
+                  0.86695,
+                  0.88412
+                ],
+                [
+                  0.89413,
+                  0.93562
+                ]
+              ]
+            },
+            {
+              "fromTop": [
+                0.32314,
+                0.48035
+              ],
+              "fromPhotoLeft": [
+                [
+                  0.06152,
+                  0.07725
+                ],
+                [
+                  0.08727,
+                  0.10587
+                ],
+                [
+                  0.11445,
+                  0.18312
+                ],
+                [
+                  0.19027,
+                  0.20887
+                ],
+                [
+                  0.21745,
+                  0.23605
+                ],
+                [
+                  0.24464,
+                  0.31187
+                ],
+                [
+                  0.32189,
+                  0.33906
+                ],
+                [
+                  0.34621,
+                  0.36624
+                ],
+                [
+                  0.37339,
+                  0.44349
+                ],
+                [
+                  0.45064,
+                  0.46781
+                ],
+                [
+                  0.47639,
+                  0.49499
+                ],
+                [
+                  0.50501,
+                  0.57225
+                ],
+                [
+                  0.58083,
+                  0.59657
+                ],
+                [
+                  0.60658,
+                  0.62518
+                ],
+                [
+                  0.63376,
+                  0.701
+                ],
+                [
+                  0.71245,
+                  0.72675
+                ],
+                [
+                  0.73677,
+                  0.75393
+                ],
+                [
+                  0.76681,
+                  0.83119
+                ],
+                [
+                  0.83977,
+                  0.85551
+                ],
+                [
+                  0.86552,
+                  0.88412
+                ],
+                [
+                  0.8927,
+                  0.93562
+                ]
+              ]
+            },
+            {
+              "fromTop": [
+                0.53275,
+                0.69432
+              ],
+              "fromPhotoLeft": [
+                [
+                  0.06295,
+                  0.07582
+                ],
+                [
+                  0.08727,
+                  0.10587
+                ],
+                [
+                  0.11302,
+                  0.15451
+                ],
+                [
+                  0.17024,
+                  0.20744
+                ],
+                [
+                  0.21602,
+                  0.23462
+                ],
+                [
+                  0.2432,
+                  0.28612
+                ],
+                [
+                  0.30043,
+                  0.33763
+                ],
+                [
+                  0.34621,
+                  0.36481
+                ],
+                [
+                  0.37339,
+                  0.41631
+                ],
+                [
+                  0.42918,
+                  0.46781
+                ],
+                [
+                  0.47639,
+                  0.49499
+                ],
+                [
+                  0.50215,
+                  0.54506
+                ],
+                [
+                  0.5608,
+                  0.59657
+                ],
+                [
+                  0.60515,
+                  0.62375
+                ],
+                [
+                  0.63376,
+                  0.67382
+                ],
+                [
+                  0.68813,
+                  0.72675
+                ],
+                [
+                  0.73534,
+                  0.75393
+                ],
+                [
+                  0.76395,
+                  0.80401
+                ],
+                [
+                  0.81974,
+                  0.85551
+                ],
+                [
+                  0.86552,
+                  0.88412
+                ],
+                [
+                  0.8927,
+                  0.93419
+                ]
+              ]
+            },
+            {
+              "fromTop": [
+                0.74236,
+                0.8952
+              ],
+              "fromPhotoLeft": [
+                [
+                  0.06152,
+                  0.07582
+                ],
+                [
+                  0.08584,
+                  0.10443
+                ],
+                [
+                  0.11159,
+                  0.18026
+                ],
+                [
+                  0.19027,
+                  0.20601
+                ],
+                [
+                  0.21459,
+                  0.23462
+                ],
+                [
+                  0.24177,
+                  0.31044
+                ],
+                [
+                  0.31903,
+                  0.33619
+                ],
+                [
+                  0.34478,
+                  0.36338
+                ],
+                [
+                  0.37339,
+                  0.44063
+                ],
+                [
+                  0.44921,
+                  0.46638
+                ],
+                [
+                  0.47496,
+                  0.49356
+                ],
+                [
+                  0.50358,
+                  0.57082
+                ],
+                [
+                  0.5794,
+                  0.59657
+                ],
+                [
+                  0.60515,
+                  0.62518
+                ],
+                [
+                  0.63662,
+                  0.701
+                ],
+                [
+                  0.70959,
+                  0.72532
+                ],
+                [
+                  0.73534,
+                  0.75393
+                ],
+                [
+                  0.76538,
+                  0.82976
+                ],
+                [
+                  0.83834,
+                  0.85551
+                ],
+                [
+                  0.86552,
+                  0.88269
+                ],
+                [
+                  0.8927,
+                  0.93419
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "J2",
+      "name": "J2 教学楼",
+      "kind": "teaching",
+      "grossArea": 15413,
+      "polygons": [
+        {
+          "ring": [
+            [
+              -45.79,
+              180.21
+            ],
+            [
+              -42.54,
+              173.26
+            ],
+            [
+              -56.08,
+              158.64
+            ],
+            [
+              -75.53,
+              173.78
+            ],
+            [
+              -74.82,
+              174.59
+            ],
+            [
+              -118.24,
+              209.87
+            ],
+            [
+              -119.61,
+              208.08
+            ],
+            [
+              -143.18,
+              226.43
+            ],
+            [
+              -131.62,
+              240.38
+            ],
+            [
+              -123.01,
+              233.59
+            ],
+            [
+              -116.21,
+              241.54
+            ],
+            [
+              -124.22,
+              250.7
+            ],
+            [
+              -122.37,
+              252.89
+            ],
+            [
+              -88.55,
+              226.57
+            ],
+            [
+              -59.24,
+              202.32
+            ],
+            [
+              -58.52,
+              203.19
+            ],
+            [
+              -39.1,
+              188.08
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan",
+      "labelXZ": [
+        -88.14,
+        205.63
+      ],
+      "areaM2": 3419.5,
+      "displayHeightM": 15.6,
+      "heightBasis": "按工程总建筑面积、现有轮廓和校方2026年示意图的高主体与低翼关系建模。楼层、檐高待核。",
+      "facadeDivisions": 4,
+      "baseM": 34.6,
+      "roofAccessories": {
+        "parts": [
+          {
+            "kind": "housing",
+            "displayHeightM": 0.95,
+            "ring": [
+              [
+                -115.61,
+                219.342
+              ],
+              [
+                -109.967,
+                214.951
+              ],
+              [
+                -107.296,
+                218.384
+              ],
+              [
+                -112.938,
+                222.775
+              ]
+            ]
+          },
+          {
+            "kind": "base",
+            "displayHeightM": 0.24,
+            "ring": [
+              [
+                -110.816,
+                205.474
+              ],
+              [
+                -106.358,
+                202.004
+              ],
+              [
+                -103.041,
+                206.266
+              ],
+              [
+                -107.5,
+                209.736
+              ]
+            ]
+          }
+        ],
+        "source": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.98649887247412%2C37.730347360644366&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSAMP_RES%2CSRC_ACC%2CSRC_DESC&returnGeometry=false",
+        "sourceDate": "2025-04-13",
+        "sourceGSDMetres": 0.31,
+        "serviceSamplingMetres": 0.6,
+        "schoolFlyover": "https://www.ytkj.edu.cn/info/1115/8321.htm",
+        "basis": "同一屋面上浅色小构造与低矮边框可从影像辨认。构造相对高度为展示估计，贴屋缘且受视差影响的其余构造待测。"
+      }
+    },
+    {
+      "code": "J3",
+      "name": "J3 教学楼",
+      "kind": "teaching",
+      "grossArea": 14792,
+      "polygons": [
+        {
+          "ring": [
+            [
+              -10.14,
+              211.99
+            ],
+            [
+              -40.19,
+              235.38
+            ],
+            [
+              -74.56,
+              262.35
+            ],
+            [
+              -74.67,
+              262.21
+            ],
+            [
+              -98.65,
+              280.88
+            ],
+            [
+              -96.7,
+              283.17
+            ],
+            [
+              -87.06,
+              275.41
+            ],
+            [
+              -81.22,
+              281.98
+            ],
+            [
+              -88.83,
+              289.14
+            ],
+            [
+              -80.1,
+              299.84
+            ],
+            [
+              -75.92,
+              302.6
+            ],
+            [
+              -54.82,
+              286.17
+            ],
+            [
+              -15.16,
+              252.79
+            ],
+            [
+              -13.98,
+              254.39
+            ],
+            [
+              9.57,
+              236.05
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan",
+      "labelXZ": [
+        -45.55,
+        258.3
+      ],
+      "areaM2": 3268.9,
+      "displayHeightM": 15.6,
+      "heightBasis": "按工程总建筑面积、现有轮廓和校方2026年示意图的高主体与低翼关系建模。楼层、檐高待核。",
+      "facadeDivisions": 4,
+      "baseM": 34.6,
+      "roofAccessories": {
+        "parts": [
+          {
+            "kind": "housing",
+            "displayHeightM": 0.95,
+            "ring": [
+              [
+                -76.174,
+                266.169
+              ],
+              [
+                -69.94,
+                261.317
+              ],
+              [
+                -67.33,
+                264.671
+              ],
+              [
+                -73.564,
+                269.523
+              ]
+            ]
+          },
+          {
+            "kind": "base",
+            "displayHeightM": 0.24,
+            "ring": [
+              [
+                -66.709,
+                257.408
+              ],
+              [
+                -62.487,
+                254.122
+              ],
+              [
+                -59.386,
+                258.107
+              ],
+              [
+                -63.608,
+                261.393
+              ]
+            ]
+          }
+        ],
+        "source": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.98698262583612%2C37.72987282621426&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSAMP_RES%2CSRC_ACC%2CSRC_DESC&returnGeometry=false",
+        "sourceDate": "2025-04-13",
+        "sourceGSDMetres": 0.31,
+        "serviceSamplingMetres": 0.6,
+        "schoolFlyover": "https://www.ytkj.edu.cn/info/1115/8321.htm",
+        "basis": "同一屋面上浅色小构造与低矮边框可从影像辨认。构造相对高度为展示估计，贴屋缘且受视差影响的其余构造待测。"
+      }
+    },
+    {
+      "code": "J4",
+      "name": "J4 教学楼",
+      "kind": "teaching",
+      "grossArea": 14348,
+      "polygons": [
+        {
+          "ring": [
+            [
+              -35.38,
+              351.34
+            ],
+            [
+              -26.7,
+              342.2
+            ],
+            [
+              -19.25,
+              350.84
+            ],
+            [
+              36.69,
+              301.83
+            ],
+            [
+              37.84,
+              297.16
+            ],
+            [
+              44.84,
+              288.31
+            ],
+            [
+              33.98,
+              274.56
+            ],
+            [
+              -20.36,
+              316.85
+            ],
+            [
+              -19.87,
+              317.2
+            ],
+            [
+              -29.3,
+              328.67
+            ],
+            [
+              -33.24,
+              326.88
+            ],
+            [
+              -47.47,
+              337.95
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan",
+      "labelXZ": [
+        8.7,
+        309.34
+      ],
+      "areaM2": 2370.4,
+      "displayHeightM": 32.4,
+      "heightBasis": "校方确认 J4 设七楼会议室。校方《芳华》308.2 秒竣工远景和 427.5、428.5 秒施工画面结合校方带号图、2025 年卫星亮屋顶和相对高度比例估算。",
+      "facadeDivisions": 7,
+      "baseM": 34.6,
+      "publicNote": "教学组团南端，校方资料确认七楼设有会议室。",
+      "viewFrom": [
+        0.37,
+        0.25,
+        -0.9
+      ],
+      "viewSpanM": 162,
+      "facadeEvidence": {
+        "page": "https://www.ytkj.edu.cn/info/1083/8109.htm",
+        "sources": {
+          "schoolDiagram": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+          "projectPlan": "https://www.aiib.org/en/projects/details/2024/_download/China/ES-Impact-Assesment.pdf#page=15",
+          "schoolFlyover": "https://www.ytkj.edu.cn/info/1115/8321.htm",
+          "asBuiltFramesSec": [
+            306.0,
+            308.2
+          ],
+          "constructionFramesSec": [
+            427.5,
+            428.5
+          ],
+          "room702": "https://www.ytkj.edu.cn/info/1083/7108.htm",
+          "satelliteReference": "Esri World Imagery Wayback 2025-04 local reference mosaic"
+        },
+        "longitudinalAxisXZ": [
+          [
+            33.98,
+            274.56
+          ],
+          [
+            -20.36,
+            316.85
+          ]
+        ],
+        "podiumBoundsM": [
+          0.0,
+          91.0,
+          -0.65,
+          27.7
+        ],
+        "mainBoundsM": [
+          11.4,
+          73.7,
+          1.9,
+          22.0
+        ],
+        "baseEaveRelativeM": 4.8,
+        "podiumEaveRelativeM": 9.15,
+        "mainEaveRelativeM": 30.0,
+        "podiumGlassRelativeM": [
+          [
+            5.7,
+            8.35
+          ]
+        ],
+        "mainGlassRelativeM": [
+          [
+            10.1,
+            13.05
+          ],
+          [
+            14.1,
+            17.1
+          ],
+          [
+            18.15,
+            21.15
+          ],
+          [
+            22.2,
+            25.2
+          ],
+          [
+            26.25,
+            29.15
+          ]
+        ],
+        "northRecessToStationM": 56.5,
+        "roofVolumesBoundsM": [
+          [
+            14.3,
+            24.2,
+            5.1,
+            11.2
+          ],
+          [
+            62.1,
+            71.4,
+            5.1,
+            11.2
+          ]
+        ],
+        "observationLimits": "施工画面的右端可见五排窗框，现状画面可复核顶部两排和横向凹槽，低处有遮挡。七楼依据校方文字，只对高段建模。退距、檐高、出屋面体量、背面与遮挡处均为模型估算。"
+      }
+    },
+    {
+      "code": "J-link-1",
+      "name": "J1–J2 教学楼连接翼",
+      "kind": "teachingLink",
+      "parents": [
+        "J1",
+        "J2"
+      ],
+      "polygons": [
+        {
+          "ring": [
+            [
+              -69.18,
+              144.51
+            ],
+            [
+              -81.11,
+              150.19
+            ],
+            [
+              -86.39,
+              143.34
+            ],
+            [
+              -101.76,
+              155.3
+            ],
+            [
+              -96.89,
+              160.78
+            ],
+            [
+              -99.04,
+              165.09
+            ],
+            [
+              -92.3,
+              175.05
+            ],
+            [
+              -87.64,
+              176.54
+            ],
+            [
+              -79.36,
+              169.41
+            ],
+            [
+              -75.53,
+              173.78
+            ],
+            [
+              -56.08,
+              158.64
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "ring": [
+            [
+              -153.79,
+              208.42
+            ],
+            [
+              -151.36,
+              216.56
+            ],
+            [
+              -143.18,
+              226.43
+            ],
+            [
+              -119.61,
+              208.08
+            ],
+            [
+              -138.24,
+              183.69
+            ],
+            [
+              -138.24,
+              183.69
+            ],
+            [
+              -160.41,
+              200.95
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan",
+      "labelXZ": [
+        -77.65,
+        159.71
+      ],
+      "areaM2": 1784.4,
+      "displayHeightM": 7.2,
+      "heightBasis": "校方2026年示意图中庭院两侧有较低侧翼；檐口待测。",
+      "facadeDivisions": 2,
+      "baseM": 34.6,
+      "roofFinishEvidence": {
+        "bandsXZ": [
+          [
+            [
+              -94.359,
+              150.58
+            ],
+            [
+              -92.121,
+              153.753
+            ],
+            [
+              -92.121,
+              157.52
+            ],
+            [
+              -88.815,
+              157.049
+            ],
+            [
+              -85.509,
+              161.288
+            ],
+            [
+              -84.092,
+              161.758
+            ],
+            [
+              -83.148,
+              165.515
+            ],
+            [
+              -76.635,
+              171.275
+            ],
+            [
+              -76.063,
+              164.584
+            ],
+            [
+              -68.979,
+              164.584
+            ],
+            [
+              -68.507,
+              165.997
+            ],
+            [
+              -66.992,
+              166.095
+            ],
+            [
+              -57.289,
+              158.542
+            ],
+            [
+              -68.161,
+              146.815
+            ],
+            [
+              -69.451,
+              149.044
+            ],
+            [
+              -76.536,
+              149.829
+            ],
+            [
+              -77.074,
+              149.177
+            ],
+            [
+              -81.355,
+              151.215
+            ],
+            [
+              -86.537,
+              144.493
+            ]
+          ]
+        ],
+        "acquired": "2025-04-13",
+        "sensor": "WorldView-3",
+        "sampledPixelMetres": 0.6,
+        "schoolFlight": "https://www.ytkj.edu.cn/info/1115/8321.htm",
+        "flightSeconds": [
+          304,
+          308
+        ],
+        "schoolAerialPhoto": "https://www.ytkj.edu.cn/__local/9/17/67/9FB484C0E5D4269EE812E3E7186_3010F6D2_98C22.jpg",
+        "orthophotoMetadata": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.98649887247412%2C37.730347360644366&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSAMP_RES%2CSRC_ACC%2CSRC_DESC&returnGeometry=false",
+        "scope": "东北低翼的绿色屋面，可在校方航拍与卫星色差中对照。边界收在已有翼段内。庭院侧浅斑在航拍中被遮挡，构造和标高待核。"
+      },
+      "facadeEvidence": {
+        "roofApronEaves": {
+          "pathXZ": [
+            [
+              -86.39,
+              143.34
+            ],
+            [
+              -81.11,
+              150.19
+            ],
+            [
+              -69.18,
+              144.51
+            ],
+            [
+              -56.08,
+              158.64
+            ]
+          ],
+          "relativeGlazingM": [
+            [
+              0.78,
+              2.42
+            ],
+            [
+              4.1,
+              5.95
+            ]
+          ],
+          "displayFasciaM": 0.58,
+          "schoolFlight": "https://www.ytkj.edu.cn/info/1115/8321.htm",
+          "flightSeconds": [
+            304,
+            308
+          ],
+          "schoolAerialPhoto": "https://www.ytkj.edu.cn/__local/9/17/67/9FB484C0E5D4269EE812E3E7186_3010F6D2_98C22.jpg",
+          "orthophotoMetadata": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.98649887247412%2C37.730347360644366&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSAMP_RES%2CSRC_ACC%2CSRC_DESC&returnGeometry=false",
+          "basis": "校方航拍可见东北翼外缘三段折转及两道暗色水平窗带。卫星核对平面折角与接楼位置，原屋面基准不动，横带宽度及投影深度采用展示值。"
+        }
+      }
+    },
+    {
+      "code": "J-link-2",
+      "name": "J2–J3 教学楼连接翼",
+      "kind": "teachingLink",
+      "parents": [
+        "J2",
+        "J3"
+      ],
+      "polygons": [
+        {
+          "ring": [
+            [
+              -12.45,
+              209.17
+            ],
+            [
+              -17.21,
+              211.04
+            ],
+            [
+              -23.92,
+              200.4
+            ],
+            [
+              -33.16,
+              195.07
+            ],
+            [
+              -39.1,
+              188.08
+            ],
+            [
+              -58.52,
+              203.19
+            ],
+            [
+              -40.16,
+              225.44
+            ],
+            [
+              -35.68,
+              221.89
+            ],
+            [
+              -30.49,
+              227.77
+            ],
+            [
+              -40.19,
+              235.38
+            ],
+            [
+              -10.14,
+              211.99
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "ring": [
+            [
+              -98.65,
+              280.88
+            ],
+            [
+              -74.67,
+              262.21
+            ],
+            [
+              -96.82,
+              233.41
+            ],
+            [
+              -88.55,
+              226.57
+            ],
+            [
+              -122.37,
+              252.89
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan",
+      "labelXZ": [
+        -31.09,
+        211.51
+      ],
+      "areaM2": 2095.5,
+      "displayHeightM": 7.2,
+      "heightBasis": "校方2026年示意图中庭院两侧有较低侧翼；檐口待测。",
+      "facadeDivisions": 2,
+      "baseM": 34.6,
+      "roofFinishEvidence": {
+        "bandsXZ": [
+          [
+            [
+              -31.215,
+              197.058
+            ],
+            [
+              -24.584,
+              204.14
+            ],
+            [
+              -22.223,
+              205.082
+            ],
+            [
+              -20.806,
+              207.908
+            ],
+            [
+              -21.683,
+              209.724
+            ],
+            [
+              -20.312,
+              211.245
+            ],
+            [
+              -26.001,
+              216.384
+            ],
+            [
+              -20.333,
+              216.855
+            ],
+            [
+              -19.389,
+              218.239
+            ],
+            [
+              -11.207,
+              211.87
+            ],
+            [
+              -12.684,
+              210.068
+            ],
+            [
+              -17.513,
+              211.965
+            ],
+            [
+              -24.455,
+              200.957
+            ]
+          ]
+        ],
+        "acquired": "2025-04-13",
+        "sensor": "WorldView-3",
+        "sampledPixelMetres": 0.6,
+        "orthophotoMetadata": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.98649887247412%2C37.730347360644366&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSAMP_RES%2CSRC_ACC%2CSRC_DESC&returnGeometry=false",
+        "schoolFlyover": "https://www.ytkj.edu.cn/info/1115/8321.htm",
+        "schoolFlyoverSeconds": [
+          304,
+          308
+        ],
+        "scope": "东侧连接翼临路侧连续绿面，卫星绿偏色与校方航拍互证。边界按已有低翼轮廓收约，绿化组成及厚度未测。"
+      },
+      "roofAccessories": {
+        "parts": [
+          {
+            "kind": "housing",
+            "displayHeightM": 2.55,
+            "ring": [
+              [
+                -51.021,
+                199.67
+              ],
+              [
+                -31.669,
+                221.144
+              ],
+              [
+                -20.665,
+                211.227
+              ],
+              [
+                -40.017,
+                189.753
+              ]
+            ],
+            "glazedFront": {
+              "edgeXZ": [
+                [
+                  -20.665,
+                  211.227
+                ],
+                [
+                  -40.017,
+                  189.753
+                ]
+              ],
+              "displayEaveDepthM": 0.42
+            }
+          }
+        ],
+        "source": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.98649887247412%2C37.730347360644366&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSAMP_RES%2CSRC_ACC%2CSRC_DESC&returnGeometry=false",
+        "sourceDate": "2025-04-13",
+        "schoolFlyover": "https://www.ytkj.edu.cn/info/1115/8321.htm",
+        "schoolFlyoverSeconds": [
+          304,
+          308
+        ],
+        "basis": "东翼内缩的浅色高顶可在卫星俯视和校方航拍中定位。校方航拍可辨薄檐与一层暗窗带。轮廓按现有联翼位置配准，檐口和进深采用展示值，功能未核。"
+      }
+    },
+    {
+      "code": "J-link-3",
+      "name": "J3–J4 教学楼连接翼",
+      "kind": "teachingLink",
+      "parents": [
+        "J3",
+        "J4"
+      ],
+      "polygons": [
+        {
+          "ring": [
+            [
+              30.95,
+              270.72
+            ],
+            [
+              23.25,
+              270.14
+            ],
+            [
+              18.37,
+              264.95
+            ],
+            [
+              25.71,
+              255.76
+            ],
+            [
+              9.57,
+              236.05
+            ],
+            [
+              -13.98,
+              254.39
+            ],
+            [
+              -10.33,
+              259.33
+            ],
+            [
+              -12.82,
+              263.96
+            ],
+            [
+              -4.35,
+              271.96
+            ],
+            [
+              -0.96,
+              271.06
+            ],
+            [
+              10.96,
+              287.24
+            ],
+            [
+              7.41,
+              293.18
+            ],
+            [
+              0.89,
+              286.92
+            ],
+            [
+              -25.32,
+              308.96
+            ],
+            [
+              -24.8,
+              313.68
+            ],
+            [
+              -20.36,
+              316.85
+            ],
+            [
+              33.98,
+              274.56
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "ring": [
+            [
+              -75.82,
+              302.66
+            ],
+            [
+              -74.33,
+              308.42
+            ],
+            [
+              -54.95,
+              332.91
+            ],
+            [
+              -52.26,
+              332.65
+            ],
+            [
+              -47.47,
+              337.95
+            ],
+            [
+              -33.24,
+              326.88
+            ],
+            [
+              -33.27,
+              326.86
+            ],
+            [
+              -27.67,
+              319.64
+            ],
+            [
+              -54.82,
+              286.17
+            ],
+            [
+              -54.82,
+              286.17
+            ],
+            [
+              -75.92,
+              302.6
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan",
+      "labelXZ": [
+        4.7131,
+        261.6644
+      ],
+      "areaM2": 2953.1,
+      "displayHeightM": 7.2,
+      "heightBasis": "保留连接翼既有展示高度。校方报道确认二楼连廊，东侧横带、凹窗与屋面颜色依据拍摄影像复核。",
+      "facadeDivisions": 2,
+      "baseM": 34.6,
+      "viewFrom": [
+        0.91,
+        0.35,
+        -0.22
+      ],
+      "viewSpanM": 135,
+      "facadeEvidence": {
+        "page": "https://www.ytkj.edu.cn/info/1083/8097.htm",
+        "sources": {
+          "schoolEvent": "https://www.ytkj.edu.cn/info/1083/8097.htm",
+          "schoolDiagram": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+          "schoolFlyover": "https://www.ytkj.edu.cn/info/1115/8321.htm",
+          "constructionFramesSec": [
+            427.5,
+            428.5
+          ],
+          "admissionsNightImagePage": "https://www.youzy.cn/news/detail?id=690242651a29d9225a8da88e",
+          "ortho": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.98743200302124%2C37.729503518563185&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_DESC%2CSRC_ACC%2CSAMP_RES&returnGeometry=false",
+          "date": "2025-04-13"
+        },
+        "eastFaceXZ": [
+          [
+            25.71,
+            255.76
+          ],
+          [
+            9.57,
+            236.05
+          ]
+        ],
+        "roofColourRingXZ": [
+          [
+            17.3445,
+            264.4428
+          ],
+          [
+            24.2399,
+            255.4483
+          ],
+          [
+            9.1144,
+            237.2287
+          ],
+          [
+            5.6218,
+            239.9486
+          ],
+          [
+            -12.5041,
+            254.9303
+          ],
+          [
+            -8.9147,
+            259.5453
+          ],
+          [
+            -11.1817,
+            263.7835
+          ],
+          [
+            -2.5191,
+            270.8014
+          ],
+          [
+            -1.1268,
+            270.4318
+          ],
+          [
+            -1.0635,
+            270.4183
+          ],
+          [
+            -0.9992,
+            270.4112
+          ],
+          [
+            -0.9344,
+            270.4105
+          ],
+          [
+            -0.87,
+            270.4163
+          ],
+          [
+            -0.8064,
+            270.4284
+          ],
+          [
+            -0.7444,
+            270.4468
+          ],
+          [
+            -0.6844,
+            270.4713
+          ],
+          [
+            -0.6273,
+            270.5016
+          ],
+          [
+            -0.5734,
+            270.5375
+          ],
+          [
+            -0.5233,
+            270.5785
+          ],
+          [
+            -0.4776,
+            270.6243
+          ],
+          [
+            -0.4367,
+            270.6745
+          ],
+          [
+            8.2935,
+            282.5246
+          ],
+          [
+            17.7223,
+            275.7447
+          ],
+          [
+            21.5006,
+            269.2744
+          ],
+          [
+            21.0361,
+            268.7343
+          ],
+          [
+            17.8965,
+            265.3953
+          ],
+          [
+            17.8563,
+            265.3482
+          ],
+          [
+            17.8207,
+            265.2976
+          ],
+          [
+            17.7902,
+            265.2437
+          ],
+          [
+            17.7649,
+            265.1873
+          ],
+          [
+            17.745,
+            265.1287
+          ],
+          [
+            17.7309,
+            265.0684
+          ],
+          [
+            17.7225,
+            265.0071
+          ],
+          [
+            17.72,
+            264.9453
+          ],
+          [
+            17.7234,
+            264.8835
+          ],
+          [
+            17.7234,
+            264.8833
+          ]
+        ],
+        "relativeGlazingM": [
+          [
+            0.52,
+            2.9,
+            0.61
+          ],
+          [
+            3.74,
+            6.23,
+            0.48
+          ]
+        ],
+        "windowBays": 5,
+        "limits": "校方报道确认 J3 至 J4 二楼有连廊。东翼影像可辨浅色横带、暗色窗带和深绿屋面。可辨窗带分层、材质明暗按影像转换；窗格数量、退深和檐高沿展示模型估算。两翼均与 J3、J4 接触，展览具体翼段与内部隔断有待现场确认。"
+      },
+      "publicNote": "二楼连廊曾作为课程成果展场地。"
+    },
+    {
+      "code": "J5",
+      "name": "博雅楼（J5）",
+      "nameSource": "J5Name",
+      "kind": "teachingBlock",
+      "grossArea": 38240,
+      "polygons": [
+        {
+          "ring": [
+            [
+              67.84,
+              176.06
+            ],
+            [
+              129.18,
+              126.22
+            ],
+            [
+              173.03,
+              184.08
+            ],
+            [
+              119.17,
+              230.8
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan",
+      "labelXZ": [
+        120.8,
+        180.07
+      ],
+      "areaM2": 5540.5,
+      "displayHeightM": 31.2,
+      "heightBasis": "校方教务处使用 J5-810；依校内房间编号推定至少有第8层。以8层及估计层高展示，最高层和实测檐高待核。",
+      "facadeDivisions": 8,
+      "baseM": 31.68,
+      "roofInset": {
+        "ring": [
+          [
+            101.06,
+            178.03
+          ],
+          [
+            124.99,
+            158.59
+          ],
+          [
+            142.09,
+            181.16
+          ],
+          [
+            121.08,
+            199.38
+          ]
+        ],
+        "depthM": 1.6,
+        "basis": "校方2026示意图可见屋顶中央内凹色块；中部尺寸与凹深为简化显示，未判为贯通天井。"
+      },
+      "viewFrom": [
+        0.01,
+        0.78,
+        1
+      ],
+      "publicNote": "屋面中央为下凹区域，西南面设大幅玻璃，东南面可见竖向格栅。屋面附房高度和格栅间距依据校方导览近似绘制。",
+      "facadeEvidence": {
+        "page": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+        "diagram": "https://zwc.ytkj.edu.cn/__local/B/39/32/2CC4EF2B803D335BBF682C58490_641A2F38_2BEA76.png",
+        "published": "2026-09-02",
+        "historicalOpticalCheck": {
+          "acquired": "2025-04-13",
+          "provider": "WorldView-3 / Vantor, Esri Wayback",
+          "source": "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.9875%2C37.7322%2C18",
+          "use": "仅对照屋面大块明暗分区及相对位置。"
+        },
+        "southwestStartXZ": [
+          119.17,
+          230.8
+        ],
+        "southeastStartXZ": [
+          173.03,
+          184.08
+        ],
+        "parapetHeightM": 0.58,
+        "parapetWidthM": 0.42,
+        "roofParts": [
+          {
+            "name": "西南侧长附房",
+            "kind": "room",
+            "heightAboveDeckM": 2.75,
+            "ring": [
+              [
+                92.534,
+                176.779
+              ],
+              [
+                113.082,
+                199.734
+              ],
+              [
+                106.514,
+                205.287
+              ],
+              [
+                85.607,
+                182.481
+              ]
+            ]
+          },
+          {
+            "name": "东北侧小附房",
+            "kind": "room",
+            "heightAboveDeckM": 1.95,
+            "ring": [
+              [
+                150.481,
+                172.503
+              ],
+              [
+                155.337,
+                178.701
+              ],
+              [
+                149.902,
+                183.346
+              ],
+              [
+                144.966,
+                177.18
+              ]
+            ]
+          },
+          {
+            "name": "东南侧深色屋面分区",
+            "kind": "field",
+            "heightAboveDeckM": 0,
+            "ring": [
+              [
+                132.648,
+                201.101
+              ],
+              [
+                138.098,
+                207.433
+              ],
+              [
+                120.312,
+                222.783
+              ],
+              [
+                114.586,
+                216.566
+              ]
+            ]
+          }
+        ],
+        "basis": "屋面位置按校方导览图归一化至工程图四角。三处范围、檐上高差、立面开间与构件截面均为显示估值。东南深色块用途待核；另外两面沿用楼层示意。"
+      },
+      "viewSpanM": 135
+    },
+    {
+      "code": "stadium",
+      "name": "风雨操场",
+      "kind": "stadium",
+      "grossArea": 8286,
+      "placeAliases": [
+        "黄渤海校区体育馆",
+        "体育馆"
+      ],
+      "polygons": [
+        {
+          "ring": [
+            [
+              -108.9,
+              -55.45
+            ],
+            [
+              -77.79,
+              -41.02
+            ],
+            [
+              -79.42,
+              -31.66
+            ],
+            [
+              -78.21,
+              -27.58
+            ],
+            [
+              -69.72,
+              -19.92
+            ],
+            [
+              -67.96,
+              -11.79
+            ],
+            [
+              -69.82,
+              47.32
+            ],
+            [
+              -71.37,
+              54.0
+            ],
+            [
+              -75.56,
+              59.24
+            ],
+            [
+              -118.5,
+              57.89
+            ],
+            [
+              -123.14,
+              55.73
+            ],
+            [
+              -125.67,
+              50.94
+            ],
+            [
+              -123.2395,
+              -26.5622
+            ],
+            [
+              -123.1872,
+              -27.4435
+            ],
+            [
+              -123.0859,
+              -28.3083
+            ],
+            [
+              -122.9359,
+              -29.1567
+            ],
+            [
+              -122.7369,
+              -29.9886
+            ],
+            [
+              -122.4891,
+              -30.8039
+            ],
+            [
+              -122.1924,
+              -31.6028
+            ],
+            [
+              -121.8469,
+              -32.3853
+            ],
+            [
+              -121.4524,
+              -33.1512
+            ],
+            [
+              -121.0091,
+              -33.9006
+            ],
+            [
+              -120.517,
+              -34.6336
+            ],
+            [
+              -118.88,
+              -36.93
+            ],
+            [
+              -111.9,
+              -45.46
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan",
+      "labelXZ": [
+        -96.76,
+        17.77
+      ],
+      "areaM2": 5523.6,
+      "displayHeightM": 21,
+      "heightBasis": "主馆檐口据校方田径场全景推估约高出场地16米，沿用场地参考标高38.49米和馆区参考基面34.16米，主馆模型高度取整为21米。北侧连接翼沿用14.6米示意高度。基面、屋面与楼层均未实测。",
+      "facadeDivisions": 2,
+      "baseM": 34.16,
+      "facadeEvidence": {
+        "viewFromXZ": [
+          -0.957826,
+          0.287348
+        ],
+        "section": "田径场东侧看台后的西立面与北侧圆弧转折",
+        "page": "https://www.ytkj.edu.cn/info/1081/8367.htm",
+        "published": "2026-09-20",
+        "images": [
+          "https://www.ytkj.edu.cn/__local/E/B0/96/F7114F4062C2EF0991B7CA9D266_1719EEFE_96FFA.jpg",
+          "https://www.ytkj.edu.cn/__local/C/34/EC/FB8B1C97623C68BAF7CB4C57552_3533962E_87F32.jpg"
+        ],
+        "fieldFaceStartXZ": [
+          -125.67,
+          50.94
+        ],
+        "fieldFaceEndXZ": [
+          -118.88,
+          -36.93
+        ],
+        "cornerFit": {
+          "originalPlanCornerXZ": [
+            -123.1,
+            -31.01
+          ],
+          "tangentSetbackM": 4.45,
+          "segments": 10
+        },
+        "blueWindowRunsFromNorth": {
+          "lower": [
+            [
+              0,
+              0.42
+            ],
+            [
+              0.51,
+              0.6
+            ],
+            [
+              0.63,
+              0.82
+            ],
+            [
+              0.83,
+              0.92
+            ],
+            [
+              0.95,
+              1
+            ]
+          ],
+          "middle": [
+            [
+              0,
+              0.105
+            ]
+          ],
+          "lightPanel": [
+            [
+              0.195,
+              0.33
+            ],
+            [
+              0.515,
+              0.775
+            ]
+          ],
+          "upper": [
+            [
+              0.865,
+              1
+            ]
+          ]
+        },
+        "profileBasis": "校方近景与全景可辨三道银灰或蓝灰横带、细竖缝、浅色带内的两段深窗和北侧圆角。窗带竖向位置由照片与主馆檐口推估，进深、细框及转角半径为示意。看台遮挡墙脚，背面沿用既有窗列及标高。",
+        "roofConstraint": {
+          "originalHeightM": 14.6,
+          "mainBodyStartXZ": [
+            -69.72,
+            -19.92
+          ],
+          "referenceFieldM": 38.49,
+          "referenceVerticalDatum": "EGM2008",
+          "roofAboveFieldM": 16,
+          "cameraResidualRmsPx": 1.54,
+          "calibrationImageSize": [
+            992,
+            661
+          ],
+          "heldOutGoalUprightPx": 2.51,
+          "fieldRegistrationShiftM": [
+            3,
+            6,
+            9
+          ],
+          "roofRangeAt9mShiftM": [
+            15.0,
+            17.6
+          ],
+          "basis": "用场地模型半场线、标准球门与中圈，在校方全景匹配相机后回投田径场侧檐线。屋面后缘及北侧连接翼分界按总平转折概化。",
+          "principalPointTest": {
+            "horizontalShiftPx": 20,
+            "verticalShiftPx": 15,
+            "roofAboveFieldM": [
+              16.06,
+              17.71
+            ]
+          },
+          "focalAndRegistrationTest": {
+            "focalChangePercent": 10,
+            "planOffsetM": 9,
+            "roofAboveFieldM": [
+              13.46,
+              21.24
+            ],
+            "fieldMismatchRmsPx": [
+              2.56,
+              3.32
+            ]
+          },
+          "fitControls": "992×661 像素图像；按场地模型半场线两端、7.32×2.44米足球门四角及中圈11点拟合。屋檐三处分别约16.61、16.50和15.87米（田径场相对标高）。另一次拟合留出远端门柱上顶点，预测误差2.51像素。"
+        },
+        "roofSurfaceEvidence": {
+          "worldImageryMetadata": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.98640096324706%2C37.7320398998135&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_DESC%2CSRC_ACC%2CSAMP_RES%2CNICE_DESC&returnGeometry=false",
+          "worldImageryGrid": "EPSG:3857",
+          "sourceAcquired": "2025-04-13",
+          "imageSource": "Esri Wayback 3692 / WorldView-3",
+          "sourceNativePixelM": 0.31,
+          "serviceSamplePixelM": 0.6,
+          "sourceNominalLocationAccuracyM": 5,
+          "officialFlyoverPage": "https://www.ytkj.edu.cn/info/1115/8321.htm",
+          "officialFlyoverUrl": "https://www.ytkj.edu.cn/__local/0/73/6F/EC927680FA0AF6ADDCFF78CF449_24F438E8_2BE03120.mp4?e=.mp4",
+          "officialFlyoverSeconds": 308,
+          "roofSurfacePatches": [
+            {
+              "material": "charcoal",
+              "ringXZ": [
+                [
+                  -122.169,
+                  -2.091
+                ],
+                [
+                  -94.304,
+                  -2.091
+                ],
+                [
+                  -93.832,
+                  31.814
+                ],
+                [
+                  -122.641,
+                  31.814
+                ]
+              ],
+              "sourcePixelRing": [
+                [
+                  64,
+                  113
+                ],
+                [
+                  123,
+                  113
+                ],
+                [
+                  124,
+                  185
+                ],
+                [
+                  63,
+                  185
+                ]
+              ],
+              "approximateAreaM2": 960.766,
+              "modelEdgeClearanceM": 1.837,
+              "lumaDifference": 83.53
+            },
+            {
+              "material": "blueGrey",
+              "ringXZ": [
+                [
+                  -93.36,
+                  -20.927
+                ],
+                [
+                  -88.164,
+                  -21.398
+                ],
+                [
+                  -86.275,
+                  -19.514
+                ],
+                [
+                  -86.748,
+                  29.93
+                ],
+                [
+                  -87.692,
+                  31.814
+                ],
+                [
+                  -93.832,
+                  31.814
+                ],
+                [
+                  -94.304,
+                  -2.091
+                ]
+              ],
+              "sourcePixelRing": [
+                [
+                  125,
+                  73
+                ],
+                [
+                  136,
+                  72
+                ],
+                [
+                  140,
+                  76
+                ],
+                [
+                  139,
+                  181
+                ],
+                [
+                  137,
+                  185
+                ],
+                [
+                  124,
+                  185
+                ],
+                [
+                  123,
+                  113
+                ]
+              ],
+              "approximateAreaM2": 393.425,
+              "modelEdgeClearanceM": 4.634,
+              "lumaDifference": 52.23
+            }
+          ],
+          "scope": "卫星图可辨深灰主区及其东侧向北延伸的蓝灰条带，校方航拍另见浅色周边和深色中段。仅重建可见色区轮廓，沿用主馆屋面高程。两区材质、现场高差、用途及顶部设备未测。"
+        }
+      },
+      "publicNote": "主馆屋檐约高出田径场 16 至 17 米。"
+    },
+    {
+      "code": "culture",
+      "name": "文化中心",
+      "kind": "cultural",
+      "grossArea": 10109,
+      "polygons": [
+        {
+          "ring": [
+            [
+              -108.85,
+              -56.79
+            ],
+            [
+              -110.0632,
+              -72.0181
+            ],
+            [
+              -110.1652,
+              -72.8531
+            ],
+            [
+              -110.336,
+              -73.6599
+            ],
+            [
+              -110.5754,
+              -74.4384
+            ],
+            [
+              -110.8836,
+              -75.1887
+            ],
+            [
+              -111.2606,
+              -75.9108
+            ],
+            [
+              -111.7062,
+              -76.6047
+            ],
+            [
+              -112.2206,
+              -77.2703
+            ],
+            [
+              -114.5813,
+              -80.0731
+            ],
+            [
+              -115.0062,
+              -80.6036
+            ],
+            [
+              -115.4017,
+              -81.1511
+            ],
+            [
+              -115.7679,
+              -81.7156
+            ],
+            [
+              -116.1046,
+              -82.2972
+            ],
+            [
+              -116.4119,
+              -82.8958
+            ],
+            [
+              -116.6899,
+              -83.5114
+            ],
+            [
+              -116.9384,
+              -84.144
+            ],
+            [
+              -117.7816,
+              -86.456
+            ],
+            [
+              -117.9972,
+              -87.1001
+            ],
+            [
+              -118.1762,
+              -87.75
+            ],
+            [
+              -118.3188,
+              -88.4058
+            ],
+            [
+              -118.4248,
+              -89.0674
+            ],
+            [
+              -118.4944,
+              -89.7349
+            ],
+            [
+              -118.5274,
+              -90.4082
+            ],
+            [
+              -118.5239,
+              -91.0874
+            ],
+            [
+              -118.3727,
+              -95.8293
+            ],
+            [
+              -118.3296,
+              -96.4744
+            ],
+            [
+              -118.2417,
+              -97.1064
+            ],
+            [
+              -118.1092,
+              -97.7253
+            ],
+            [
+              -117.9319,
+              -98.3312
+            ],
+            [
+              -117.7099,
+              -98.9239
+            ],
+            [
+              -117.4432,
+              -99.5036
+            ],
+            [
+              -117.1318,
+              -100.0702
+            ],
+            [
+              -115.9282,
+              -102.0898
+            ],
+            [
+              -115.5826,
+              -102.6397
+            ],
+            [
+              -115.2131,
+              -103.1694
+            ],
+            [
+              -114.82,
+              -103.6789
+            ],
+            [
+              -114.4031,
+              -104.1681
+            ],
+            [
+              -113.9624,
+              -104.637
+            ],
+            [
+              -113.498,
+              -105.0857
+            ],
+            [
+              -113.0098,
+              -105.5142
+            ],
+            [
+              -66.513,
+              -144.4107
+            ],
+            [
+              -65.9004,
+              -144.8893
+            ],
+            [
+              -65.2642,
+              -145.3198
+            ],
+            [
+              -64.6045,
+              -145.7022
+            ],
+            [
+              -63.9213,
+              -146.0365
+            ],
+            [
+              -63.2145,
+              -146.3227
+            ],
+            [
+              -62.4842,
+              -146.5608
+            ],
+            [
+              -61.7304,
+              -146.7508
+            ],
+            [
+              -58.342,
+              -147.4852
+            ],
+            [
+              -57.7574,
+              -147.5884
+            ],
+            [
+              -57.1761,
+              -147.6438
+            ],
+            [
+              -56.5982,
+              -147.6514
+            ],
+            [
+              -56.0236,
+              -147.6112
+            ],
+            [
+              -55.4524,
+              -147.5233
+            ],
+            [
+              -54.8845,
+              -147.3875
+            ],
+            [
+              -54.3199,
+              -147.204
+            ],
+            [
+              -50.32,
+              -145.73
+            ],
+            [
+              -25.08,
+              -115.34
+            ],
+            [
+              -22.56,
+              -109.89
+            ],
+            [
+              -22.73,
+              -104.51
+            ],
+            [
+              -26.91,
+              -99.94
+            ],
+            [
+              -68.32,
+              -64.26
+            ],
+            [
+              -73.9,
+              -57.71
+            ],
+            [
+              -78.37,
+              -43.73
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan",
+      "labelXZ": [
+        -76.47,
+        -93.41
+      ],
+      "areaM2": 5624.8,
+      "displayHeightM": 14.8,
+      "heightBasis": "外立面横饰带及架空廊据实景比例复核。文化中心沿用 14.8 米模型高度，绝对标高与廊底净高待实测。",
+      "facadeDivisions": 2,
+      "baseM": 34.16,
+      "placeAliases": [
+        "文化中心剧场"
+      ],
+      "viewFrom": [
+        -0.88,
+        0.37,
+        -0.32
+      ],
+      "viewSpanM": 109,
+      "publicNote": "西北门内的银白色曲面建筑，南侧架空廊连接风雨操场。廊下净高约 5.6 米（估算）。",
+      "facadeEvidence": {
+        "page": "https://www.ytkj.edu.cn/info/1081/6842.htm",
+        "photoSource": "https://www.ytkj.edu.cn/__local/A/49/A0/535188C71472B6CF496A8828E38_7E24D7E0_132F8.jpg",
+        "sourceLabel": "看校方迎新照片",
+        "contractorCase": "https://www.enneinc.cn/news/shownews.php?id=352",
+        "schoolUse": "https://sport.ytkj.edu.cn/info/1024/1948.htm",
+        "plan": "https://www.aiib.org/en/projects/details/2024/_download/China/ES-Impact-Assesment.pdf#page=15",
+        "planName": "中文图例与表格为文化中心，图例 7 的英文为 Information center。外观未分出另一栋同名楼。",
+        "northwestFaceXZ": [
+          [
+            -108.85,
+            -56.79
+          ],
+          [
+            -110.0632,
+            -72.0181
+          ],
+          [
+            -110.1652,
+            -72.8531
+          ],
+          [
+            -110.336,
+            -73.6599
+          ],
+          [
+            -110.5754,
+            -74.4384
+          ],
+          [
+            -110.8836,
+            -75.1887
+          ],
+          [
+            -111.2606,
+            -75.9108
+          ],
+          [
+            -111.7062,
+            -76.6047
+          ],
+          [
+            -112.2206,
+            -77.2703
+          ],
+          [
+            -114.5813,
+            -80.0731
+          ],
+          [
+            -115.0062,
+            -80.6036
+          ],
+          [
+            -115.4017,
+            -81.1511
+          ],
+          [
+            -115.7679,
+            -81.7156
+          ],
+          [
+            -116.1046,
+            -82.2972
+          ],
+          [
+            -116.4119,
+            -82.8958
+          ],
+          [
+            -116.6899,
+            -83.5114
+          ],
+          [
+            -116.9384,
+            -84.144
+          ],
+          [
+            -117.7816,
+            -86.456
+          ],
+          [
+            -117.9972,
+            -87.1001
+          ],
+          [
+            -118.1762,
+            -87.75
+          ],
+          [
+            -118.3188,
+            -88.4058
+          ],
+          [
+            -118.4248,
+            -89.0674
+          ],
+          [
+            -118.4944,
+            -89.7349
+          ],
+          [
+            -118.5274,
+            -90.4082
+          ],
+          [
+            -118.5239,
+            -91.0874
+          ],
+          [
+            -118.3727,
+            -95.8293
+          ],
+          [
+            -118.3296,
+            -96.4744
+          ],
+          [
+            -118.2417,
+            -97.1064
+          ],
+          [
+            -118.1092,
+            -97.7253
+          ],
+          [
+            -117.9319,
+            -98.3312
+          ],
+          [
+            -117.7099,
+            -98.9239
+          ],
+          [
+            -117.4432,
+            -99.5036
+          ],
+          [
+            -117.1318,
+            -100.0702
+          ],
+          [
+            -115.9282,
+            -102.0898
+          ],
+          [
+            -115.5826,
+            -102.6397
+          ],
+          [
+            -115.2131,
+            -103.1694
+          ],
+          [
+            -114.82,
+            -103.6789
+          ],
+          [
+            -114.4031,
+            -104.1681
+          ],
+          [
+            -113.9624,
+            -104.637
+          ],
+          [
+            -113.498,
+            -105.0857
+          ],
+          [
+            -113.0098,
+            -105.5142
+          ],
+          [
+            -66.513,
+            -144.4107
+          ],
+          [
+            -65.9004,
+            -144.8893
+          ],
+          [
+            -65.2642,
+            -145.3198
+          ],
+          [
+            -64.6045,
+            -145.7022
+          ],
+          [
+            -63.9213,
+            -146.0365
+          ],
+          [
+            -63.2145,
+            -146.3227
+          ],
+          [
+            -62.4842,
+            -146.5608
+          ],
+          [
+            -61.7304,
+            -146.7508
+          ],
+          [
+            -58.342,
+            -147.4852
+          ],
+          [
+            -57.7574,
+            -147.5884
+          ],
+          [
+            -57.1761,
+            -147.6438
+          ],
+          [
+            -56.5982,
+            -147.6514
+          ],
+          [
+            -56.0236,
+            -147.6112
+          ],
+          [
+            -55.4524,
+            -147.5233
+          ],
+          [
+            -54.8845,
+            -147.3875
+          ],
+          [
+            -54.3199,
+            -147.204
+          ]
+        ],
+        "visibleGlazingRuns": {
+          "low": [
+            [
+              0.23,
+              0.51
+            ],
+            [
+              0.72,
+              0.86
+            ]
+          ],
+          "middle": [
+            [
+              0.59,
+              0.82
+            ]
+          ],
+          "clerestory": [
+            [
+              0.29,
+              0.86
+            ]
+          ]
+        },
+        "profileBasis": "西北门两组实拍和场内近照可辨银白横板、浅檐线与间断蓝窗。可辨各层饰带的高宽对应于照片比例，实际楼层数依据不足。",
+        "raisedPassage": {
+          "visualSource": "2025-04-13 WorldView-3，源影像0.31米，当前参考格网约0.94米",
+          "roofCornersXZ": [
+            [
+              -111.779,
+              -65.662
+            ],
+            [
+              -80.136,
+              -48.521
+            ],
+            [
+              -80.891,
+              -24.977
+            ],
+            [
+              -112.062,
+              -42.494
+            ]
+          ],
+          "relativeLevelsM": [
+            -1.3,
+            5.65,
+            10.62
+          ],
+          "columnCentresXZ": [
+            [
+              -105.841,
+              -57.757
+            ],
+            [
+              -88.49,
+              -48.288
+            ],
+            [
+              -106.046,
+              -44.976
+            ],
+            [
+              -88.837,
+              -35.393
+            ]
+          ],
+          "profileBasis": "近照可辨带状悬廊、通视的首层与柱列。结合正射灰屋顶边线切分建筑平面，两排柱位置和绝对高度为估放。",
+          "planRingXZ": [
+            [
+              -109.4566,
+              -64.404
+            ],
+            [
+              -108.8659,
+              -56.9891
+            ],
+            [
+              -108.8098,
+              -56.7787
+            ],
+            [
+              -108.752,
+              -55.9427
+            ],
+            [
+              -108.9111,
+              -55.4533
+            ],
+            [
+              -108.9,
+              -55.45
+            ],
+            [
+              -111.7737,
+              -45.8806
+            ],
+            [
+              -112.1781,
+              -45.1201
+            ],
+            [
+              -113.6136,
+              -43.3659
+            ],
+            [
+              -69.4191,
+              -18.5302
+            ],
+            [
+              -69.6836,
+              -19.7521
+            ],
+            [
+              -69.7434,
+              -19.9065
+            ],
+            [
+              -69.8476,
+              -20.0351
+            ],
+            [
+              -77.7505,
+              -27.1654
+            ],
+            [
+              -78.386,
+              -28.1733
+            ],
+            [
+              -79.2733,
+              -31.1653
+            ],
+            [
+              -79.3315,
+              -32.1683
+            ],
+            [
+              -77.8313,
+              -40.7826
+            ],
+            [
+              -77.8415,
+              -41.0054
+            ],
+            [
+              -78.3357,
+              -41.5478
+            ],
+            [
+              -78.6269,
+              -42.2775
+            ],
+            [
+              -78.6432,
+              -43.0629
+            ],
+            [
+              -78.3826,
+              -43.804
+            ],
+            [
+              -78.3,
+              -43.949
+            ],
+            [
+              -77.325,
+              -46.9983
+            ]
+          ]
+        },
+        "roofToneBasis": "2025-04-13 WorldView-3 暗灰屋面分区，六组阈值复核面积约1778至1818平方米。屋面高差待实测。",
+        "cornerBasis": "正射可辨文化中心西北屋顶圆角。局部样条沿用原控制轮廓，最大变化小于0.9米。"
+      },
+      "roofInset": {
+        "ring": [
+          [
+            -107.641,
+            -97.883
+          ],
+          [
+            -64.493,
+            -133.978
+          ],
+          [
+            -43.802,
+            -109.389
+          ],
+          [
+            -86.95,
+            -73.294
+          ]
+        ],
+        "depthM": 0
+      }
+    },
+    {
+      "code": "G1",
+      "name": "G1 国际交流中心",
+      "kind": "exchange",
+      "grossArea": 16418,
+      "placeAliases": [],
+      "polygons": [
+        {
+          "ring": [
+            [
+              -39.94,
+              -208.95
+            ],
+            [
+              -6.18,
+              -235.79
+            ],
+            [
+              11.1,
+              -219.44
+            ],
+            [
+              -26.11,
+              -189.35
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan+guide",
+      "labelXZ": [
+        -14.36,
+        -214.19
+      ],
+      "areaM2": 1080.6,
+      "displayHeightM": 50.4,
+      "heightBasis": "校方2026年校区图中的塔楼规模和排次；一期结合总建筑面积，S6/S7结合校方餐厅外观照片核验。体量及立面分格为近似，逐栋实测总层数待核。",
+      "facadeDivisions": 16,
+      "baseM": 27.94,
+      "roofFinishEvidence": {
+        "bandsXZ": [
+          [
+            [
+              -29.074,
+              -213.345
+            ],
+            [
+              -23.946,
+              -217.198
+            ],
+            [
+              -19.213,
+              -211.013
+            ],
+            [
+              -23.937,
+              -207.113
+            ]
+          ],
+          [
+            [
+              -16.513,
+              -223.218
+            ],
+            [
+              -11.46,
+              -226.971
+            ],
+            [
+              -6.075,
+              -220.876
+            ],
+            [
+              -11.429,
+              -216.98
+            ]
+          ]
+        ],
+        "acquired": "2025-04-13",
+        "sensor": "WorldView-3",
+        "nativePixelMetres": 0.31,
+        "sampledPixelMetres": 0.6,
+        "spatialReference": "EPSG:3857",
+        "orthophotoMetadata": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.98732642%2C37.73412249&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSRC_DESC%2CSAMP_RES&returnGeometry=false",
+        "schoolContext": "https://www.ytkj.edu.cn/info/1115/8321.htm",
+        "scope": "以可辨檐线作相对定位，补两块暗色屋面。两处沿用既有屋面高程，屋面设备和独立构件高度待测。"
+      },
+      "streetFacade": {
+        "source": "https://www.ytkj.edu.cn/info/1115/8321.htm",
+        "frameSeconds": 304,
+        "edgeFromPhotoLeftXZ": [
+          [
+            -6.18,
+            -235.79
+          ],
+          [
+            -39.94,
+            -208.95
+          ]
+        ],
+        "sourceImageCornersPx": [
+          [
+            486.4,
+            282.5
+          ],
+          [
+            615.6,
+            269.6
+          ],
+          [
+            617.2,
+            488.5
+          ],
+          [
+            489.0,
+            507.1
+          ]
+        ],
+        "pierCentersImageX": [
+          0.0192,
+          0.2462,
+          0.425,
+          0.5865,
+          0.8269,
+          0.9615
+        ],
+        "openBaysImageX": [
+          [
+            0.256,
+            0.415
+          ],
+          [
+            0.597,
+            0.816
+          ]
+        ],
+        "wallBaysImageX": [
+          [
+            0.057,
+            0.236
+          ],
+          [
+            0.435,
+            0.576
+          ],
+          [
+            0.837,
+            0.951
+          ]
+        ],
+        "barPositionsImageY": [
+          0.09853,
+          0.14853,
+          0.19853,
+          0.24706,
+          0.29706,
+          0.34559,
+          0.39412,
+          0.44265,
+          0.49118,
+          0.53971,
+          0.58676,
+          0.63235,
+          0.67941,
+          0.72647,
+          0.775,
+          0.82206,
+          0.86912,
+          0.91618,
+          0.96324
+        ],
+        "podiumFraction": 0.084,
+        "displayReliefM": 0.22,
+        "basis": "校方航拍可辨交替的开间和墙板、六道竖框与十九道横线。仅重建立面节奏和可见栏板。栏板进深、楼层及绝对高度待实测。"
+      }
+    },
+    {
+      "code": "G2",
+      "name": "G2 国际交流中心",
+      "kind": "exchange",
+      "grossArea": 25687,
+      "placeAliases": [
+        "黄渤海校区快递物流中心",
+        "G2洗衣房"
+      ],
+      "polygons": [
+        {
+          "ring": [
+            [
+              10.73,
+              -250.39
+            ],
+            [
+              55.24,
+              -288.32
+            ],
+            [
+              71.14,
+              -270.67
+            ],
+            [
+              25.3,
+              -233.11
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan+guide",
+      "labelXZ": [
+        40.7,
+        -260.53
+      ],
+      "areaM2": 1364.0,
+      "displayHeightM": 56.7,
+      "heightBasis": "校方2026年校区图中的塔楼规模和排次；一期结合总建筑面积，S6/S7结合校方餐厅外观照片核验。体量及立面分格为近似，逐栋实测总层数待核。",
+      "facadeDivisions": 18,
+      "baseM": 25.35,
+      "roofFinishEvidence": {
+        "bandsXZ": [
+          [
+            [
+              38.186,
+              -259.963
+            ],
+            [
+              54.886,
+              -274.036
+            ],
+            [
+              55.553,
+              -278.887
+            ],
+            [
+              51.929,
+              -282.928
+            ],
+            [
+              32.365,
+              -264.662
+            ]
+          ],
+          [
+            [
+              68.355,
+              -269.319
+            ],
+            [
+              67.01,
+              -273.186
+            ],
+            [
+              63.026,
+              -276.839
+            ],
+            [
+              21.563,
+              -241.986
+            ],
+            [
+              26.873,
+              -235.971
+            ]
+          ]
+        ],
+        "acquired": "2025-04-13",
+        "sensor": "WorldView-3",
+        "nativePixelMetres": 0.31,
+        "sampledPixelMetres": 0.6,
+        "spatialReference": "EPSG:3857",
+        "orthophotoMetadata": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.98796228602568%2C37.734547265142844&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSRC_DESC%2CSAMP_RES&returnGeometry=false",
+        "schoolContext": "https://www.ytkj.edu.cn/info/1115/8321.htm",
+        "scope": "两段深色屋面以实拍檐口矩形作相对定位，沿用当前屋面高程。独立部件高度和屋面材料规格待核。"
+      },
+      "streetFacade": {
+        "source": "https://www.ytkj.edu.cn/info/1115/8321.htm",
+        "frameSeconds": 304,
+        "edgeFromPhotoLeftXZ": [
+          [
+            55.24,
+            -288.32
+          ],
+          [
+            10.73,
+            -250.39
+          ]
+        ],
+        "sourceImageCornersPx": [
+          [
+            149.3,
+            304.5
+          ],
+          [
+            403.1,
+            288.0
+          ],
+          [
+            417.5,
+            528.6
+          ],
+          [
+            171.0,
+            577.0
+          ]
+        ],
+        "pierCentersImageX": [
+          0.0181,
+          0.1398,
+          0.2763,
+          0.4145,
+          0.5526,
+          0.6908,
+          0.8289,
+          0.9737
+        ],
+        "mullionCentersImageX": [
+          0.0839,
+          0.222,
+          0.3602,
+          0.4967,
+          0.6102,
+          0.773,
+          0.8783
+        ],
+        "beltPositionsImageY": [
+          0.095714,
+          0.151429,
+          0.2,
+          0.251429,
+          0.298571,
+          0.347143,
+          0.397143,
+          0.445714,
+          0.494286,
+          0.542857,
+          0.591429,
+          0.638571,
+          0.687143,
+          0.735714,
+          0.782857,
+          0.83,
+          0.878571,
+          0.925714
+        ],
+        "podiumFraction": 0.086,
+        "displayReliefM": 0.17,
+        "basis": "以校方航拍的临街墙面四角作相对配准，复核八道主竖框和十八条可辨横向分格。进深为建模估计，楼层和绝对高度待实测。"
+      }
+    },
+    {
+      "code": "S1",
+      "name": "S1 学生宿舍",
+      "kind": "dorm",
+      "grossArea": 13601,
+      "placeAliases": [],
+      "polygons": [
+        {
+          "ring": [
+            [
+              7.69,
+              -153.65
+            ],
+            [
+              56.24,
+              -191.79
+            ],
+            [
+              67.39,
+              -172.61
+            ],
+            [
+              20.88,
+              -135.41
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan+guide",
+      "labelXZ": [
+        37.65,
+        -163.13
+      ],
+      "areaM2": 1347.7,
+      "displayHeightM": 37.2,
+      "heightBasis": "校方2026年校区图中的塔楼规模和排次；一期结合总建筑面积，S6/S7结合校方餐厅外观照片核验。体量及立面分格为近似，逐栋实测总层数待核。",
+      "facadeDivisions": 12,
+      "baseM": 29.74,
+      "facadeEvidence": {
+        "page": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+        "southeastCenterBand": {
+          "edgeFromNortheastXZ": [
+            [67.39, -172.61],
+            [20.88, -135.41]
+          ],
+          "spanFromNortheast": [0.482, 0.596],
+          "displayPodiumM": 4.2,
+          "displayTrimWidthM": 0.48,
+          "basis": "校方带楼号导览图与 2025-04-13 WV03 斜视影像均可辨东南长面中段。灰带范围按影像估计；竖框宽度及裙房高度采用展示值。"
+        }
+      }
+    },
+    {
+      "code": "S2",
+      "name": "S2 学生宿舍",
+      "kind": "dorm",
+      "grossArea": 13825,
+      "placeAliases": [],
+      "polygons": [
+        {
+          "ring": [
+            [
+              55.19,
+              -94.32
+            ],
+            [
+              100.05,
+              -132.92
+            ],
+            [
+              114.28,
+              -115.32
+            ],
+            [
+              68.41,
+              -77.09
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan+guide",
+      "labelXZ": [
+        84.54,
+        -104.82
+      ],
+      "areaM2": 1317.3,
+      "displayHeightM": 37.2,
+      "heightBasis": "校方2026年校区图中的塔楼规模和排次；一期结合总建筑面积，S6/S7结合校方餐厅外观照片核验。体量及立面分格为近似，逐栋实测总层数待核。",
+      "facadeDivisions": 12,
+      "baseM": 29.74,
+      "facadeEvidence": {
+        "southeastFaceStartXZ": [
+          114.28,
+          -115.32
+        ],
+        "southeastFaceEndXZ": [
+          68.41,
+          -77.09
+        ],
+        "orientation": "校方带号轴测图中，以S1→S2、S2→S4两条非平行排楼方向辨明S2东南长面；两翼的浅色连续窗带被灰色竖向中段打断。",
+        "photo": "https://i7.youj.cc/umedia/photos/1015/scout/251030_d9f89d0b3c404ac3baa806c2e32df77b_ff4f89f028162428e8abc88a852b0149.jpg",
+        "photoAttribution": "2025-08-26 烟台科技学院招生文章所配黄渤海校区宿舍照片；学校招生动态收录，现核图来自署名转载。",
+        "guide": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+        "spineFromNortheast": [
+          0.51,
+          0.628
+        ],
+        "wingOpeningsFromNortheast": [
+          8,
+          6
+        ],
+        "spineDropM": 2.3,
+        "spineRecessM": 0.56,
+        "roofNotchDepthM": 1.8,
+        "coursePitchM": 2.82,
+        "podiumM": 4.2,
+        "uncertainty": "楼号与朝向依据带号校图。开窗节奏参考最接近的实拍，照片没有可独立辨识的楼牌。窗带进深、中段高差、屋面凹口进深和竖向尺寸均为显示估算；楼层数及餐厅门轴位置仍待实测。"
+      },
+      "viewSpanM": 91,
+      "viewFrom": [
+        0.24,
+        0.43,
+        1
+      ]
+    },
+    {
+      "code": "S3",
+      "name": "S3 学生宿舍",
+      "kind": "dorm",
+      "grossArea": 14959,
+      "placeAliases": [],
+      "polygons": [
+        {
+          "ring": [
+            [
+              66.63,
+              -201.89
+            ],
+            [
+              101.16,
+              -232.07
+            ],
+            [
+              116.73,
+              -214.77
+            ],
+            [
+              82.6,
+              -186.59
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan+guide",
+      "labelXZ": [
+        91.46,
+        -208.33
+      ],
+      "areaM2": 1019.7,
+      "displayHeightM": 46.5,
+      "heightBasis": "校方2026年校区图中的塔楼规模和排次；一期结合总建筑面积，S6/S7结合校方餐厅外观照片核验。体量及立面分格为近似，逐栋实测总层数待核。",
+      "facadeDivisions": 15,
+      "baseM": 26.31,
+      "roofFinishEvidence": {
+        "bandsXZ": [
+          [
+            [
+              71.317,
+              -200.096
+            ],
+            [
+              76.677,
+              -204.853
+            ],
+            [
+              78.707,
+              -202.544
+            ],
+            [
+              73.838,
+              -197.515
+            ]
+          ],
+          [
+            [
+              82.294,
+              -191.124
+            ],
+            [
+              109.896,
+              -216.157
+            ],
+            [
+              111.22,
+              -217.391
+            ],
+            [
+              112.704,
+              -215.597
+            ],
+            [
+              104.909,
+              -207.49
+            ],
+            [
+              84.317,
+              -190.044
+            ]
+          ]
+        ],
+        "acquired": "2025-04-13",
+        "sensor": "WorldView-3",
+        "nativePixelMetres": 0.31,
+        "sampledPixelMetres": 0.6,
+        "spatialReference": "EPSG:3857",
+        "orthophotoMetadata": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.98853883734418%2C37.73407696521402&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSAMP_RES%2CSRC_DESC%2CNICE_DESC&returnGeometry=false",
+        "scope": "屋面短色块与东南条带依据影像中可见屋面四角校核，按相对位置转入现有模型。表现屋面色调分区，实际构造和高差待核。"
+      }
+    },
+    {
+      "code": "S4",
+      "name": "S4 学生宿舍",
+      "kind": "dorm",
+      "grossArea": 14959,
+      "placeAliases": [
+        "黄渤海校区医务室"
+      ],
+      "polygons": [
+        {
+          "ring": [
+            [
+              115.72,
+              -150.58
+            ],
+            [
+              147.46,
+              -177.49
+            ],
+            [
+              163.35,
+              -159.5
+            ],
+            [
+              131.92,
+              -131.91
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan+guide",
+      "labelXZ": [
+        139.62,
+        -155.04
+      ],
+      "areaM2": 1016.2,
+      "displayHeightM": 46.5,
+      "heightBasis": "校方2026年校区图中的塔楼规模和排次；一期结合总建筑面积，S6/S7结合校方餐厅外观照片核验。体量及立面分格为近似，逐栋实测总层数待核。",
+      "facadeDivisions": 15,
+      "baseM": 26.73,
+      "roofFinishEvidence": {
+        "bandsXZ": [
+          [
+            [
+              121.218,
+              -148.339
+            ],
+            [
+              125.813,
+              -151.994
+            ],
+            [
+              129.776,
+              -148.352
+            ],
+            [
+              124.798,
+              -144.066
+            ]
+          ],
+          [
+            [
+              132.606,
+              -141.006
+            ],
+            [
+              139.683,
+              -147.298
+            ],
+            [
+              139.582,
+              -150.595
+            ],
+            [
+              149.226,
+              -159.088
+            ],
+            [
+              152.693,
+              -157.41
+            ],
+            [
+              152.35,
+              -156.44
+            ],
+            [
+              133.184,
+              -139.734
+            ]
+          ]
+        ],
+        "acquired": "2025-04-13",
+        "sensor": "WorldView-3",
+        "nativePixelMetres": 0.31,
+        "sampledPixelMetres": 0.6,
+        "spatialReference": "EPSG:3857",
+        "orthophotoMetadata": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.98908585687727%2C37.73359684484607&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSAMP_RES%2CSRC_DESC%2CNICE_DESC&returnGeometry=false",
+        "scope": "两处深色区域在可见屋顶四边校核后转入原模型的屋面坐标。均用现有屋面高程表现，实际屋面高差与构造待核。"
+      },
+      "facadeEvidence": {
+        "schoolGuide": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+        "schoolClinicPhotos": "https://zwc.ytkj.edu.cn/info/1090/1613.htm",
+        "southeastVerticalFrames": {
+          "edgeFromNortheastXZ": [
+            [
+              163.35,
+              -159.5
+            ],
+            [
+              131.92,
+              -131.91
+            ]
+          ],
+          "centresFromSouthwest": [
+            0.055,
+            0.212,
+            0.372,
+            0.532,
+            0.692,
+            0.852
+          ],
+          "displayWidthM": 1.12,
+          "displayHeightFraction": [
+            0.09,
+            0.95
+          ],
+          "acquired": "2025-04-13",
+          "sensor": "WorldView-3",
+          "sampledPixelMetres": 0.6,
+          "scope": "东南长面六道主竖带的站位由斜视卫星图对齐屋檐后读取。校方2026年9月导览和医务室近景用于核对楼号及浅竖框与深窗间板的做法。竖带宽度、高度采用展示值。竖带间窗格依照影像可见节奏排布，沿用资料中的楼层示意，医务室入口所在立面待核。"
+        }
+      }
+    },
+    {
+      "code": "S5",
+      "name": "S5 学生宿舍",
+      "kind": "dorm",
+      "grossArea": 16032,
+      "placeAliases": [],
+      "polygons": [
+        {
+          "ring": [
+            [
+              138.6,
+              -87.99
+            ],
+            [
+              189.61,
+              -129.76
+            ],
+            [
+              209.32,
+              -104.93
+            ],
+            [
+              157.3,
+              -63.2
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan+guide",
+      "labelXZ": [
+        173.85,
+        -96.46
+      ],
+      "areaM2": 2079.9,
+      "displayHeightM": 37.2,
+      "heightBasis": "校方2026年校区图中的塔楼规模和排次；一期结合总建筑面积，S6/S7结合校方餐厅外观照片核验。体量及立面分格为近似，逐栋实测总层数待核。",
+      "facadeDivisions": 12,
+      "baseM": 30.86,
+      "roofFinishEvidence": {
+        "bandsXZ": [
+          [
+            [
+              144.487,
+              -87.769
+            ],
+            [
+              157.832,
+              -98.837
+            ],
+            [
+              161.502,
+              -94.574
+            ],
+            [
+              148.055,
+              -82.794
+            ]
+          ],
+          [
+            [
+              155.716,
+              -71.096
+            ],
+            [
+              169.523,
+              -82.561
+            ],
+            [
+              172.185,
+              -78.829
+            ],
+            [
+              158.541,
+              -67.362
+            ]
+          ],
+          [
+            [
+              179.26,
+              -91.759
+            ],
+            [
+              201.243,
+              -109.491
+            ],
+            [
+              204.655,
+              -104.925
+            ],
+            [
+              182.924,
+              -87.291
+            ]
+          ]
+        ],
+        "acquired": "2025-04-13",
+        "sensor": "WorldView-3",
+        "nativePixelMetres": 0.31,
+        "sampledPixelMetres": 0.6,
+        "spatialReference": "EPSG:3857",
+        "orthophotoMetadata": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.98947465419076%2C37.73306906381483&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSAMP_RES%2CSRC_DESC%2CNICE_DESC&returnGeometry=false",
+        "scope": "三处深色区依据斜视影像里的可见上部屋面，按相对位置转入现有模型。现有投影外轮廓与该上部屋面尺寸存在差别，色区范围随模型概化，实际尺寸、构造和高差待核。"
+      }
+    },
+    {
+      "code": "dining",
+      "name": "蓬莱阁餐厅",
+      "kind": "diningPodium",
+      "grossArea": 3527,
+      "parents": [
+        "S1",
+        "S2"
+      ],
+      "polygons": [
+        {
+          "ring": [
+            [
+              4.55,
+              -150.05
+            ],
+            [
+              67.95,
+              -73.07
+            ],
+            [
+              119.74,
+              -118.18
+            ],
+            [
+              57.28,
+              -192.77
+            ],
+            [
+              50.76,
+              -187.49
+            ],
+            [
+              56.24,
+              -191.79
+            ],
+            [
+              67.39,
+              -172.61
+            ],
+            [
+              20.88,
+              -135.41
+            ],
+            [
+              8.17,
+              -152.98
+            ]
+          ],
+          "holes": [
+            [
+              [
+                55.19,
+                -94.32
+              ],
+              [
+                100.05,
+                -132.92
+              ],
+              [
+                114.28,
+                -115.32
+              ],
+              [
+                68.41,
+                -77.09
+              ]
+            ]
+          ]
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan+guide",
+      "labelXZ": [
+        61.99,
+        -134.16
+      ],
+      "areaM2": 4081.5,
+      "displayHeightM": 4.2,
+      "heightBasis": "校方总平及在用导览提供位置，当前低层体量为显示近似。",
+      "facadeDivisions": 1,
+      "baseM": 29.74
+    },
+    {
+      "code": "link",
+      "name": "连廊",
+      "kind": "link",
+      "grossArea": 1512,
+      "polygons": [
+        {
+          "ring": [
+            [
+              -15.12,
+              187.57
+            ],
+            [
+              -1.49,
+              181.27
+            ],
+            [
+              10.62,
+              180.31
+            ],
+            [
+              21.32,
+              181.99
+            ],
+            [
+              68.82,
+              209.04
+            ],
+            [
+              72.97,
+              205.14
+            ],
+            [
+              11.51,
+              152.1
+            ],
+            [
+              -44.16,
+              85.79
+            ],
+            [
+              -49.61,
+              88.3
+            ],
+            [
+              -16.12,
+              133.74
+            ],
+            [
+              -9.92,
+              150.08
+            ],
+            [
+              -11.64,
+              162.13
+            ],
+            [
+              -20.15,
+              176.65
+            ],
+            [
+              -34.5,
+              193.49
+            ],
+            [
+              -33.16,
+              195.07
+            ],
+            [
+              -28.3,
+              197.88
+            ]
+          ],
+          "holes": [
+            [
+              [
+                -1.8304,
+                147.2799
+              ],
+              [
+                0.4366,
+                146.5265
+              ],
+              [
+                3.6482,
+                148.0334
+              ],
+              [
+                8.5599,
+                151.1414
+              ],
+              [
+                13.2828,
+                156.7923
+              ],
+              [
+                15.0775,
+                160.4654
+              ],
+              [
+                14.5108,
+                163.1025
+              ],
+              [
+                11.866,
+                164.8919
+              ],
+              [
+                6.5763,
+                166.5872
+              ],
+              [
+                0.5311,
+                168.1883
+              ],
+              [
+                -4.4752,
+                168.2825
+              ],
+              [
+                -6.081,
+                166.0221
+              ],
+              [
+                -6.2699,
+                161.9723
+              ],
+              [
+                -5.3253,
+                157.0748
+              ],
+              [
+                -4.0974,
+                153.025
+              ]
+            ]
+          ]
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan",
+      "labelXZ": [
+        -5.03,
+        141.91
+      ],
+      "areaM2": 2379.5,
+      "displayHeightM": 5.77,
+      "heightBasis": "沿用既有连廊桥面显示高度，栏杆和支柱按照片示意，柱脚依模型地面落位。没有竣工桥面标高、净高或端头坡度。",
+      "facadeDivisions": 1,
+      "baseM": 34.36,
+      "viewSpanM": 170,
+      "viewFrom": [
+        0.67,
+        0.58,
+        -0.44
+      ],
+      "publicNote": "三向架空步行连廊，桥面露天，中部设开口。",
+      "facadeEvidence": {
+        "page": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+        "sources": {
+          "schoolPlan": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+          "firstPhasePlan": "https://www.aiib.org/en/projects/details/2024/_download/China/ES-Impact-Assesment.pdf#page=15",
+          "schoolNightPhotoPage": "https://www.youzy.cn/news/detail?id=690242651a29d9225a8da88e",
+          "schoolNightPhoto": "https://i7.youj.cc/umedia/photos/1015/scout/251030_cb6346fb417f4dcb869863142d150fd0_3d463fa88510d8bee7e3a16216adaef7.jpg",
+          "orthophoto": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.98748564720154%2C37.7307763368216&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_DESC%2CSRC_ACC%2CSAMP_RES&returnGeometry=false",
+          "sceneDate": "2025-04-13",
+          "imageLimits": "根据校方总图、校方招生稿中的夜航图和 2025-04-13 WorldView-3 核对三向桥面、开口与桥下视线。柱位、标高和栏杆尺寸为展示估计，未核验端头楼梯或坡道。"
+        },
+        "openLandingEdgeIndices": [
+          4,
+          7,
+          13,
+          14
+        ],
+        "deckAboveBaseM": 4.6,
+        "deckThicknessM": 0.48,
+        "piers": [
+          {
+            "xz": [
+              -42.636,
+              94.4442
+            ],
+            "modelGroundM": 35.1148
+          },
+          {
+            "xz": [
+              -33.8515,
+              106.2168
+            ],
+            "modelGroundM": 35.1514
+          },
+          {
+            "xz": [
+              -24.5002,
+              119.9673
+            ],
+            "modelGroundM": 35.2674
+          },
+          {
+            "xz": [
+              -15.5267,
+              132.5876
+            ],
+            "modelGroundM": 35.0069
+          },
+          {
+            "xz": [
+              -10.1426,
+              145.773
+            ],
+            "modelGroundM": 34.7226
+          },
+          {
+            "xz": [
+              -16.9436,
+              176.6647
+            ],
+            "modelGroundM": 34.3818
+          },
+          {
+            "xz": [
+              -23.1778,
+              186.7421
+            ],
+            "modelGroundM": 34.3476
+          },
+          {
+            "xz": [
+              18.1946,
+              162.0665
+            ],
+            "modelGroundM": 34.3198
+          },
+          {
+            "xz": [
+              28.2071,
+              170.9196
+            ],
+            "modelGroundM": 34.2525
+          },
+          {
+            "xz": [
+              38.7863,
+              180.7145
+            ],
+            "modelGroundM": 34.094
+          },
+          {
+            "xz": [
+              49.46,
+              190.792
+            ],
+            "modelGroundM": 33.8364
+          },
+          {
+            "xz": [
+              60.4171,
+              199.4567
+            ],
+            "modelGroundM": 33.5187
+          },
+          {
+            "xz": [
+              2.8925,
+              173.1799
+            ],
+            "modelGroundM": 34.2624
+          }
+        ]
+      }
+    },
+    {
+      "code": "stand-1",
+      "name": "田径场看台（西侧）",
+      "kind": "stand",
+      "areaUnorderedPair": [
+        741,
+        1361
+      ],
+      "polygons": [
+        {
+          "ring": [
+            [
+              -251.07,
+              -40.42
+            ],
+            [
+              -254.7,
+              75.12
+            ],
+            [
+              -262.75,
+              74.87
+            ],
+            [
+              -259.13,
+              -40.68
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan",
+      "labelXZ": [
+        -256.91,
+        17.23
+      ],
+      "areaM2": 931.6,
+      "displayHeightM": 3.6,
+      "heightBasis": "校方总平及在用导览提供位置，当前低层体量为显示近似。",
+      "facadeDivisions": 1,
+      "baseM": 38.49
+    },
+    {
+      "code": "stand-2",
+      "name": "田径场看台（东侧）",
+      "kind": "stand",
+      "areaUnorderedPair": [
+        741,
+        1361
+      ],
+      "polygons": [
+        {
+          "ring": [
+            [
+              -137.14,
+              -32.8
+            ],
+            [
+              -140.48,
+              73.34
+            ],
+            [
+              -151.21,
+              73.0
+            ],
+            [
+              -147.88,
+              -33.14
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "plan",
+      "identificationSource": "plan",
+      "labelXZ": [
+        -144.18,
+        20.1
+      ],
+      "areaM2": 1140.5,
+      "displayHeightM": 4.5,
+      "heightBasis": "校方总平及在用导览提供位置，当前低层体量为显示近似。",
+      "facadeDivisions": 1,
+      "baseM": 38.49
+    },
+    {
+      "code": "S6",
+      "name": "S6 学生宿舍",
+      "kind": "dorm",
+      "identificationSource": "guide+three open optical scenes",
+      "planSource": "sentinelScenes",
+      "polygons": [
+        {
+          "ring": [
+            [
+              193.6,
+              80.03
+            ],
+            [
+              229.77,
+              43.24
+            ],
+            [
+              239.76,
+              53.06
+            ],
+            [
+              203.58,
+              89.85
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "placeAliases": [
+        "滕王阁餐厅"
+      ],
+      "supportedRoofAxisChipXY": [
+        [
+          61.5,
+          93.0
+        ],
+        [
+          65.2,
+          89.4
+        ]
+      ],
+      "labelXZ": [
+        216.68,
+        66.55
+      ],
+      "areaM2": 722.6,
+      "displayHeightM": 34.1,
+      "heightBasis": "校方2026年校区图中的塔楼规模和排次；一期结合总建筑面积，S6/S7结合校方餐厅外观照片核验。体量及立面分格为近似，逐栋实测总层数待核。",
+      "facadeDivisions": 11,
+      "baseM": 34.03,
+      "facadeEvidence": {
+        "page": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+        "innerWing": {
+          "sourcePage": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+          "sourcePhoto": "https://zwc.ytkj.edu.cn/__local/F/0F/D9/442E5A2465B7BC10F10B880DEFD_B3063B51_7EA5E.png",
+          "sourceDiagram": "https://zwc.ytkj.edu.cn/__local/B/39/32/2CC4EF2B803D335BBF682C58490_641A2F38_2BEA76.png",
+          "publicationDate": "2026-09-02",
+          "photographDate": null,
+          "resolutionPixels": [
+            602,
+            394
+          ],
+          "observed": "西南入口实拍可见两侧宿舍内长面。两段浅色连续窗间横带，被中部深色竖带及其两侧浅色框分开。各开间显示深灰窗间墙、玻璃和百叶。餐厅近侧和屋顶部分超出相片，餐厅檐口遮住下部。",
+          "scope": "只画连接廊檐口以上两个内长面。根据照片估算中部分界和窗带比例。分格数沿用现用楼高模型的显示约定，开间和板材进深是展示估算，准确尺度、楼层、遮挡部分与其余立面待核。",
+          "face": "东南长面",
+          "orientation": "站在连接廊西南入口，照片左翼。西南端靠餐厅 A 门，东南长边朝向另一侧宿舍。",
+          "edgeFromRestaurantXZ": [
+            [
+              203.58,
+              89.85
+            ],
+            [
+              239.76,
+              53.06
+            ]
+          ],
+          "spineFromRestaurant": [
+            0.51,
+            0.61
+          ],
+          "wingBaysFromRestaurant": [
+            8,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "code": "S7",
+      "name": "S7 学生宿舍",
+      "kind": "dorm",
+      "identificationSource": "guide+three open optical scenes",
+      "planSource": "sentinelScenes",
+      "polygons": [
+        {
+          "ring": [
+            [
+              244.27,
+              121.25
+            ],
+            [
+              284.59,
+              91.38
+            ],
+            [
+              292.93,
+              102.63
+            ],
+            [
+              252.61,
+              132.5
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "placeAliases": [
+        "滕王阁餐厅"
+      ],
+      "supportedRoofAxisChipXY": [
+        [
+          66.4,
+          97.3
+        ],
+        [
+          70.5,
+          94.4
+        ]
+      ],
+      "labelXZ": [
+        268.6,
+        111.94
+      ],
+      "areaM2": 702.7,
+      "displayHeightM": 34.1,
+      "heightBasis": "校方2026年校区图中的塔楼规模和排次；一期结合总建筑面积，S6/S7结合校方餐厅外观照片核验。体量及立面分格为近似，逐栋实测总层数待核。",
+      "facadeDivisions": 11,
+      "baseM": 32.28,
+      "facadeEvidence": {
+        "page": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+        "innerWing": {
+          "sourcePage": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+          "sourcePhoto": "https://zwc.ytkj.edu.cn/__local/F/0F/D9/442E5A2465B7BC10F10B880DEFD_B3063B51_7EA5E.png",
+          "sourceDiagram": "https://zwc.ytkj.edu.cn/__local/B/39/32/2CC4EF2B803D335BBF682C58490_641A2F38_2BEA76.png",
+          "publicationDate": "2026-09-02",
+          "photographDate": null,
+          "resolutionPixels": [
+            602,
+            394
+          ],
+          "observed": "西南入口实拍可见两侧宿舍内长面。两段浅色连续窗间横带，被中部深色竖带及其两侧浅色框分开。各开间显示深灰窗间墙、玻璃和百叶。餐厅近侧和屋顶部分超出相片，餐厅檐口遮住下部。",
+          "scope": "只画连接廊檐口以上两个内长面。根据照片估算中部分界和窗带比例。分格数沿用现用楼高模型的显示约定，开间和板材进深是展示估算，准确尺度、楼层、遮挡部分与其余立面待核。",
+          "face": "西北长面",
+          "orientation": "站在连接廊西南入口，照片右翼。西南端靠餐厅 B 门，西北长边朝向另一侧宿舍。",
+          "edgeFromRestaurantXZ": [
+            [
+              244.27,
+              121.25
+            ],
+            [
+              284.59,
+              91.38
+            ]
+          ],
+          "spineFromRestaurant": [
+            0.44,
+            0.58
+          ],
+          "wingBaysFromRestaurant": [
+            7,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "code": "northwest-gate",
+      "name": "西北门",
+      "kind": "entranceGarden",
+      "planSource": "https://www.aiib.org/en/projects/details/2024/_download/China/ES-Impact-Assesment.pdf#page=15",
+      "identificationSource": "https://ai.ytkj.edu.cn/info/1021/1818.htm",
+      "polygons": [
+        {
+          "ring": [
+            [
+              -169.04,
+              -118.232
+            ],
+            [
+              -168.547,
+              -117.516
+            ],
+            [
+              -168.151,
+              -116.741
+            ],
+            [
+              -167.86,
+              -115.922
+            ],
+            [
+              -167.678,
+              -115.071
+            ],
+            [
+              -167.609,
+              -114.204
+            ],
+            [
+              -167.653,
+              -113.335
+            ],
+            [
+              -167.811,
+              -112.48
+            ],
+            [
+              -168.079,
+              -111.652
+            ],
+            [
+              -168.452,
+              -110.867
+            ],
+            [
+              -168.925,
+              -110.137
+            ],
+            [
+              -169.489,
+              -109.475
+            ],
+            [
+              -170.135,
+              -108.892
+            ],
+            [
+              -170.851,
+              -108.398
+            ],
+            [
+              -171.626,
+              -108.002
+            ],
+            [
+              -172.446,
+              -107.711
+            ],
+            [
+              -173.296,
+              -107.529
+            ],
+            [
+              -174.163,
+              -107.46
+            ],
+            [
+              -175.032,
+              -107.505
+            ],
+            [
+              -175.887,
+              -107.662
+            ],
+            [
+              -176.715,
+              -107.93
+            ],
+            [
+              -177.501,
+              -108.303
+            ],
+            [
+              -178.231,
+              -108.776
+            ],
+            [
+              -178.893,
+              -109.341
+            ],
+            [
+              -179.476,
+              -109.986
+            ],
+            [
+              -188.28,
+              -121.128
+            ],
+            [
+              -188.773,
+              -121.844
+            ],
+            [
+              -189.169,
+              -122.619
+            ],
+            [
+              -189.46,
+              -123.438
+            ],
+            [
+              -189.642,
+              -124.289
+            ],
+            [
+              -189.711,
+              -125.156
+            ],
+            [
+              -189.667,
+              -126.025
+            ],
+            [
+              -189.509,
+              -126.88
+            ],
+            [
+              -189.241,
+              -127.708
+            ],
+            [
+              -188.868,
+              -128.493
+            ],
+            [
+              -188.395,
+              -129.223
+            ],
+            [
+              -187.831,
+              -129.885
+            ],
+            [
+              -187.185,
+              -130.468
+            ],
+            [
+              -186.469,
+              -130.962
+            ],
+            [
+              -185.694,
+              -131.358
+            ],
+            [
+              -184.874,
+              -131.649
+            ],
+            [
+              -184.024,
+              -131.831
+            ],
+            [
+              -183.157,
+              -131.9
+            ],
+            [
+              -182.288,
+              -131.855
+            ],
+            [
+              -181.433,
+              -131.698
+            ],
+            [
+              -180.605,
+              -131.43
+            ],
+            [
+              -179.819,
+              -131.057
+            ],
+            [
+              -179.089,
+              -130.584
+            ],
+            [
+              -178.427,
+              -130.019
+            ],
+            [
+              -177.844,
+              -129.374
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "labelXZ": [
+        -174.196,
+        -114.031
+      ],
+      "areaM2": 327.4,
+      "displayHeightM": 2.25,
+      "baseM": 36.42,
+      "heightBasis": "屏墙高度按校方2025年9月6日迎新照片的正面比例推估。墙厚、背面和字形用模型近似。基面取校区公开DEM插值，未作现场高程测量。",
+      "positionBasis": "一期总平图与2025-04-13俯视图对照确定入口中轴与尺度，边线作圆弧概化。局部坐标X东、Z南（米）。平面控制沿用校园图配准，参照点留一误差3.14—8.51米，入口本身无实测控制点。",
+      "entryGarden": {
+        "centerXZ": [
+          -178.66,
+          -119.68
+        ],
+        "inwardXZ": [
+          0.62,
+          0.7846
+        ],
+        "signRingXZ": [
+          [
+            -179.111,
+            -110.453
+          ],
+          [
+            -178.814,
+            -110.076
+          ],
+          [
+            -169.281,
+            -117.609
+          ],
+          [
+            -169.578,
+            -117.986
+          ]
+        ],
+        "panelRingsXZ": [
+          [
+            [
+              -171.108,
+              -116.777
+            ],
+            [
+              -170.811,
+              -116.4
+            ],
+            [
+              -169.281,
+              -117.609
+            ],
+            [
+              -169.578,
+              -117.986
+            ]
+          ],
+          [
+            [
+              -172.709,
+              -115.512
+            ],
+            [
+              -172.411,
+              -115.135
+            ],
+            [
+              -170.881,
+              -116.344
+            ],
+            [
+              -171.179,
+              -116.721
+            ]
+          ],
+          [
+            [
+              -174.309,
+              -114.247
+            ],
+            [
+              -174.012,
+              -113.87
+            ],
+            [
+              -172.482,
+              -115.079
+            ],
+            [
+              -172.78,
+              -115.456
+            ]
+          ],
+          [
+            [
+              -175.91,
+              -112.982
+            ],
+            [
+              -175.612,
+              -112.606
+            ],
+            [
+              -174.083,
+              -113.815
+            ],
+            [
+              -174.38,
+              -114.191
+            ]
+          ],
+          [
+            [
+              -177.511,
+              -111.717
+            ],
+            [
+              -177.213,
+              -111.341
+            ],
+            [
+              -175.683,
+              -112.55
+            ],
+            [
+              -175.981,
+              -112.926
+            ]
+          ],
+          [
+            [
+              -179.111,
+              -110.453
+            ],
+            [
+              -178.814,
+              -110.076
+            ],
+            [
+              -177.284,
+              -111.285
+            ],
+            [
+              -177.581,
+              -111.662
+            ]
+          ]
+        ],
+        "panelCount": 6,
+        "lettering": {
+          "family": "Ma Shan Zheng",
+          "source": "https://github.com/googlefonts/mashanzheng/tree/6bfdbe288f5935c6e9072cdd6ab1aa102a006aab",
+          "license": "SIL Open Font License 1.1",
+          "use": "以开源毛笔楷体重排六字，近似实物字面。"
+        },
+        "inscription": "烟台科技学院",
+        "photo": {
+          "page": "https://www.ytkj.edu.cn/info/1081/6842.htm",
+          "image": "https://www.ytkj.edu.cn/__local/A/49/A0/535188C71472B6CF496A8828E38_7E24D7E0_132F8.jpg",
+          "published": "2025-09-06",
+          "observation": "浅米色石屏的正面接近正方形，屏间留有竖缝；每屏一个红字。墙前有低绿篱，弧形浅色缘石围住草坪。实景中的临时迎新装饰未作为永久构件。"
+        },
+        "southwestPavilion": {
+          "typeBasis": "一期总平图在西北入口的两翼标出门卫用房。影片中，两栋独立屋体与中央绿岛的相对顺序吻合。",
+          "planSource": "https://www.aiib.org/en/projects/details/2024/_download/China/ES-Impact-Assesment.pdf#page=15",
+          "buildingSchedule": "https://www.aiib.org/en/projects/details/2024/_download/China/ES-Impact-Assesment.pdf#page=16",
+          "officialVideo": "https://www.ytkj.edu.cn/__local/0/73/6F/EC927680FA0AF6ADDCFF78CF449_24F438E8_2BE03120.mp4?e=.mp4",
+          "officialVideoFramesSeconds": [
+            306,
+            308.2
+          ],
+          "dateOfVideoCapture": null,
+          "positionBasis": "航拍片可辨西南一翼浅色薄檐、大块深玻璃、末端浅色包板和屋面后侧暗带。2025-04-13 的 WorldView-3 通过入口中岛、道路和既定西北门位置核对屋盖尺度及相对位置。",
+          "satelliteMetadata": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.9854707120062%2C37.73327826619697&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_DESC%2CSRC_ACC%2CSAMP_RES&returnGeometry=false",
+          "sourceAcquired": "2025-04-13",
+          "sourceNativePixelM": 0.31,
+          "serviceSamplePixelM": 0.6,
+          "localImageGrid": "EPSG:3857",
+          "scope": "只复原可见的西南侧独立屋体。总图标签遮挡部分屋角，屋盖长宽是显示估计。门窗用途、室内、正式分栋编号、实测檐高和标高待核。",
+          "roofRingXZ": [
+            [
+              -203.875,
+              -94.858
+            ],
+            [
+              -187.534,
+              -107.76
+            ],
+            [
+              -182.433,
+              -101.638
+            ],
+            [
+              -198.774,
+              -88.548
+            ]
+          ],
+          "baseLevelBasis": "四边中点及中心按既有地形取样。",
+          "displayEaveM": 3.84,
+          "displayCanopyThicknessM": 0.48,
+          "baseM": 36.95
+        },
+        "northeastPavilion": {
+          "typeBasis": "一期总平图入口东北一侧的门卫圆标与该屋盖中心相距约 4.9 米。影片从校园外向内看时该门房在画面左侧，可按中央绿岛和文化中心的相对位置辨向。",
+          "planSource": "https://www.aiib.org/en/projects/details/2024/_download/China/ES-Impact-Assesment.pdf#page=15",
+          "buildingSchedule": "https://www.aiib.org/en/projects/details/2024/_download/China/ES-Impact-Assesment.pdf#page=16",
+          "officialVideo": "https://www.ytkj.edu.cn/__local/0/73/6F/EC927680FA0AF6ADDCFF78CF449_24F438E8_2BE03120.mp4?e=.mp4",
+          "officialVideoFramesSeconds": [
+            306,
+            308.2
+          ],
+          "dateOfVideoCapture": null,
+          "positionBasis": "2025-04-13 WorldView-3 影像可辨与西南门房分离的浅屋盖。两帧校方航拍核对入口两栋的相对位置、东北侧薄檐、深窗、外端浅包板。",
+          "satelliteMetadata": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.9854707120062%2C37.73327826619697&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_DESC%2CSRC_ACC%2CSAMP_RES&returnGeometry=false",
+          "sourceAcquired": "2025-04-13",
+          "sourceNativePixelM": 0.31,
+          "serviceSamplePixelM": 0.6,
+          "localImageGrid": "EPSG:3857",
+          "scope": "屋体标高、檐厚、实体退距和窗分格为建模估计。临街深窗沿已有步道退后；前檐覆盖部分步道，既有地面轮廓原样保留。实际通行净空、室内、正式分栋编号待核。",
+          "roofRingXZ": [
+            [
+              -149.373,
+              -141.382
+            ],
+            [
+              -164.864,
+              -128.574
+            ],
+            [
+              -160.613,
+              -123.017
+            ],
+            [
+              -145.028,
+              -135.449
+            ]
+          ],
+          "referenceCornersArchiveZoom17": [
+            [
+              428.2,
+              429.1
+            ],
+            [
+              411.8,
+              442.7
+            ],
+            [
+              416.3,
+              448.6
+            ],
+            [
+              432.8,
+              435.4
+            ]
+          ],
+          "baseLevelBasis": "屋盖四边中点及中心按现模型地形取样。",
+          "displayEaveM": 4.05,
+          "displayCanopyThicknessM": 0.48,
+          "bodyFrontFraction": 0.31,
+          "baseM": 35.89
+        }
+      }
+    },
+    {
+      "code": "ancillary-1",
+      "name": "1号配套用房",
+      "kind": "ancillary",
+      "viewFrom": [
+        0.65,
+        1.5,
+        -0.55
+      ],
+      "polygons": [
+        {
+          "ring": [
+            [
+              113.194,
+              -195.438
+            ],
+            [
+              129.665,
+              -175.133
+            ],
+            [
+              140.321,
+              -183.972
+            ],
+            [
+              123.849,
+              -204.277
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "labelXZ": [
+        126.757,
+        -189.705
+      ],
+      "areaM2": 361.94,
+      "baseM": 25.44,
+      "displayHeightM": 3.6,
+      "heightBasis": "实测层数与檐高待核。模型采用 3.6 米低层体量示意。",
+      "planSource": "plan",
+      "identificationSource": "ancillaryTable",
+      "baseBasis": "按新增建筑前网页地形的 77 个等距样点取中位数。",
+      "displayHeightOnly": true,
+      "publicNote": "位于 S3、S4 宿舍之间。一期工程总图编号 16，屋面遮挡处按可见边线近似还原。",
+      "positionBasis": "一期总图的两个可辨角与东北边确定方向，遮挡处按平行关系延伸，各边内收 1.5 米。2025-04-13 WorldView-3 影像校核屋面存在与相对位置。"
+    },
+    {
+      "code": "service-S6-S7",
+      "name": "滕王阁餐厅",
+      "kind": "diningPodium",
+      "placeAliases": [],
+      "polygons": [
+        {
+          "ring": [
+            [
+              203.58,
+              89.85
+            ],
+            [
+              244.27,
+              121.25
+            ],
+            [
+              254.35,
+              113.7825
+            ],
+            [
+              212.625,
+              80.6525
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "planSource": "guide",
+      "identificationSource": "guide",
+      "labelXZ": [
+        225.819,
+        103.096
+      ],
+      "areaM2": 651.9,
+      "displayHeightM": 6.65,
+      "facadeDivisions": 1,
+      "baseM": 33.155,
+      "viewSpanM": 65,
+      "viewFrom": [
+        -0.6109323924410771,
+        0.44,
+        0.7916827722429116
+      ],
+      "heightBasis": "入口檐口及两侧玻璃门见校方实拍。以门高为参照估算檐高，层高、各墙面标高和餐厅完整后界待实测。",
+      "facadeEvidence": {
+        "frontFromXZ": [
+          203.58,
+          89.85
+        ],
+        "frontToXZ": [
+          244.27,
+          121.25
+        ],
+        "rearFractionOfTower": 0.25,
+        "represented": "S6、S7西南端之间的入口前段，校方公布3600平方米为整处餐厅规模。",
+        "frontageAlcoveM": 1.2,
+        "thresholdRiseM": 0.48,
+        "inscription": "滕王阁餐厅",
+        "entranceMarkers": [
+          "A",
+          "B"
+        ],
+        "sourcePage": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+        "photo": "https://zwc.ytkj.edu.cn/__local/F/0F/D9/442E5A2465B7BC10F10B880DEFD_B3063B51_7EA5E.png",
+        "diagram": "https://zwc.ytkj.edu.cn/__local/B/39/32/2CC4EF2B803D335BBF682C58490_641A2F38_2BEA76.png",
+        "sourceDate": "2026-09-02",
+        "fasciaJoints": {
+          "centresFromFacadeMidM": [
+            -14.556, -13.453, -12.451, -11.499, -10.447, -9.445,
+            -8.393, -7.341, -6.339, -5.336, -4.334, -3.282,
+            -2.28, -1.278, -0.276, 0.726, 1.728, 2.73,
+            3.732, 4.735, 5.687, 6.639, 7.591, 8.593,
+            9.545, 10.497, 11.499, 12.401, 13.403, 14.304
+          ],
+          "rowsFromBottom": [0.125, 0.558],
+          "widthM": 0.045,
+          "basis": "校方正面照片的白色檐面可辨两条横缝及规则竖缝。缝位按 A、B 门标间距校定照片横向尺度，缝宽为展示估计，限于照片可见中段。"
+        },
+        "sentinelScenes": [
+          "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2A_51SUB_20261014_1_L2A",
+          "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2B_51SUB_20261007_0_L2A",
+          "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2C_51SUB_20261002_1_L2A"
+        ],
+        "positionBasis": "校方带号图与A/B门照片确认两塔西南端。三期原生10米影像在跨间西南端显示持续浅色横带；主体仅建至两塔长轴约四分之一。门宽、墙基及后界均为近似。",
+        "lettering": "轮廓使用 SIL OFL 1.1 的 Ma Shan Zheng 与 Noto Sans SC 字形。"
+      }
+    }
+  ],
+  "courtyardsXZ": [
+    [
+      [
+        -138.24,
+        183.69
+      ],
+      [
+        -102.72,
+        154.21
+      ],
+      [
+        -96.89,
+        160.78
+      ],
+      [
+        -99.04,
+        165.09
+      ],
+      [
+        -92.3,
+        175.05
+      ],
+      [
+        -87.64,
+        176.54
+      ],
+      [
+        -79.36,
+        169.41
+      ],
+      [
+        -74.82,
+        174.59
+      ],
+      [
+        -118.24,
+        209.87
+      ]
+    ],
+    [
+      [
+        -96.82,
+        233.41
+      ],
+      [
+        -59.24,
+        202.32
+      ],
+      [
+        -40.16,
+        225.44
+      ],
+      [
+        -35.68,
+        221.89
+      ],
+      [
+        -30.49,
+        227.77
+      ],
+      [
+        -74.56,
+        262.35
+      ]
+    ],
+    [
+      [
+        -54.82,
+        286.17
+      ],
+      [
+        -15.16,
+        252.79
+      ],
+      [
+        -10.33,
+        259.33
+      ],
+      [
+        -12.82,
+        263.96
+      ],
+      [
+        -4.35,
+        271.96
+      ],
+      [
+        -0.96,
+        271.06
+      ],
+      [
+        10.96,
+        287.24
+      ],
+      [
+        7.41,
+        293.18
+      ],
+      [
+        0.89,
+        286.92
+      ],
+      [
+        -25.32,
+        308.96
+      ],
+      [
+        -24.8,
+        313.68
+      ],
+      [
+        -19.87,
+        317.2
+      ],
+      [
+        -29.3,
+        328.67
+      ],
+      [
+        -33.27,
+        326.86
+      ],
+      [
+        -27.67,
+        319.64
+      ]
+    ]
+  ],
+  "phase1BoundaryXZ": [
+    [
+      -322.19,
+      -42.66
+    ],
+    [
+      35.64,
+      -316.51
+    ],
+    [
+      71.79,
+      -312.68
+    ],
+    [
+      263.37,
+      -83.39
+    ],
+    [
+      195.59,
+      -20.97
+    ],
+    [
+      191.32,
+      157.76
+    ],
+    [
+      216.13,
+      180.06
+    ],
+    [
+      200.82,
+      197.07
+    ],
+    [
+      221.74,
+      215.21
+    ],
+    [
+      -28.63,
+      403.67
+    ],
+    [
+      -315.71,
+      50.34
+    ],
+    [
+      -277.21,
+      21.96
+    ]
+  ],
+  "supportLevelsM": {
+    "teaching-west": 34.6,
+    "dorm-dining": 29.74,
+    "sports-culture": 34.16,
+    "athletics": 38.49
+  },
+  "heightCrosscheck": {
+    "S1": {
+      "planFootprintM2": 1347.7,
+      "grossAreaM2": 13601,
+      "grossAreaEquivalentFootprints": 10.09,
+      "levelCountSurveyed": false
+    },
+    "S2": {
+      "planFootprintM2": 1317.3,
+      "grossAreaM2": 13825,
+      "grossAreaEquivalentFootprints": 10.49,
+      "levelCountSurveyed": false
+    },
+    "S3": {
+      "planFootprintM2": 1019.7,
+      "grossAreaM2": 14959,
+      "grossAreaEquivalentFootprints": 14.67,
+      "levelCountSurveyed": false
+    },
+    "S4": {
+      "planFootprintM2": 1016.2,
+      "grossAreaM2": 14959,
+      "grossAreaEquivalentFootprints": 14.72,
+      "levelCountSurveyed": false
+    },
+    "S5": {
+      "planFootprintM2": 2079.9,
+      "grossAreaM2": 16032,
+      "grossAreaEquivalentFootprints": 7.71,
+      "levelCountSurveyed": false
+    },
+    "G1": {
+      "planFootprintM2": 1080.6,
+      "grossAreaM2": 16418,
+      "grossAreaEquivalentFootprints": 15.19,
+      "levelCountSurveyed": false
+    },
+    "G2": {
+      "planFootprintM2": 1364.0,
+      "grossAreaM2": 25687,
+      "grossAreaEquivalentFootprints": 18.83,
+      "levelCountSurveyed": false
+    }
+  },
+  "services": [
+    {
+      "id": "dining",
+      "name": "蓬莱阁餐厅",
+      "buildings": [
+        "S1",
+        "S2",
+        "dining"
+      ],
+      "icon": "dining",
+      "keywords": "食堂 餐厅",
+      "note": "在 S1、S2 宿舍楼下。",
+      "atGround": true
+    },
+    {
+      "id": "service-G2",
+      "name": "快递物流中心",
+      "buildings": [
+        "G2"
+      ],
+      "icon": "pin",
+      "keywords": "快递驿站 邮寄 寄件 收件 取件 包裹",
+      "note": "在 G2 国际交流中心楼下。",
+      "atGround": true,
+      "viewFrom": [
+        -0.645,
+        0.33,
+        -0.764
+      ]
+    },
+    {
+      "id": "service-S4",
+      "name": "黄渤海校区医务室",
+      "buildings": [
+        "S4"
+      ],
+      "icon": "pin",
+      "keywords": "校医 医疗 卫生室",
+      "note": "在 S4 宿舍楼下。",
+      "atGround": true
+    },
+    {
+      "id": "service-S6-S7",
+      "name": "滕王阁餐厅",
+      "buildings": [
+        "S6",
+        "S7",
+        "service-S6-S7"
+      ],
+      "icon": "dining",
+      "keywords": "食堂 餐厅",
+      "note": "S6、S7 宿舍之间的西南入口。模型呈现临街前段。"
+    },
+    {
+      "id": "gym-S5",
+      "name": "健身房",
+      "buildings": [
+        "S5"
+      ],
+      "icon": "sports",
+      "keywords": "健身 锻炼",
+      "note": "在 S5 宿舍楼下。",
+      "atGround": true
+    },
+    {
+      "id": "laundry-G2",
+      "name": "G2 洗衣房",
+      "buildings": [
+        "G2"
+      ],
+      "icon": "pin",
+      "keywords": "洗衣机 洗衣服",
+      "note": "位于 G2 国际交流中心。",
+      "source": "https://zwc.ytkj.edu.cn/info/1018/1598.htm"
+    },
+    {
+      "id": "reading-J3",
+      "name": "观海阅读空间",
+      "buildings": [
+        "J3"
+      ],
+      "icon": "library",
+      "keywords": "图书馆 观海空间 阅览室 借书 图书借阅 新书",
+      "note": "位于 J3 教学楼。",
+      "source": "https://lib.ytkj.edu.cn/info/1077/3657.htm"
+    },
+    {
+      "id": "hall-J5-120",
+      "name": "国际学术报告厅",
+      "buildings": [
+        "J5"
+      ],
+      "icon": "hall",
+      "keywords": "国际报告厅 礼堂 J5-120",
+      "note": "位于博雅楼（J5）120 室。",
+      "source": "https://www.ytkj.edu.cn/info/1081/8550.htm"
+    },
+    {
+      "id": "office-stadium-104",
+      "name": "体育与健康学院办公室",
+      "buildings": [
+        "stadium"
+      ],
+      "icon": "sports",
+      "keywords": "体育保健课 体育学院 体育馆104",
+      "note": "在风雨操场（体育馆）一楼 104 室。",
+      "source": "https://jwc.ytkj.edu.cn/info/1121/3827.htm"
+    }
+  ]
+}

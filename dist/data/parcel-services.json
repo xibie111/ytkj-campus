@@ -1,0 +1,62 @@
+{
+  "published": "2026-09-02",
+  "positioning": "Approximate visitor destinations based on the university guide. The Dongshan plan outlines are corroborated by two dated orthophotos; entrance and ground levels remain unsurveyed.",
+  "locations": [
+    {
+      "id": "parcel-main",
+      "name": "快递驿站（主校区）",
+      "x": -307,
+      "z": 374,
+      "near": "田径场北门外",
+      "aliases": "快递 物流中心 快递物流中心 菜鸟驿站 主校区",
+      "source": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+      "sourceLabel": "校方后勤指南",
+      "sourcePhoto": "https://zwc.ytkj.edu.cn/__local/F/A0/87/938CFF46C5484B131ACAF598F5A_19A21527_1B1F15.png",
+      "span": 150
+    },
+    {
+      "id": "parcel-east",
+      "name": "快递驿站（东山）",
+      "x": 240,
+      "z": -60,
+      "near": "仙境食府南主干道西南侧",
+      "aliases": "快递 物流中心 快递物流中心 菜鸟驿站 东山",
+      "source": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+      "sourceLabel": "校方后勤指南",
+      "sourcePhoto": "https://zwc.ytkj.edu.cn/__local/4/5F/16/C87ADD189D2961B12E2E7CC773B_6D5A852E_E2050.png",
+      "span": 64,
+      "model": {
+        "grade": {
+          "anchorXZ": [242, -53],
+          "levelMetres": 43.5,
+          "slopeXZ": [0, 0.016],
+          "ringXZ": [[227.75, -70.25], [244.25, -74.5], [252, -63.75], [258, -38], [251.75, -36.75], [235.25, -37], [229.5, -63]],
+          "blendMetres": 9,
+          "subdivisions": 6,
+          "allowFill": true,
+          "maximumCutMetres": 3.8,
+          "maximumFillMetres": 2.6
+        },
+        "viewCenter": [243, -52],
+        "viewDirection": [-0.38, 0.47, -1],
+        "viewWidth": 40,
+        "eye": 2.1
+      },
+      "plan": {
+        "center": [242, -67],
+        "span": 110,
+        "roofs": [
+          [[229.5, -63], [234.5, -64], [241, -38], [235.25, -37]],
+          [[246.5, -62.25], [252, -63.75], [258, -38], [251.75, -36.75]]
+        ],
+        "yard": [[236.5, -91.25], [245, -90], [244.25, -74.5], [248.25, -71.25], [251.5, -68.5], [252, -63.75], [258, -38], [251.75, -36.75], [235.25, -37], [229.5, -63], [227.75, -70.25], [238, -73.25]],
+        "accessRoad": [[175, -127.5], [181, -121.5], [187, -116.5], [194, -111.25], [203, -106.5], [214, -102], [227, -98.25], [241, -95.25], [254, -93], [260, -93], [264, -97], [269, -96], [268, -90], [262, -87.25], [255, -87.25], [241, -89.25], [226, -92], [213, -95], [202, -99.25], [191, -104], [184, -109.25], [179, -114], [174, -120]],
+        "references": [
+          {"date": "2024-03-09", "archive": "13192", "sensor": "WV03", "sourceResolutionMetres": 0.31, "displaySampleMetres": 0.6},
+          {"date": "2025-06-02", "archive": "3692", "sensor": "LG02", "sourceResolutionMetres": 0.34, "displaySampleMetres": 0.6}
+        ],
+        "geometrySource": "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.70798%2C37.80653%2C18"
+      }
+    }
+  ]
+}

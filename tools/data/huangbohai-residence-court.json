@@ -1,0 +1,401 @@
+{
+  "edgeXZ": [
+    [
+      101.567,
+      -83.504
+    ],
+    [
+      144.742,
+      -34.778
+    ],
+    [
+      117.461,
+      -10.826
+    ],
+    [
+      74.726,
+      -58.468
+    ]
+  ],
+  "blueSideXZ": [
+    [
+      120.667,
+      -61.948
+    ],
+    [
+      144.742,
+      -34.778
+    ],
+    [
+      117.461,
+      -10.826
+    ],
+    [
+      93.356,
+      -37.699
+    ]
+  ],
+  "tealSideXZ": [
+    [
+      101.567,
+      -83.504
+    ],
+    [
+      120.667,
+      -61.948
+    ],
+    [
+      93.356,
+      -37.699
+    ],
+    [
+      74.726,
+      -58.468
+    ]
+  ],
+  "bluePatchesXZ": [
+    [
+      [
+        104.104,
+        -76.365
+      ],
+      [
+        115.227,
+        -64.043
+      ],
+      [
+        109.883,
+        -59.218
+      ],
+      [
+        98.76,
+        -71.541
+      ]
+    ],
+    [
+      [
+        95.769,
+        -68.437
+      ],
+      [
+        106.557,
+        -56.485
+      ],
+      [
+        100.321,
+        -50.857
+      ],
+      [
+        89.533,
+        -62.808
+      ]
+    ],
+    [
+      [
+        87.582,
+        -60.642
+      ],
+      [
+        98.302,
+        -48.765
+      ],
+      [
+        92.141,
+        -43.204
+      ],
+      [
+        81.42,
+        -55.081
+      ]
+    ]
+  ],
+  "tealPatchesXZ": [
+    [
+      [
+        121.805,
+        -54.218
+      ],
+      [
+        137.752,
+        -36.551
+      ],
+      [
+        130.403,
+        -29.918
+      ],
+      [
+        114.456,
+        -47.585
+      ]
+    ],
+    [
+      [
+        107.797,
+        -41.978
+      ],
+      [
+        123.744,
+        -24.311
+      ],
+      [
+        115.95,
+        -17.275
+      ],
+      [
+        100.003,
+        -34.942
+      ]
+    ]
+  ],
+  "evidence": {
+    "name": "S5 西南室外场坪",
+    "photoGuide": "https://zwc.ytkj.edu.cn/info/1090/1684.htm",
+    "reference": {
+      "source": "Esri / Vantor WorldView-3 (World Imagery Wayback)",
+      "metadata": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.98873019218445%2C37.73261764185057&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_DESC%2CSRC_ACC%2CSAMP_RES&returnGeometry=false",
+      "captureDate": "2025-04-13",
+      "crs": "EPSG:3857",
+      "nativeGsdM": 0.31,
+      "resampledGsdM": 0.6,
+      "providerHorizontalAccuracyM": 5,
+      "license": "商业影像仅用作判读，项目不分发参考影像。"
+    },
+    "openVerification": {
+      "scenes": [
+        "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2A_51SUB_20261014_1_L2A",
+        "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2B_51SUB_20261007_0_L2A",
+        "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2C_51SUB_20261002_1_L2A"
+      ],
+      "nativeGsdM": 10,
+      "crs": "EPSG:32651",
+      "scope": "三期内缩 7 米的 13 个场内像元蓝波段显示值均大于红波段，距离场界 6–19 米的 35 个外侧像元均未出现这一现象。仅用于验证场坪总体位置和色系。"
+    },
+    "limits": "蓝、青铺面表达可辨颜色分区。两块青色内场使用可辨网球式白线，其他场地的运动项目及划线待核。影像采样约 0.6 米，各线宽、设施、材料和现场标高未实测。",
+    "markings": {
+      "reference": "2025-04-13 WorldView-3 第 18 级参考影像，沿既有场坪长轴旋转后比较白线亮度峰。",
+      "measurements": [
+        {
+          "court": "north",
+          "extent": [
+            38.15,
+            2.38,
+            62.08,
+            13.62
+          ],
+          "singleZ": [
+            3.92,
+            12.0
+          ],
+          "serviceX": [
+            43.69,
+            56.46
+          ],
+          "centerZ": 7.85
+        },
+        {
+          "court": "south",
+          "extent": [
+            37.92,
+            21.23,
+            61.77,
+            32.54
+          ],
+          "singleZ": [
+            23.0,
+            30.92
+          ],
+          "serviceX": [
+            43.46,
+            55.85
+          ],
+          "centerZ": 27.0
+        }
+      ],
+      "geometryBasis": "两块青色内场的外框、单打边线与发球区分隔可见。模型按影像相对间距绘制，线宽采用有助于近景辨认的示意值。",
+      "layoutCheck": "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+    }
+  },
+  "markingWidthM": 0.08,
+  "markings": [
+    {
+      "id": "north-outer",
+      "pointsXZ": [
+        [
+          122.0904,
+          -54.6782
+        ],
+        [
+          138.1248,
+          -36.9146
+        ],
+        [
+          129.7812,
+          -29.3832
+        ],
+        [
+          113.7468,
+          -47.1467
+        ],
+        [
+          122.0904,
+          -54.6782
+        ]
+      ]
+    },
+    {
+      "id": "north-singles-near",
+      "pointsXZ": [
+        [
+          120.9472,
+          -53.6463
+        ],
+        [
+          136.9816,
+          -35.8827
+        ]
+      ]
+    },
+    {
+      "id": "north-singles-far",
+      "pointsXZ": [
+        [
+          114.9493,
+          -48.2322
+        ],
+        [
+          130.9837,
+          -30.4687
+        ]
+      ]
+    },
+    {
+      "id": "north-service-left",
+      "pointsXZ": [
+        [
+          124.6593,
+          -49.5339
+        ],
+        [
+          118.6614,
+          -44.1198
+        ]
+      ]
+    },
+    {
+      "id": "north-service-right",
+      "pointsXZ": [
+        [
+          133.2159,
+          -40.0545
+        ],
+        [
+          127.218,
+          -34.6405
+        ]
+      ]
+    },
+    {
+      "id": "north-service-centre",
+      "pointsXZ": [
+        [
+          121.742,
+          -46.9005
+        ],
+        [
+          130.2986,
+          -37.4212
+        ]
+      ]
+    },
+    {
+      "id": "south-outer",
+      "pointsXZ": [
+        [
+          107.9437,
+          -42.2184
+        ],
+        [
+          123.9245,
+          -24.5142
+        ],
+        [
+          115.5289,
+          -16.9359
+        ],
+        [
+          99.5481,
+          -34.6401
+        ],
+        [
+          107.9437,
+          -42.2184
+        ]
+      ]
+    },
+    {
+      "id": "south-singles-near",
+      "pointsXZ": [
+        [
+          106.6298,
+          -41.0324
+        ],
+        [
+          122.6106,
+          -23.3282
+        ]
+      ]
+    },
+    {
+      "id": "south-singles-far",
+      "pointsXZ": [
+        [
+          100.7507,
+          -35.7255
+        ],
+        [
+          116.7315,
+          -18.0214
+        ]
+      ]
+    },
+    {
+      "id": "south-service-left",
+      "pointsXZ": [
+        [
+          110.3419,
+          -36.92
+        ],
+        [
+          104.4628,
+          -31.6131
+        ]
+      ]
+    },
+    {
+      "id": "south-service-right",
+      "pointsXZ": [
+        [
+          118.6439,
+          -27.7227
+        ],
+        [
+          112.7648,
+          -22.4159
+        ]
+      ]
+    },
+    {
+      "id": "south-service-centre",
+      "pointsXZ": [
+        [
+          107.3727,
+          -34.2397
+        ],
+        [
+          115.6746,
+          -25.0425
+        ]
+      ]
+    }
+  ]
+}

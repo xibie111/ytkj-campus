@@ -1,0 +1,12 @@
+{
+  "ridgeFinish": {
+    "widthMetres": 1.1,
+    "color": "#93b6c7"
+  },
+  "sources": [
+    "https://livingatlas.arcgis.com/wayback/#active=16453&mapCenter=120.704165%2C37.806543%2C18",
+    "https://livingatlas.arcgis.com/wayback/#active=13192&mapCenter=120.704165%2C37.806543%2C18",
+    "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.704165%2C37.806543%2C18"
+  ],
+  "basis": "三期影像的浅蓝色顺长屋脊在屋面宽度中部连续可见。沿已有屋脊着色，显示宽度按 2025 年影像。高度与屋架形状沿现模型。"
+}

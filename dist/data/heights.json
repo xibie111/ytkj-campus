@@ -1,0 +1,692 @@
+{
+  "source": "https://zenodo.org/records/7923866",
+  "tile": "CNBH10m_X121Y37.tif",
+  "author": "Wanben Wu",
+  "license": "CC-BY-4.0",
+  "year": 2020,
+  "resolution_m": 10,
+  "model_national_rmse_m": 6.1,
+  "method": "Median of finite, positive height cells with centres in the published footprint; zero excluded. Original 2020 satellite-model estimates.",
+  "buildings": {
+    "B001": {
+      "height_m": 7.626184940338135,
+      "valid_cells": 3,
+      "footprint_cells": 3,
+      "valid_fraction": 1.0,
+      "min_m": 7.597116947174072,
+      "max_m": 7.768647193908691
+    },
+    "B002": {
+      "height_m": 13.427192687988281,
+      "valid_cells": 1,
+      "footprint_cells": 1,
+      "valid_fraction": 1.0,
+      "min_m": 13.427192687988281,
+      "max_m": 13.427192687988281
+    },
+    "B003": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 0,
+      "valid_fraction": null,
+      "min_m": null,
+      "max_m": null
+    },
+    "B004": {
+      "height_m": 10.202550888061523,
+      "valid_cells": 14,
+      "footprint_cells": 15,
+      "valid_fraction": 0.933,
+      "min_m": 9.482669830322266,
+      "max_m": 10.521159172058105
+    },
+    "B005": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 21,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B006": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 0,
+      "valid_fraction": null,
+      "min_m": null,
+      "max_m": null
+    },
+    "B007": {
+      "height_m": 11.279487609863281,
+      "valid_cells": 2,
+      "footprint_cells": 2,
+      "valid_fraction": 1.0,
+      "min_m": 11.104715347290039,
+      "max_m": 11.454258918762207
+    },
+    "B008": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 0,
+      "valid_fraction": null,
+      "min_m": null,
+      "max_m": null
+    },
+    "B009": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 21,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B010": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 0,
+      "valid_fraction": null,
+      "min_m": null,
+      "max_m": null
+    },
+    "B011": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 1,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B012": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 0,
+      "valid_fraction": null,
+      "min_m": null,
+      "max_m": null
+    },
+    "B013": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 6,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B014": {
+      "height_m": 10.214849472045898,
+      "valid_cells": 1,
+      "footprint_cells": 1,
+      "valid_fraction": 1.0,
+      "min_m": 10.214849472045898,
+      "max_m": 10.214849472045898
+    },
+    "B015": {
+      "height_m": 12.723602294921875,
+      "valid_cells": 13,
+      "footprint_cells": 14,
+      "valid_fraction": 0.929,
+      "min_m": 11.47314167022705,
+      "max_m": 13.594827651977539
+    },
+    "B016": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 1,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B017": {
+      "height_m": 9.489530563354492,
+      "valid_cells": 4,
+      "footprint_cells": 5,
+      "valid_fraction": 0.8,
+      "min_m": 9.031280517578125,
+      "max_m": 10.427474021911621
+    },
+    "B018": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 0,
+      "valid_fraction": null,
+      "min_m": null,
+      "max_m": null
+    },
+    "B019": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 8,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B020": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 2,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B021": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 2,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B022": {
+      "height_m": 13.173295974731445,
+      "valid_cells": 2,
+      "footprint_cells": 3,
+      "valid_fraction": 0.667,
+      "min_m": 13.030970573425293,
+      "max_m": 13.315620422363281
+    },
+    "B023": {
+      "height_m": 15.37016487121582,
+      "valid_cells": 13,
+      "footprint_cells": 17,
+      "valid_fraction": 0.765,
+      "min_m": 13.742130279541016,
+      "max_m": 15.983994483947754
+    },
+    "B024": {
+      "height_m": 12.297901153564453,
+      "valid_cells": 2,
+      "footprint_cells": 5,
+      "valid_fraction": 0.4,
+      "min_m": 12.167031288146973,
+      "max_m": 12.428771018981934
+    },
+    "B025": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 1,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B026": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 1,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B027": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 2,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B028": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 2,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B029": {
+      "height_m": 15.153573989868164,
+      "valid_cells": 3,
+      "footprint_cells": 3,
+      "valid_fraction": 1.0,
+      "min_m": 15.09217357635498,
+      "max_m": 15.347444534301758
+    },
+    "B030": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 4,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B031": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 8,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B032": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 2,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B033": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 2,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B034": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 3,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B035": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 2,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B036": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 4,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B037": {
+      "height_m": 9.669035911560059,
+      "valid_cells": 19,
+      "footprint_cells": 22,
+      "valid_fraction": 0.864,
+      "min_m": 9.374197959899902,
+      "max_m": 10.311943054199219
+    },
+    "B038": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 3,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B039": {
+      "height_m": 10.066385269165039,
+      "valid_cells": 6,
+      "footprint_cells": 7,
+      "valid_fraction": 0.857,
+      "min_m": 9.815073013305664,
+      "max_m": 10.13681411743164
+    },
+    "B040": {
+      "height_m": 12.09982967376709,
+      "valid_cells": 12,
+      "footprint_cells": 14,
+      "valid_fraction": 0.857,
+      "min_m": 11.168590545654297,
+      "max_m": 13.094293594360352
+    },
+    "B041": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 0,
+      "valid_fraction": null,
+      "min_m": null,
+      "max_m": null
+    },
+    "B042": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 0,
+      "valid_fraction": null,
+      "min_m": null,
+      "max_m": null
+    },
+    "B043": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 0,
+      "valid_fraction": null,
+      "min_m": null,
+      "max_m": null
+    },
+    "B044": {
+      "height_m": 13.39992618560791,
+      "valid_cells": 5,
+      "footprint_cells": 5,
+      "valid_fraction": 1.0,
+      "min_m": 12.264260292053223,
+      "max_m": 14.062313079833984
+    },
+    "B045": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 0,
+      "valid_fraction": null,
+      "min_m": null,
+      "max_m": null
+    },
+    "B046": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 0,
+      "valid_fraction": null,
+      "min_m": null,
+      "max_m": null
+    },
+    "B047": {
+      "height_m": 14.409008979797363,
+      "valid_cells": 1,
+      "footprint_cells": 1,
+      "valid_fraction": 1.0,
+      "min_m": 14.409008979797363,
+      "max_m": 14.409008979797363
+    },
+    "B048": {
+      "height_m": 14.91338062286377,
+      "valid_cells": 7,
+      "footprint_cells": 7,
+      "valid_fraction": 1.0,
+      "min_m": 13.91767692565918,
+      "max_m": 16.44662094116211
+    },
+    "B049": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 0,
+      "valid_fraction": null,
+      "min_m": null,
+      "max_m": null
+    },
+    "B050": {
+      "height_m": 15.52072525024414,
+      "valid_cells": 6,
+      "footprint_cells": 6,
+      "valid_fraction": 1.0,
+      "min_m": 14.446885108947754,
+      "max_m": 15.800088882446289
+    },
+    "B051": {
+      "height_m": 12.767974853515625,
+      "valid_cells": 3,
+      "footprint_cells": 3,
+      "valid_fraction": 1.0,
+      "min_m": 12.16357707977295,
+      "max_m": 13.071178436279297
+    },
+    "B052": {
+      "height_m": 12.718798637390137,
+      "valid_cells": 2,
+      "footprint_cells": 2,
+      "valid_fraction": 1.0,
+      "min_m": 12.510000228881836,
+      "max_m": 12.927597045898438
+    },
+    "B053": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 0,
+      "valid_fraction": null,
+      "min_m": null,
+      "max_m": null
+    },
+    "B054": {
+      "height_m": 11.793396949768066,
+      "valid_cells": 1,
+      "footprint_cells": 1,
+      "valid_fraction": 1.0,
+      "min_m": 11.793396949768066,
+      "max_m": 11.793396949768066
+    },
+    "B055": {
+      "height_m": 11.649917602539062,
+      "valid_cells": 2,
+      "footprint_cells": 3,
+      "valid_fraction": 0.667,
+      "min_m": 11.52670669555664,
+      "max_m": 11.7731294631958
+    },
+    "B056": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 1,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B057": {
+      "height_m": 8.723199844360352,
+      "valid_cells": 3,
+      "footprint_cells": 17,
+      "valid_fraction": 0.176,
+      "min_m": 8.469260215759277,
+      "max_m": 8.779606819152832
+    },
+    "B058": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 0,
+      "valid_fraction": null,
+      "min_m": null,
+      "max_m": null
+    },
+    "B059": {
+      "height_m": 12.207022666931152,
+      "valid_cells": 4,
+      "footprint_cells": 4,
+      "valid_fraction": 1.0,
+      "min_m": 11.178404808044434,
+      "max_m": 12.337018013000488
+    },
+    "B060": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 0,
+      "valid_fraction": null,
+      "min_m": null,
+      "max_m": null
+    },
+    "B061": {
+      "height_m": 10.668485641479492,
+      "valid_cells": 1,
+      "footprint_cells": 1,
+      "valid_fraction": 1.0,
+      "min_m": 10.668485641479492,
+      "max_m": 10.668485641479492
+    },
+    "B062": {
+      "height_m": 10.715019226074219,
+      "valid_cells": 2,
+      "footprint_cells": 2,
+      "valid_fraction": 1.0,
+      "min_m": 10.540262222290039,
+      "max_m": 10.889775276184082
+    },
+    "B063": {
+      "height_m": 12.435476303100586,
+      "valid_cells": 2,
+      "footprint_cells": 2,
+      "valid_fraction": 1.0,
+      "min_m": 12.386384010314941,
+      "max_m": 12.484569549560547
+    },
+    "B064": {
+      "height_m": 11.445128440856934,
+      "valid_cells": 1,
+      "footprint_cells": 1,
+      "valid_fraction": 1.0,
+      "min_m": 11.445128440856934,
+      "max_m": 11.445128440856934
+    },
+    "B065": {
+      "height_m": 11.14586353302002,
+      "valid_cells": 3,
+      "footprint_cells": 3,
+      "valid_fraction": 1.0,
+      "min_m": 10.985685348510742,
+      "max_m": 11.466450691223145
+    },
+    "B066": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 0,
+      "valid_fraction": null,
+      "min_m": null,
+      "max_m": null
+    },
+    "B067": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 0,
+      "valid_fraction": null,
+      "min_m": null,
+      "max_m": null
+    },
+    "B068": {
+      "height_m": 10.76488971710205,
+      "valid_cells": 2,
+      "footprint_cells": 2,
+      "valid_fraction": 1.0,
+      "min_m": 10.639649391174316,
+      "max_m": 10.890130043029785
+    },
+    "B069": {
+      "height_m": 10.915108680725098,
+      "valid_cells": 5,
+      "footprint_cells": 5,
+      "valid_fraction": 1.0,
+      "min_m": 9.867051124572754,
+      "max_m": 11.174766540527344
+    },
+    "B070": {
+      "height_m": 11.045012474060059,
+      "valid_cells": 4,
+      "footprint_cells": 4,
+      "valid_fraction": 1.0,
+      "min_m": 10.73920726776123,
+      "max_m": 11.75115966796875
+    },
+    "B071": {
+      "height_m": null,
+      "valid_cells": 0,
+      "footprint_cells": 15,
+      "valid_fraction": 0.0,
+      "min_m": null,
+      "max_m": null
+    },
+    "B072": {
+      "height_m": 11.214221954345703,
+      "valid_cells": 6,
+      "footprint_cells": 7,
+      "valid_fraction": 0.857,
+      "min_m": 11.177908897399902,
+      "max_m": 11.29530143737793
+    },
+    "B073": {
+      "height_m": 11.019614219665527,
+      "valid_cells": 1,
+      "footprint_cells": 1,
+      "valid_fraction": 1.0,
+      "min_m": 11.019614219665527,
+      "max_m": 11.019614219665527
+    },
+    "B074": {
+      "height_m": 10.56761646270752,
+      "valid_cells": 2,
+      "footprint_cells": 3,
+      "valid_fraction": 0.667,
+      "min_m": 10.273119926452637,
+      "max_m": 10.862112998962402
+    },
+    "B075": {
+      "height_m": 10.620875358581543,
+      "valid_cells": 3,
+      "footprint_cells": 4,
+      "valid_fraction": 0.75,
+      "min_m": 10.607765197753906,
+      "max_m": 10.686853408813477
+    },
+    "B076": {
+      "height_m": 10.527945518493652,
+      "valid_cells": 1,
+      "footprint_cells": 2,
+      "valid_fraction": 0.5,
+      "min_m": 10.527945518493652,
+      "max_m": 10.527945518493652
+    },
+    "B077": {
+      "height_m": 10.006539344787598,
+      "valid_cells": 2,
+      "footprint_cells": 2,
+      "valid_fraction": 1.0,
+      "min_m": 9.841272354125977,
+      "max_m": 10.171806335449219
+    },
+    "B078": {
+      "height_m": 9.63245677947998,
+      "valid_cells": 1,
+      "footprint_cells": 1,
+      "valid_fraction": 1.0,
+      "min_m": 9.63245677947998,
+      "max_m": 9.63245677947998
+    },
+    "B079": {
+      "height_m": 9.559494018554688,
+      "valid_cells": 4,
+      "footprint_cells": 4,
+      "valid_fraction": 1.0,
+      "min_m": 9.158757209777832,
+      "max_m": 10.147356033325195
+    },
+    "B080": {
+      "height_m": 9.087122917175293,
+      "valid_cells": 3,
+      "footprint_cells": 3,
+      "valid_fraction": 1.0,
+      "min_m": 8.775099754333496,
+      "max_m": 9.162611961364746
+    },
+    "B081": {
+      "height_m": 9.093910217285156,
+      "valid_cells": 3,
+      "footprint_cells": 3,
+      "valid_fraction": 1.0,
+      "min_m": 8.834114074707031,
+      "max_m": 9.225288391113281
+    },
+    "B082": {
+      "height_m": 8.700039863586426,
+      "valid_cells": 5,
+      "footprint_cells": 6,
+      "valid_fraction": 0.833,
+      "min_m": 8.688929557800293,
+      "max_m": 8.798282623291016
+    },
+    "B083": {
+      "height_m": 8.83975601196289,
+      "valid_cells": 4,
+      "footprint_cells": 4,
+      "valid_fraction": 1.0,
+      "min_m": 8.767914772033691,
+      "max_m": 8.870299339294434
+    },
+    "B084": {
+      "height_m": 8.334635734558105,
+      "valid_cells": 3,
+      "footprint_cells": 3,
+      "valid_fraction": 1.0,
+      "min_m": 8.0462646484375,
+      "max_m": 8.430700302124023
+    },
+    "B085": {
+      "height_m": 7.921685218811035,
+      "valid_cells": 4,
+      "footprint_cells": 4,
+      "valid_fraction": 1.0,
+      "min_m": 7.622430801391602,
+      "max_m": 8.080062866210938
+    }
+  }
+}

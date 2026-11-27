@@ -1,0 +1,192 @@
+{
+ "version": 1,
+ "grid": {
+  "size": 320,
+  "minLocalMetres": -1600,
+  "stepMetres": 10,
+  "indexOrder": "rowMajorZThenX"
+ },
+ "runs": [
+  [
+   31241,
+   1
+  ],
+  [
+   31560,
+   2
+  ],
+  [
+   31567,
+   2
+  ],
+  [
+   31880,
+   1
+  ],
+  [
+   31886,
+   3
+  ],
+  [
+   32204,
+   6
+  ],
+  [
+   32523,
+   8
+  ],
+  [
+   32843,
+   3
+  ],
+  [
+   32848,
+   1
+  ],
+  [
+   36675,
+   3
+  ],
+  [
+   36994,
+   4
+  ],
+  [
+   37314,
+   2
+  ],
+  [
+   37635,
+   1
+  ],
+  [
+   46939,
+   2
+  ],
+  [
+   47257,
+   4
+  ],
+  [
+   47577,
+   4
+  ],
+  [
+   47582,
+   2
+  ],
+  [
+   47897,
+   3
+  ],
+  [
+   47903,
+   2
+  ],
+  [
+   48216,
+   3
+  ],
+  [
+   48222,
+   3
+  ],
+  [
+   48536,
+   3
+  ],
+  [
+   48542,
+   2
+  ],
+  [
+   48862,
+   1
+  ],
+  [
+   49492,
+   1
+  ],
+  [
+   49811,
+   2
+  ],
+  [
+   50132,
+   2
+  ]
+ ],
+ "fromClass": 10,
+ "toClass": 20,
+ "classDescription": "东山校界附近低矮草灌，10米混合像元。草与灌木比例未实测。",
+ "clusters": [
+  {
+   "cellCount": 4,
+   "centreXZ": [
+    410.0,
+    -615.0
+   ]
+  },
+  {
+   "cellCount": 23,
+   "centreXZ": [
+    468.9,
+    -591.1
+   ]
+  },
+  {
+   "cellCount": 10,
+   "centreXZ": [
+    359.0,
+    -444.0
+   ]
+  },
+  {
+   "cellCount": 19,
+   "centreXZ": [
+    585.5,
+    -109.7
+   ]
+  },
+  {
+   "cellCount": 10,
+   "centreXZ": [
+    633.0,
+    -97.0
+   ]
+  },
+  {
+   "cellCount": 5,
+   "centreXZ": [
+    525.0,
+    -43.0
+   ]
+  }
+ ],
+ "sourceDates": {
+  "canopyBaseImage": "2018-03-12",
+  "annualCover": [
+   2023,
+   2024
+  ],
+  "calibration": "2024、2025年夏",
+  "heldOut": "2026年夏"
+ },
+ "sources": [
+  {
+   "name": "High Resolution Canopy Height Maps v2 by WRI and Meta",
+   "url": "https://registry.opendata.aws/dataforgood-fb-forestsv2/",
+   "license": "CC BY 4.0"
+  },
+  {
+   "name": "10 m Annual Land Use/Land Cover by Impact Observatory, Microsoft and Esri",
+   "url": "https://registry.opendata.aws/io-lulc/",
+   "license": "CC BY 4.0"
+  },
+  {
+   "name": "Contains modified Copernicus Sentinel data (2024–2026)",
+   "url": "https://dataspace.copernicus.eu/terms-and-conditions"
+  }
+ ],
+ "limits": "10米像元位置。排除建筑及道路边缘。各格内约1米冠层估计的P90不超过2米，最高不超过4米；仅指2018年参考影像的模型估高。2023、2024年两年度产品均为草灌类，2026年夏季光谱独立核对植被持续存在。"
+}

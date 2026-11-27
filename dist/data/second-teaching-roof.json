@@ -1,0 +1,32 @@
+{
+  "roofColor": "#c4b69d",
+  "roofFinishes": [
+    {
+      "ring": [
+        [
+          -138.93,
+          -124.44
+        ],
+        [
+          -119.12,
+          -130.08
+        ],
+        [
+          -116.28,
+          -121.15
+        ],
+        [
+          -135.63,
+          -115.5
+        ]
+      ],
+      "color": "#d1c3aa"
+    }
+  ],
+  "roofDetailSources": [
+    "https://livingatlas.arcgis.com/wayback/#active=16453&mapCenter=120.703836%2C37.807052%2C18",
+    "https://livingatlas.arcgis.com/wayback/#active=13192&mapCenter=120.703836%2C37.807052%2C18",
+    "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.703836%2C37.807052%2C18"
+  ],
+  "basis": "2023-06-05、2024-03-09、2025-06-02 三景均显示暖浅色主屋面及中部矩形轮廓。屋面色取近似。中部仅显示同面轮廓，构件高差和用途待核。"
+}

@@ -1,0 +1,170 @@
+{
+  "units": "m",
+  "source_checked": "2026-11-23",
+  "exact_roof_heights_verified": false,
+  "sources": {
+    "first603": {
+      "url": "https://whcmxy.ytkj.edu.cn/info/1021/1916.htm",
+      "title": "文化传媒学院举行2019级毕业生实习欢送会-文化传媒学院",
+      "room_label": "一教603",
+      "verified": true
+    },
+    "first303": {
+      "url": "https://ai.ytkj.edu.cn/info/1028/1705.htm",
+      "title": "以观摩促精进 以AI赋能课堂--人工智能学院开展第十一周AI赋能公开课观摩活动-人工智能学院",
+      "room_label": "一教303",
+      "verified": true
+    },
+    "second608": {
+      "url": "https://www.ytkj.edu.cn/info/1083/7852.htm",
+      "title": "信息工程学院举办ISW教学技能工作坊培训心得交流会-烟台科技学院官方网站-欢迎您！",
+      "room_label": "二教608",
+      "verified": true
+    },
+    "second102": {
+      "url": "https://ddc.ytkj.edu.cn/info/1011/1733.htm",
+      "title": "聚焦教学提质量，督导赋能促成长——信息工程学院2026-2027学年第一学期校院两级教学督导反馈会-烟台科技学院教学质量管理处",
+      "room_label": "二教102",
+      "verified": true
+    },
+    "library621": {
+      "url": "https://ddc.ytkj.edu.cn/info/1026/1683.htm",
+      "title": "我校召开校、院两级教学督导第二次工作例会暨培训交流会-烟台科技学院教学质量管理处",
+      "room_label": "图文楼621",
+      "verified": true
+    },
+    "library517": {
+      "url": "https://jwc.ytkj.edu.cn/info/1269/3224.htm",
+      "title": "关于“烟台科技学院教务处”印章使用及材料提交工作的说明-教务处",
+      "room_label": "图文楼517",
+      "verified": true
+    },
+    "west-exterior": {
+      "url": "https://eng.ytkj.edu.cn/static/images/xyfg2.png",
+      "page": "https://eng.ytkj.edu.cn/",
+      "title": "机械电子工程学院校园风光 · 北门全景",
+      "verified": true,
+      "source_image_pixels": [
+        4000,
+        2000
+      ],
+      "reference_crop_fraction": [
+        0.6842857142857143,
+        0.44285714285714284,
+        0.9971428571428571,
+        0.6914285714285714
+      ],
+      "derivative_for_internal_review": "west-annex-reading.jpg"
+    },
+    "sixth401": {
+      "url": "https://whcmxy.ytkj.edu.cn/info/1026/2553.htm",
+      "title": "校企携手启新篇 摄影专业召开蚂蚁摄影企业宣讲会",
+      "room_label": "六教401",
+      "verified": true
+    }
+  },
+  "buildings": [
+    {
+      "id": "B023",
+      "name": "第一教学楼",
+      "sources": [
+        "first603",
+        "first303"
+      ],
+      "previous_display_height_m": 15.37,
+      "old_height_inputs": {
+        "cnbh": {
+          "height_m": 15.37016487121582,
+          "valid_cells": 13,
+          "footprint_cells": 17,
+          "valid_fraction": 0.765,
+          "min_m": 13.742130279541016,
+          "max_m": 15.983994483947754
+        },
+        "globfp2020": 30.3,
+        "globfpId": "G031",
+        "footprintIoU": 0.99969
+      },
+      "floor_number_inference": 6,
+      "inferred_minimum_explanation": "6xx rooms exist; interpreting their first digit as the floor follows the campus numbering convention. Uppermost level and hillside entrances are unconfirmed.",
+      "measured_total_height_m": null,
+      "recommended_display_floors": 6,
+      "recommended_display_height_m": 22.8,
+      "display_method": "Six levels × existing 3.8 m teaching profile, scenario only.",
+      "reason": "Constrain the number of visible levels using institutional room records. Retain all original remote estimates and disagreement."
+    },
+    {
+      "id": "G043",
+      "name": "第二教学楼",
+      "sources": [
+        "second608",
+        "second102"
+      ],
+      "previous_display_height_m": 11.44,
+      "old_height_inputs": {
+        "cnbh": {
+          "height_m": 12.7,
+          "valid_cells": 4,
+          "footprint_cells": 19
+        }
+      },
+      "floor_number_inference": 6,
+      "inferred_minimum_explanation": "6xx rooms exist; interpreting their first digit as the floor follows the campus numbering convention. Uppermost level and hillside entrances are unconfirmed.",
+      "measured_total_height_m": null,
+      "recommended_display_floors": 6,
+      "recommended_display_height_m": 22.8,
+      "display_method": "Six levels × existing 3.8 m teaching profile, scenario only.",
+      "reason": "Constrain the number of visible levels using institutional room records. Retain all original remote estimates and disagreement."
+    },
+    {
+      "id": "library",
+      "name": "图文楼",
+      "sources": [
+        "library621",
+        "library517"
+      ],
+      "previous_display_height_m": 23,
+      "old_height_inputs": {
+        "cnbh": {
+          "height_m": 13.5,
+          "valid_cells": 24,
+          "footprint_cells": 32
+        }
+      },
+      "floor_number_inference": 6,
+      "inferred_minimum_explanation": "6xx rooms exist; interpreting their first digit as the floor follows the campus numbering convention. Uppermost level and hillside entrances are unconfirmed.",
+      "measured_total_height_m": null,
+      "recommended_display_floors": 6,
+      "recommended_display_height_m": 23,
+      "display_method": "Retain library six-level model and independent facade proportion check.",
+      "reason": "Retain the six-floor library geometry; the frontal facade proportion check is consistent to a few metres."
+    },
+    {
+      "id": "west-arc",
+      "name": "专家公寓（厚德餐厅）",
+      "sources": [
+        "west-exterior"
+      ],
+      "previous_display_height_m": 17,
+      "previous_display_floors": 5,
+      "visible_floor_zones": {
+        "stone_base": 1,
+        "repeated_glass_bands_above_base": 5
+      },
+      "recommended_display_floors": 6,
+      "measured_total_height_m": null,
+      "recommended_display_height_m": 20.4,
+      "display_method": "Six visible facade zones at the existing westArcade proxy of 3.4 metres per storey. Upper rooftop equipment enclosures are separate."
+    },
+    {
+      "id": "G018",
+      "name": "6号教学楼",
+      "sources": [
+        "sixth401"
+      ],
+      "recommended_display_floors": 4,
+      "recommended_display_height_m": 12,
+      "display_basis": "The official university report establishes at least four storeys. 12 m is the median of the five valid CNBH cells over the existing 3D-GloBFP roof; the exact eave heights and separate wing heights are unverified."
+    }
+  ]
+}

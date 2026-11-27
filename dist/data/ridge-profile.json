@@ -1,0 +1,98 @@
+{
+  "acquisition": "2026-03-06",
+  "product": "NASA ICESat-2 ATL08 v007",
+  "granule": "ATL08_20260306103415_12533006_007_01.h5",
+  "track": 1253,
+  "beam": "gt1l",
+  "attribution": "NASA NSIDC DAAC, ICESat-2 ATL08; OpenAltimetry",
+  "productDOI": "https://doi.org/10.5067/ATLAS/ATL08.007",
+  "traceURL": "https://openaltimetry.earthdatacloud.nasa.gov/data/api/icesat2/atl08?minx=120.706&miny=37.806&maxx=120.715&maxy=37.8153&date=2026-03-06&trackId=1253&outputFormat=json",
+  "summary": {
+    "distance": 1002.22,
+    "observedRiseToPeak": 91.1,
+    "modelRiseToPeak": 91.7,
+    "observedPeakStation": 501.17,
+    "modelPeakStation": 501.17
+  },
+  "method": "North to south. Model triangle interpolated at each WGS84 ATL08 segment centre. Compare each series relative to its own northern endpoint. ATL08 samples represent about 100 m along-track, with ground and vegetation classification uncertainty.",
+  "units": "metres",
+  "stations": [
+    {
+      "lon": 120.71183776855469,
+      "lat": 37.81521987915039,
+      "distance": 0,
+      "atl08": 27.76,
+      "model": 21.37
+    },
+    {
+      "lon": 120.71172332763672,
+      "lat": 37.81432342529297,
+      "distance": 100.01,
+      "atl08": 35.66,
+      "model": 33.14
+    },
+    {
+      "lon": 120.71161651611328,
+      "lat": 37.81342315673828,
+      "distance": 200.37,
+      "atl08": 57.78,
+      "model": 54.44
+    },
+    {
+      "lon": 120.71150970458984,
+      "lat": 37.812522888183594,
+      "distance": 300.74,
+      "atl08": 87.01,
+      "model": 83.96
+    },
+    {
+      "lon": 120.71139526367188,
+      "lat": 37.81162643432617,
+      "distance": 400.74,
+      "atl08": 105.07,
+      "model": 104.83
+    },
+    {
+      "lon": 120.7112808227539,
+      "lat": 37.810726165771484,
+      "distance": 501.17,
+      "atl08": 118.91,
+      "model": 113.09
+    },
+    {
+      "lon": 120.711181640625,
+      "lat": 37.8098258972168,
+      "distance": 601.48,
+      "atl08": 113.36,
+      "model": 109.07
+    },
+    {
+      "lon": 120.71107482910156,
+      "lat": 37.808929443359375,
+      "distance": 701.42,
+      "atl08": 102.18,
+      "model": 101.83
+    },
+    {
+      "lon": 120.7109603881836,
+      "lat": 37.80802917480469,
+      "distance": 801.85,
+      "atl08": 83.11,
+      "model": 91.05
+    },
+    {
+      "lon": 120.71084594726562,
+      "lat": 37.80712890625,
+      "distance": 902.28,
+      "atl08": 71.88,
+      "model": 85.63
+    },
+    {
+      "lon": 120.71073913574219,
+      "lat": 37.80623245239258,
+      "distance": 1002.22,
+      "atl08": 77.34,
+      "model": 72.81
+    }
+  ]
+}

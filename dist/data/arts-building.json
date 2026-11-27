@@ -1,0 +1,49 @@
+{
+  "name": "第三教学楼",
+  "ring": [[-112.09, -364.92], [-110.73, -374.68], [-83.81, -382.4], [-80.79, -379.1], [-64.8, -323.35], [-68.91, -315.93], [-95.83, -308.21]],
+  "westCorner": {
+    "arcXZ": [
+      [-110.163, -367.948],
+      [-110.724, -368.482],
+      [-111.172, -369.113],
+      [-111.49, -369.82],
+      [-111.665, -370.574],
+      [-111.692, -371.348],
+      [-111.57, -372.113],
+      [-111.302, -372.84],
+      [-110.899, -373.501],
+      [-110.377, -374.073]
+    ],
+    "sources": [
+      "https://www.youzy.cn/news/detail?id=660e31db2b15155809214940",
+      "https://shandong.eol.cn/sdgd/202107/t20210706_2132424.shtml",
+      "https://livingatlas.arcgis.com/wayback/#active=13192&mapCenter=120.70403%2C37.80932%2C18",
+      "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.70403%2C37.80932%2C18"
+    ],
+    "basis": "两期高分影像显示约四米半径的圆形顶缘。校方近景和跨广场反向广角可辨同一圆角深蓝玻璃、浅色横带与橙红竖框。按较近直视时相和现有包络重画朝广场可见弧面。竖框深度与横带规格为展示近似。"
+  },
+  "sourceFragments": ["B003", "B004"],
+  "roofGeometry": {
+    "finish": "#c7beaa",
+    "url": "https://doi.org/10.5281/zenodo.7861676",
+    "basis": "沿原模型主轴补北端约 284 平方米，新增范围约 97.3% 落在 CBRA 2021 屋顶分类内。两期高清影像用于核对体量连续性，南端外檐待测。"
+  },
+  "elevation": {
+    "datum": "EGM2008",
+    "mainRoofMetres": 25.45,
+    "otherRoofReturnsMetres": 22.55,
+    "baseReferenceMetres": 11.10,
+    "baseReference": "东侧相邻道路的激光高程作为展示基准，楼体各侧地坪及檐口位置待实测。",
+    "modelParapetMetres": 0.6,
+    "source": "https://doi.org/10.5067/ATLAS/ATL03.007",
+    "observations": [
+      {"date": "2019-06-19", "track": 1253, "beam": "gt2r", "target": "较低屋面"},
+      {"date": "2022-03-14", "track": 1253, "beam": "gt2r", "target": "较低屋面"},
+      {"date": "2023-03-12", "track": 1253, "beam": "gt2r", "target": "主屋面与东侧道路"},
+      {"date": "2024-09-07", "track": 1253, "beam": "gt2r", "target": "东侧道路"}
+    ],
+    "previousCNBHHeightMetres": 9.7
+  },
+  "displayFloors": 4,
+  "floorSource": "https://jwc.ytkj.edu.cn/info/1310/3800.htm"
+}

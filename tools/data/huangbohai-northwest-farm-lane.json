@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "ring": [
+    [
+      -441.438,
+      -204.3
+    ],
+    [
+      -438.207,
+      -228.037
+    ],
+    [
+      -435.746,
+      -240.047
+    ],
+    [
+      -431.586,
+      -276.038
+    ],
+    [
+      -429.17,
+      -288.053
+    ],
+    [
+      -427.247,
+      -300.04
+    ],
+    [
+      -425.964,
+      -312.045
+    ],
+    [
+      -422.29,
+      -336.042
+    ],
+    [
+      -420.726,
+      -348.047
+    ],
+    [
+      -416.831,
+      -371.7
+    ],
+    [
+      -418.277,
+      -371.7
+    ],
+    [
+      -425.591,
+      -323.954
+    ],
+    [
+      -430.614,
+      -287.958
+    ],
+    [
+      -434.296,
+      -263.954
+    ],
+    [
+      -436.878,
+      -251.955
+    ],
+    [
+      -437.981,
+      -239.947
+    ],
+    [
+      -442.436,
+      -215.952
+    ],
+    [
+      -444.014,
+      -204.3
+    ]
+  ],
+  "evidence": {
+    "observedSurface": [
+      {
+        "date": "2020-02-26",
+        "sensor": "WorldView-3",
+        "sourcePixelMetres": 0.31,
+        "displayGroundSampleMetres": 0.94,
+        "nominalPositionAccuracyMetres": 5,
+        "view": "https://livingatlas.arcgis.com/wayback/#active=13192&mapCenter=120.98261%2C37.73481%2C17"
+      },
+      {
+        "date": "2025-04-13",
+        "sensor": "WorldView-3",
+        "sourcePixelMetres": 0.31,
+        "displayGroundSampleMetres": 0.94,
+        "nominalPositionAccuracyMetres": 5,
+        "view": "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.98261%2C37.73481%2C17"
+      }
+    ],
+    "method": "15 transverse sections traced independently. Use the continuous shared pale strip inset by 0.30 m.",
+    "limits": "Ground appearance only. Does not establish material, width beyond the visible strip, access, or grade.",
+    "commonAxisLengthMetres": 169.93,
+    "mappedStripAreaM2": 277.88,
+    "pairedCentreShiftMedianMetres": 2.08
+  }
+}

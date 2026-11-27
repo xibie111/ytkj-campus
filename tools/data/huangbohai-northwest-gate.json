@@ -1,0 +1,137 @@
+{
+  "code": "northwest-gate",
+  "name": "西北门",
+  "centerXZ": [
+    -178.66,
+    -119.68
+  ],
+  "inwardXZ": [
+    0.62,
+    0.7846
+  ],
+  "islandLengthM": 27.5,
+  "islandWidthM": 13.3,
+  "curbWidthM": 0.28,
+  "curbTopM": 0.2,
+  "lawnTopM": 0.16,
+  "wallStationM": 7.2,
+  "panelWidthM": 1.95,
+  "panelGapM": 0.09,
+  "panelThicknessM": 0.48,
+  "topAboveGradeM": 2.25,
+  "letterHeightM": 1.17,
+  "inscription": "烟台科技学院",
+  "lettering": {
+    "family": "Ma Shan Zheng",
+    "source": "https://github.com/googlefonts/mashanzheng/tree/6bfdbe288f5935c6e9072cdd6ab1aa102a006aab",
+    "license": "SIL Open Font License 1.1",
+    "use": "以开源毛笔楷体重排六字，近似实物字面。"
+  },
+  "photo": {
+    "page": "https://www.ytkj.edu.cn/info/1081/6842.htm",
+    "image": "https://www.ytkj.edu.cn/__local/A/49/A0/535188C71472B6CF496A8828E38_7E24D7E0_132F8.jpg",
+    "published": "2025-09-06",
+    "observation": "浅米色石屏的正面接近正方形，屏间留有竖缝；每屏一个红字。墙前有低绿篱，弧形浅色缘石围住草坪。实景中的临时迎新装饰未作为永久构件。"
+  },
+  "plan": "https://www.aiib.org/en/projects/details/2024/_download/China/ES-Impact-Assesment.pdf#page=15",
+  "nameSource": "https://ai.ytkj.edu.cn/info/1021/1818.htm",
+  "positionBasis": "一期总平图与2025-04-13俯视图对照确定入口中轴与尺度，边线作圆弧概化。局部坐标X东、Z南（米）。平面控制沿用校园图配准，参照点留一误差3.14—8.51米，入口本身无实测控制点。",
+  "heightBasis": "屏墙高度按校方2025年9月6日迎新照片的正面比例推估。墙厚、背面和字形用模型近似。基面取校区公开DEM插值，未作现场高程测量。",
+  "southwestPavilion": {
+    "typeBasis": "一期总平图在西北入口的两翼标出门卫用房。影片中，两栋独立屋体与中央绿岛的相对顺序吻合。",
+    "planSource": "https://www.aiib.org/en/projects/details/2024/_download/China/ES-Impact-Assesment.pdf#page=15",
+    "buildingSchedule": "https://www.aiib.org/en/projects/details/2024/_download/China/ES-Impact-Assesment.pdf#page=16",
+    "officialVideo": "https://www.ytkj.edu.cn/__local/0/73/6F/EC927680FA0AF6ADDCFF78CF449_24F438E8_2BE03120.mp4?e=.mp4",
+    "officialVideoFramesSeconds": [
+      306,
+      308.2
+    ],
+    "dateOfVideoCapture": null,
+    "positionBasis": "航拍片可辨西南一翼浅色薄檐、大块深玻璃、末端浅色包板和屋面后侧暗带。2025-04-13 的 WorldView-3 通过入口中岛、道路和既定西北门位置核对屋盖尺度及相对位置。",
+    "satelliteMetadata": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.9854707120062%2C37.73327826619697&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_DESC%2CSRC_ACC%2CSAMP_RES&returnGeometry=false",
+    "sourceAcquired": "2025-04-13",
+    "sourceNativePixelM": 0.31,
+    "serviceSamplePixelM": 0.6,
+    "localImageGrid": "EPSG:3857",
+    "scope": "只复原可见的西南侧独立屋体。总图标签遮挡部分屋角，屋盖长宽是显示估计。门窗用途、室内、正式分栋编号、实测檐高和标高待核。",
+    "roofRingXZ": [
+      [
+        -203.875,
+        -94.858
+      ],
+      [
+        -187.534,
+        -107.76
+      ],
+      [
+        -182.433,
+        -101.638
+      ],
+      [
+        -198.774,
+        -88.548
+      ]
+    ],
+    "baseLevelBasis": "四边中点及中心按既有地形取样。",
+    "displayEaveM": 3.84,
+    "displayCanopyThicknessM": 0.48
+  },
+  "northeastPavilion": {
+    "typeBasis": "一期总平图入口东北一侧的门卫圆标与该屋盖中心相距约 4.9 米。影片从校园外向内看时该门房在画面左侧，可按中央绿岛和文化中心的相对位置辨向。",
+    "planSource": "https://www.aiib.org/en/projects/details/2024/_download/China/ES-Impact-Assesment.pdf#page=15",
+    "buildingSchedule": "https://www.aiib.org/en/projects/details/2024/_download/China/ES-Impact-Assesment.pdf#page=16",
+    "officialVideo": "https://www.ytkj.edu.cn/__local/0/73/6F/EC927680FA0AF6ADDCFF78CF449_24F438E8_2BE03120.mp4?e=.mp4",
+    "officialVideoFramesSeconds": [
+      306,
+      308.2
+    ],
+    "dateOfVideoCapture": null,
+    "positionBasis": "2025-04-13 WorldView-3 影像可辨与西南门房分离的浅屋盖。两帧校方航拍核对入口两栋的相对位置、东北侧薄檐、深窗、外端浅包板。",
+    "satelliteMetadata": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.9854707120062%2C37.73327826619697&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_DESC%2CSRC_ACC%2CSAMP_RES&returnGeometry=false",
+    "sourceAcquired": "2025-04-13",
+    "sourceNativePixelM": 0.31,
+    "serviceSamplePixelM": 0.6,
+    "localImageGrid": "EPSG:3857",
+    "scope": "屋体标高、檐厚、实体退距和窗分格为建模估计。临街深窗沿已有步道退后；前檐覆盖部分步道，既有地面轮廓原样保留。实际通行净空、室内、正式分栋编号待核。",
+    "roofRingXZ": [
+      [
+        -149.373,
+        -141.382
+      ],
+      [
+        -164.864,
+        -128.574
+      ],
+      [
+        -160.613,
+        -123.017
+      ],
+      [
+        -145.028,
+        -135.449
+      ]
+    ],
+    "referenceCornersArchiveZoom17": [
+      [
+        428.2,
+        429.1
+      ],
+      [
+        411.8,
+        442.7
+      ],
+      [
+        416.3,
+        448.6
+      ],
+      [
+        432.8,
+        435.4
+      ]
+    ],
+    "baseLevelBasis": "屋盖四边中点及中心按现模型地形取样。",
+    "displayEaveM": 4.05,
+    "displayCanopyThicknessM": 0.48,
+    "bodyFrontFraction": 0.31
+  }
+}

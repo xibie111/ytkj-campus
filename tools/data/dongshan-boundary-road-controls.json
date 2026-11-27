@@ -1,0 +1,279 @@
+{
+ "basis": "WGS84 origin [120.70525,37.80598]; X east and Z south, local metres. Display heights in orthometric metres EGM2008.",
+ "endXZ": [
+  [
+   57.5,
+   -189.9
+  ],
+  [
+   157.082,
+   -147.172
+  ]
+ ],
+ "endY": [
+  30.78,
+  39.85640799732991
+ ],
+ "planRasterXY": [
+  [
+   721,
+   1170
+  ],
+  [
+   709,
+   1146
+  ],
+  [
+   685,
+   1125
+  ],
+  [
+   654,
+   1112
+  ],
+  [
+   620,
+   1102
+  ],
+  [
+   578,
+   1095
+  ],
+  [
+   540,
+   1084
+  ],
+  [
+   499,
+   1065
+  ],
+  [
+   472,
+   1033
+  ]
+ ],
+ "planAxisXZ": [
+  [
+   151.995,
+   -137.54
+  ],
+  [
+   145.216,
+   -151.935
+  ],
+  [
+   131.281,
+   -164.719
+  ],
+  [
+   113.085,
+   -172.859
+  ],
+  [
+   93.068,
+   -179.262
+  ],
+  [
+   68.267,
+   -183.998
+  ],
+  [
+   45.893,
+   -191.049
+  ],
+  [
+   21.852,
+   -202.885
+  ],
+  [
+   6.292,
+   -222.232
+  ]
+ ],
+ "planFit": {
+  "input": "https://www.ytkj.edu.cn/__local/3/F6/32/5241A8114C0D15B821962C7CB32_2114B07F_7811D.pdf#page=9",
+  "leaveOneWholeRoofOut": {
+   "east-building-17": {
+    "heldOutRMSEM": 5.795797980993438,
+    "heldOutErrorM": [
+     8.458422786871337,
+     3.1977275198297206,
+     2.5412701185457736,
+     6.7923976472226775
+    ]
+   },
+   "east-teaching-5": {
+    "heldOutRMSEM": 3.575752703459747,
+    "heldOutErrorM": [
+     1.9041403265682517,
+     3.99120966883857,
+     3.9052485432048045,
+     4.04197456660746
+    ]
+   }
+  },
+  "unanchoredRoadShiftM": [
+   13.149,
+   12.742,
+   12.734,
+   13.17,
+   13.826,
+   14.828,
+   15.712,
+   16.625,
+   17.024
+  ]
+ },
+ "schoolPhoto": "https://www.ytkj.edu.cn/__local/5/71/4D/E24AF4832B5999EB7045FABA491_5EFBB06F_C82000.jpg",
+ "imageAxisHalfPx": [
+  [
+   1150,
+   1588
+  ],
+  [
+   1200,
+   1567
+  ],
+  [
+   1250,
+   1540
+  ],
+  [
+   1300,
+   1513
+  ],
+  [
+   1350,
+   1481
+  ],
+  [
+   1400,
+   1449
+  ],
+  [
+   1450,
+   1403
+  ],
+  [
+   1500,
+   1350
+  ],
+  [
+   1550,
+   1301
+  ],
+  [
+   1600,
+   1257
+  ],
+  [
+   1650,
+   1228
+  ],
+  [
+   1700,
+   1210
+  ],
+  [
+   1750,
+   1199
+  ],
+  [
+   1800,
+   1188
+  ],
+  [
+   1850,
+   1179
+  ],
+  [
+   1900,
+   1172
+  ],
+  [
+   1950,
+   1165
+  ]
+ ],
+ "camera": {
+  "origin": [
+   -88.2248,
+   112.8,
+   -132.0965
+  ],
+  "translation": [
+   -5.3,
+   4.15,
+   7.2
+  ],
+  "basis": [
+   [
+    0.3601926092405853,
+    -0.1971402445610577,
+    0.9118097434349258
+   ],
+   [
+    0.0,
+    -0.9774158942860959,
+    -0.21132479645538865
+   ],
+   [
+    0.9328779578532548,
+    0.07611762983250203,
+    -0.352057981276129
+   ]
+  ],
+  "principalPoint": [
+   2640,
+   1978
+  ],
+  "focalLengthPx": 3750.9364161849708
+ },
+ "record": {
+  "version": 1,
+  "segments": [
+   {
+    "id": "east-teaching-10-plaza-bend",
+    "name": "东山校界弯道",
+    "kind": "unclassified",
+    "width": 6.6,
+    "ring": [],
+    "source": "campusInterpretation",
+    "sourceLabel": "校方航拍、总平与沿轨激光核对",
+    "geometrySource": "https://www.ytkj.edu.cn/info/1049/8478.htm",
+    "planSource": "https://www.ytkj.edu.cn/__local/3/F6/32/5241A8114C0D15B821962C7CB32_2114B07F_7811D.pdf#page=9",
+    "basis": "2025年校方航拍与2023年工程图可辨十教外侧弯路至口袋广场下方。中心线由总平与航拍共同估计，两端落在模型控制处。展示纵断面来自校方照片及两端显示高程。道路全长没有竣工高程，2020年一条激光横断线只用于独立检查。",
+    "dongshanBoundaryGrade": {
+     "levelsMetres": [],
+     "transitionM": 20,
+     "maximumFillM": 0.6,
+     "campusHalfWidthM": 5.75,
+     "villageHalfWidthM": 3.65,
+     "pavementId": "east-ten-boundary-brick-walk"
+    }
+   }
+  ],
+  "areas": [
+   {
+    "id": "east-ten-boundary-brick-walk",
+    "name": "校界弯道内侧步行带",
+    "style": "brickWalk",
+    "source": "campusInterpretation",
+    "sourceLabel": "校方近景与斜航拍核对",
+    "geometrySource": "https://www.ytkj.edu.cn/info/1049/8478.htm",
+    "planSource": "https://www.ytkj.edu.cn/__local/3/F6/32/5241A8114C0D15B821962C7CB32_2114B07F_7811D.pdf#page=9",
+    "basis": "校方原图可辨沿沥青内侧的连续红色步行带。仅绘至支路前清晰的约66米；外缘随可辨的道路弯势估算，宽约2.05米。",
+    "ring": []
+   }
+  ],
+  "evidence": {
+   "schoolPhoto": "https://www.ytkj.edu.cn/info/1049/8478.htm",
+   "schoolPlan": "https://www.ytkj.edu.cn/__local/3/F6/32/5241A8114C0D15B821962C7CB32_2114B07F_7811D.pdf#page=9",
+   "independentLaser": "https://openaltimetry.earthdatacloud.nasa.gov/data/api/icesat2/atl03?minx=120.70572752812663&miny=37.80708817799321&maxx=120.7072738096795&maxy=37.80781795374483&date=2020-10-19&trackId=392&sampling=false&outputFormat=json",
+   "laserProduct": "https://doi.org/10.5067/ATLAS/ATL03.007",
+   "otherImageryUse": "高德用户截图及Wayback只用于核对校园、村落相邻关系和实景车道连续性。第三方图像未用于生成坐标、铺面或纹理。",
+   "planarLimits": "当地工程图配准整栋留出约3.58至5.80米。对横向误差按数米处理。",
+   "verticalLimits": "2020年站点早于2021至2025年的可辨现状。十教门前和广场端为模型地面，坡度不是通行或设计测量。"
+  }
+ }
+}

@@ -1,0 +1,1773 @@
+{
+  "source": "https://www.ytkj.edu.cn/info/1049/8478.htm",
+  "photo": "2025-04-08",
+  "imageDimensions": [
+    5280,
+    3956
+  ],
+  "coordinates": "Local metres; x east, z south, origin 120.70525 E, 37.80598 N; horizontal datum registered against Copernicus Sentinel-2 L2A.",
+  "model": "Rectangular eaves, symmetric two-slope roof. Fitted with the front/rear ridge and at least three eave points. Ground at the front uses the regional terrain. Where feet are occluded, the eave-height prior is 2.8 m.",
+  "imagePointOrder": [
+    "front-left eave",
+    "front ridge",
+    "front-right eave",
+    "rear-left eave",
+    "rear ridge",
+    "rear-right eave",
+    "front-left foot",
+    "front-right foot"
+  ],
+  "adjustmentMetres": [
+    4,
+    -3
+  ],
+  "spectralPixelPitchMetres": 10,
+  "spectralScenes": [
+    "S2C_T51STB_20250520T025723_L2A",
+    "S2B_T51STB_20250611T024655_L2A",
+    "S2C_T51STB_20260704T025425_L2A"
+  ],
+  "spectralFit": "Red-to-green normalised contrast inside eleven red roofs against their flanks. 1 m translation search within 12 m. Pooled peak [4,-3]; held out row A, B or C yields [4,-3], [4,-3], [5,-4]. This tests the cluster, not individual roof positions.",
+  "check": "Independent qualitative overhead inspection, 2025-06-02 WorldView Legion-2 (reference only). Absolute positions and elevations are approximate. Ground shaping is local to each footprint.",
+  "rows": [
+    {
+      "sample": "A1",
+      "imagePoints": {
+        "0": [
+          3202,
+          2993
+        ],
+        "1": [
+          3260,
+          2958
+        ],
+        "2": [
+          3318,
+          2983
+        ],
+        "3": [
+          3140,
+          2871
+        ],
+        "4": [
+          3189,
+          2841
+        ],
+        "6": [
+          3206,
+          3039
+        ],
+        "7": [
+          3311,
+          3038
+        ]
+      },
+      "fitRmsPx": 2.62,
+      "frontFeetVisible": true,
+      "building": {
+        "fid": "zouyu-a1",
+        "ring": [
+          [
+            68.78,
+            -161.0
+          ],
+          [
+            79.83,
+            -166.88
+          ],
+          [
+            82.28,
+            -162.28
+          ],
+          [
+            71.22,
+            -156.4
+          ]
+        ],
+        "holes": [],
+        "center": [
+          75.53,
+          -161.64
+        ],
+        "axis": -0.48902,
+        "tint": "clay",
+        "height": 4.04,
+        "villageRoof": {
+          "ridgeXZ": [
+            [
+              70.0,
+              -158.7
+            ],
+            [
+              81.05,
+              -164.58
+            ]
+          ],
+          "eaveHeight": 2.56,
+          "rise": 1.48
+        }
+      }
+    },
+    {
+      "sample": "A2",
+      "imagePoints": {
+        "0": [
+          3367,
+          2955
+        ],
+        "1": [
+          3411,
+          2927
+        ],
+        "2": [
+          3456,
+          2950
+        ],
+        "3": [
+          3296,
+          2842
+        ],
+        "4": [
+          3335,
+          2815
+        ]
+      },
+      "fitRmsPx": 1.31,
+      "frontFeetVisible": false,
+      "building": {
+        "fid": "zouyu-a2",
+        "ring": [
+          [
+            74.92,
+            -154.66
+          ],
+          [
+            85.85,
+            -160.32
+          ],
+          [
+            87.8,
+            -156.54
+          ],
+          [
+            76.88,
+            -150.88
+          ]
+        ],
+        "holes": [],
+        "center": [
+          81.36,
+          -155.6
+        ],
+        "axis": -0.47819,
+        "tint": "clay",
+        "height": 4.12,
+        "villageRoof": {
+          "ridgeXZ": [
+            [
+              75.9,
+              -152.77
+            ],
+            [
+              86.82,
+              -158.43
+            ]
+          ],
+          "eaveHeight": 2.8,
+          "rise": 1.32
+        }
+      }
+    },
+    {
+      "sample": "A3",
+      "imagePoints": {
+        "0": [
+          3483,
+          2950
+        ],
+        "1": [
+          3537,
+          2914
+        ],
+        "2": [
+          3591,
+          2944
+        ],
+        "3": [
+          3398,
+          2836
+        ],
+        "4": [
+          3453,
+          2803
+        ]
+      },
+      "fitRmsPx": 1.06,
+      "frontFeetVisible": false,
+      "building": {
+        "fid": "zouyu-a3",
+        "ring": [
+          [
+            78.31,
+            -149.82
+          ],
+          [
+            89.37,
+            -155.66
+          ],
+          [
+            91.89,
+            -150.91
+          ],
+          [
+            80.83,
+            -145.06
+          ]
+        ],
+        "holes": [],
+        "center": [
+          85.1,
+          -150.36
+        ],
+        "axis": -0.48653,
+        "tint": "clay",
+        "height": 4.48,
+        "villageRoof": {
+          "ridgeXZ": [
+            [
+              79.57,
+              -147.44
+            ],
+            [
+              90.63,
+              -153.29
+            ]
+          ],
+          "eaveHeight": 2.8,
+          "rise": 1.68,
+          "leftCourseMetres": 0.27
+        }
+      },
+      "coursePeakRatio": 29.0
+    },
+    {
+      "sample": "A4",
+      "imagePoints": {
+        "0": [
+          3616,
+          2940
+        ],
+        "1": [
+          3670,
+          2909
+        ],
+        "2": [
+          3723,
+          2934
+        ],
+        "3": [
+          3504,
+          2802
+        ],
+        "4": [
+          3565,
+          2775
+        ]
+      },
+      "fitRmsPx": 2.95,
+      "frontFeetVisible": false,
+      "building": {
+        "fid": "zouyu-a4",
+        "ring": [
+          [
+            82.6,
+            -144.17
+          ],
+          [
+            96.43,
+            -151.22
+          ],
+          [
+            98.92,
+            -146.35
+          ],
+          [
+            85.08,
+            -139.3
+          ]
+        ],
+        "holes": [],
+        "center": [
+          90.76,
+          -145.26
+        ],
+        "axis": -0.47085,
+        "tint": "clay",
+        "height": 4.23,
+        "villageRoof": {
+          "ridgeXZ": [
+            [
+              83.84,
+              -141.74
+            ],
+            [
+              97.67,
+              -148.78
+            ]
+          ],
+          "eaveHeight": 2.8,
+          "rise": 1.43,
+          "leftCourseMetres": 0.29
+        }
+      },
+      "coursePeakRatio": 25.0
+    },
+    {
+      "sample": "A5",
+      "imagePoints": {
+        "0": [
+          3938,
+          2864
+        ],
+        "1": [
+          4020,
+          2826
+        ],
+        "2": [
+          4099,
+          2874
+        ],
+        "3": [
+          3894,
+          2771
+        ],
+        "4": [
+          3973,
+          2739
+        ],
+        "6": [
+          3947,
+          2929
+        ],
+        "7": [
+          4090,
+          2938
+        ]
+      },
+      "fitRmsPx": 5.74,
+      "frontFeetVisible": true,
+      "building": {
+        "fid": "zouyu-a5",
+        "ring": [
+          [
+            96.41,
+            -129.82
+          ],
+          [
+            107.04,
+            -132.62
+          ],
+          [
+            108.96,
+            -125.37
+          ],
+          [
+            98.32,
+            -122.57
+          ]
+        ],
+        "holes": [],
+        "center": [
+          102.68,
+          -127.6
+        ],
+        "axis": -0.2582,
+        "tint": "clay",
+        "height": 5.68,
+        "villageRoof": {
+          "ridgeXZ": [
+            [
+              97.36,
+              -126.19
+            ],
+            [
+              108.0,
+              -129.0
+            ]
+          ],
+          "eaveHeight": 3.5,
+          "rise": 2.19,
+          "leftCourseMetres": 0.27
+        }
+      },
+      "coursePeakRatio": 51.3
+    },
+    {
+      "sample": "A6",
+      "imagePoints": {
+        "0": [
+          4319,
+          2864
+        ],
+        "1": [
+          4411,
+          2826
+        ],
+        "2": [
+          4509,
+          2879
+        ],
+        "3": [
+          4251,
+          2764
+        ],
+        "4": [
+          4341,
+          2726
+        ]
+      },
+      "fitRmsPx": 3.14,
+      "frontFeetVisible": false,
+      "building": {
+        "fid": 943175,
+        "ring": [
+          [
+            106.93,
+            -111.98
+          ],
+          [
+            119.29,
+            -114.8
+          ],
+          [
+            121.31,
+            -105.93
+          ],
+          [
+            108.96,
+            -103.11
+          ]
+        ],
+        "holes": [],
+        "center": [
+          114.12,
+          -108.95
+        ],
+        "axis": -0.22449,
+        "tint": "clay",
+        "height": 5.26,
+        "villageRoof": {
+          "ridgeXZ": [
+            [
+              107.95,
+              -107.54
+            ],
+            [
+              120.3,
+              -110.36
+            ]
+          ],
+          "eaveHeight": 2.8,
+          "rise": 2.46,
+          "leftCourseMetres": 0.28
+        }
+      },
+      "coursePeakRatio": 59.8
+    },
+    {
+      "sample": "B1",
+      "imagePoints": {
+        "0": [
+          3802,
+          3441
+        ],
+        "1": [
+          3905,
+          3390
+        ],
+        "2": [
+          4000,
+          3444
+        ],
+        "3": [
+          3683,
+          3197
+        ],
+        "4": [
+          3772,
+          3149
+        ],
+        "5": [
+          3854,
+          3191
+        ],
+        "6": [
+          3810,
+          3533
+        ],
+        "7": [
+          3987,
+          3530
+        ]
+      },
+      "fitRmsPx": 5.38,
+      "frontFeetVisible": true,
+      "building": {
+        "fid": "zouyu-b1",
+        "ring": [
+          [
+            50.17,
+            -134.94
+          ],
+          [
+            67.44,
+            -141.48
+          ],
+          [
+            71.98,
+            -129.5
+          ],
+          [
+            54.71,
+            -122.95
+          ]
+        ],
+        "holes": [],
+        "center": [
+          61.0,
+          -132.41
+        ],
+        "axis": -0.362,
+        "tint": "clay",
+        "height": 6.24,
+        "villageRoof": {
+          "ridgeXZ": [
+            [
+              52.37,
+              -129.14
+            ],
+            [
+              69.64,
+              -135.68
+            ]
+          ],
+          "eaveHeight": 3.97,
+          "rise": 2.27,
+          "leftCourseMetres": 0.28,
+          "eavesXZ": [
+            [
+              51.03,
+              -132.66
+            ],
+            [
+              68.3,
+              -139.2
+            ],
+            [
+              70.97,
+              -132.17
+            ],
+            [
+              53.7,
+              -125.62
+            ]
+          ],
+          "flanks": [
+            {
+              "side": "left",
+              "finish": "pale",
+              "widthMetres": 2.44,
+              "outerDrop": 0.24,
+              "ringXZ": [
+                [
+                  51.03,
+                  -132.66
+                ],
+                [
+                  68.3,
+                  -139.2
+                ],
+                [
+                  67.44,
+                  -141.48
+                ],
+                [
+                  50.17,
+                  -134.94
+                ]
+              ]
+            },
+            {
+              "side": "right",
+              "finish": "cool-grid",
+              "widthMetres": 2.86,
+              "outerDrop": 0.24,
+              "ringXZ": [
+                [
+                  53.7,
+                  -125.62
+                ],
+                [
+                  70.97,
+                  -132.17
+                ],
+                [
+                  71.98,
+                  -129.5
+                ],
+                [
+                  54.71,
+                  -122.95
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "coursePeakRatio": 21.1,
+      "flankObservations": [
+        {
+          "side": "left",
+          "outerImagePoints": [
+            [
+              3744,
+              3449
+            ],
+            [
+              3629,
+              3197
+            ]
+          ],
+          "rmsPixels": 2.69
+        },
+        {
+          "side": "right",
+          "outerImagePoints": [
+            [
+              4067,
+              3452
+            ],
+            [
+              3920,
+              3196
+            ]
+          ],
+          "rmsPixels": 5.13
+        }
+      ]
+    },
+    {
+      "sample": "B2",
+      "imagePoints": {
+        "0": [
+          4343,
+          3333
+        ],
+        "1": [
+          4436,
+          3285
+        ],
+        "2": [
+          4531,
+          3338
+        ],
+        "3": [
+          4197,
+          3158
+        ],
+        "4": [
+          4275,
+          3112
+        ],
+        "5": [
+          4350,
+          3153
+        ]
+      },
+      "fitRmsPx": 5.94,
+      "frontFeetVisible": false,
+      "building": {
+        "fid": "zouyu-b2",
+        "ring": [
+          [
+            67.92,
+            -114.66
+          ],
+          [
+            81.31,
+            -120.41
+          ],
+          [
+            85.34,
+            -111.04
+          ],
+          [
+            71.95,
+            -105.28
+          ]
+        ],
+        "holes": [],
+        "center": [
+          77.16,
+          -111.62
+        ],
+        "axis": -0.40624,
+        "tint": "clay",
+        "height": 5.05,
+        "villageRoof": {
+          "ridgeXZ": [
+            [
+              70.46,
+              -108.74
+            ],
+            [
+              83.85,
+              -114.5
+            ]
+          ],
+          "eaveHeight": 2.8,
+          "rise": 2.25,
+          "leftCourseMetres": 0.27,
+          "eavesXZ": [
+            [
+              68.98,
+              -112.2
+            ],
+            [
+              82.36,
+              -117.96
+            ],
+            [
+              85.34,
+              -111.04
+            ],
+            [
+              71.95,
+              -105.28
+            ]
+          ],
+          "flanks": [
+            {
+              "side": "left",
+              "finish": "pale",
+              "widthMetres": 2.67,
+              "outerDrop": 0.04,
+              "ringXZ": [
+                [
+                  68.98,
+                  -112.2
+                ],
+                [
+                  82.36,
+                  -117.96
+                ],
+                [
+                  81.31,
+                  -120.41
+                ],
+                [
+                  67.92,
+                  -114.66
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "coursePeakRatio": 37.2,
+      "flankObservations": [
+        {
+          "side": "left",
+          "outerImagePoints": [
+            [
+              4284,
+              3340
+            ],
+            [
+              4132,
+              3158
+            ]
+          ],
+          "rmsPixels": 2.4
+        }
+      ]
+    },
+    {
+      "sample": "C1",
+      "imagePoints": {
+        "0": [
+          3548,
+          3850
+        ],
+        "1": [
+          3658,
+          3798
+        ],
+        "2": [
+          3767,
+          3850
+        ],
+        "3": [
+          3468,
+          3625
+        ],
+        "4": [
+          3573,
+          3576
+        ],
+        "5": [
+          3672,
+          3622
+        ],
+        "6": [
+          3551,
+          3946
+        ],
+        "7": [
+          3754,
+          3944
+        ]
+      },
+      "fitRmsPx": 3.83,
+      "frontFeetVisible": true,
+      "building": {
+        "fid": "zouyu-c1",
+        "ring": [
+          [
+            27.81,
+            -139.36
+          ],
+          [
+            39.2,
+            -143.85
+          ],
+          [
+            41.96,
+            -136.84
+          ],
+          [
+            30.57,
+            -132.35
+          ]
+        ],
+        "holes": [],
+        "center": [
+          34.89,
+          -138.1
+        ],
+        "axis": -0.3755,
+        "tint": "clay",
+        "height": 5.87,
+        "villageRoof": {
+          "ridgeXZ": [
+            [
+              29.19,
+              -135.85
+            ],
+            [
+              40.58,
+              -140.34
+            ]
+          ],
+          "eaveHeight": 3.82,
+          "rise": 2.05,
+          "leftCourseMetres": 0.27
+        }
+      },
+      "coursePeakRatio": 21.8
+    },
+    {
+      "sample": "C2",
+      "imagePoints": {
+        "0": [
+          4452,
+          3845
+        ],
+        "1": [
+          4576,
+          3796
+        ],
+        "2": [
+          4683,
+          3862
+        ],
+        "3": [
+          4334,
+          3603
+        ],
+        "4": [
+          4443,
+          3559
+        ],
+        "5": [
+          4544,
+          3610
+        ],
+        "6": [
+          4462,
+          3936
+        ],
+        "7": [
+          4665,
+          3948
+        ]
+      },
+      "fitRmsPx": 7.21,
+      "frontFeetVisible": true,
+      "building": {
+        "fid": 943176,
+        "ring": [
+          [
+            40.39,
+            -109.78
+          ],
+          [
+            53.41,
+            -113.08
+          ],
+          [
+            55.25,
+            -105.86
+          ],
+          [
+            42.23,
+            -102.55
+          ]
+        ],
+        "holes": [],
+        "center": [
+          47.82,
+          -107.82
+        ],
+        "axis": -0.24895,
+        "tint": "clay",
+        "height": 5.83,
+        "villageRoof": {
+          "ridgeXZ": [
+            [
+              41.31,
+              -106.16
+            ],
+            [
+              54.33,
+              -109.47
+            ]
+          ],
+          "eaveHeight": 3.61,
+          "rise": 2.21,
+          "leftCourseMetres": 0.3
+        }
+      },
+      "coursePeakRatio": 32.3
+    },
+    {
+      "sample": "A7",
+      "imagePoints": {
+        "farRedEave": [
+          4595,
+          2739
+        ],
+        "farRidgeTop": [
+          4637,
+          2706
+        ],
+        "nearRedEave": [
+          4945,
+          2938
+        ],
+        "nearRidgeTop": [
+          4989,
+          2904
+        ],
+        "nearOppositeEave": [
+          5035,
+          2938
+        ]
+      },
+      "photoSource": "https://www.ytkj.edu.cn/info/1049/8478.htm",
+      "photoDate": "2025-04-08",
+      "scope": "一栋双坡红瓦主房，远侧屋脚遮挡。构件高程为展示估计。",
+      "imageFloorControl": "无人机原片可见三角山墙，屋脊高差未实测。",
+      "twoEpochs": {
+        "2025-06": {
+          "pixels": [
+            [
+              153.2,
+              157.6
+            ],
+            [
+              203.8,
+              135.2
+            ],
+            [
+              210.3,
+              148.6
+            ],
+            [
+              159.4,
+              171.8
+            ]
+          ],
+          "ringXZ": [
+            [
+              114.06,
+              -85.58
+            ],
+            [
+              137.93,
+              -96.12
+            ],
+            [
+              141.0,
+              -89.82
+            ],
+            [
+              116.98,
+              -78.9
+            ]
+          ]
+        },
+        "2024-03": {
+          "pixels": [
+            [
+              158.1,
+              155.6
+            ],
+            [
+              203.1,
+              135.5
+            ],
+            [
+              210.1,
+              148.4
+            ],
+            [
+              164.2,
+              169.1
+            ]
+          ],
+          "ringXZ": [
+            [
+              116.37,
+              -86.52
+            ],
+            [
+              137.6,
+              -95.98
+            ],
+            [
+              140.9,
+              -89.91
+            ],
+            [
+              119.25,
+              -80.17
+            ]
+          ]
+        }
+      },
+      "epochCornerMaxDistanceM": 2.6,
+      "epochIntersectionOverUnion": 0.868,
+      "closestBuildings": [
+        [
+          15.696,
+          "943175",
+          0.0
+        ],
+        [
+          32.713,
+          "943172",
+          0.0
+        ],
+        [
+          35.594,
+          "943178",
+          0.0
+        ],
+        [
+          38.485,
+          "zouyu-a5",
+          0.0
+        ],
+        [
+          38.94,
+          "zouyu-b2",
+          0.0
+        ],
+        [
+          57.793,
+          "943174",
+          0.0
+        ]
+      ],
+      "closestPaving": [
+        [
+          43.66,
+          "polygons:404:edge",
+          0.0
+        ],
+        [
+          43.974,
+          "polygons:403:local",
+          0.0
+        ],
+        [
+          50.808,
+          "polygons:334:edge",
+          0.0
+        ],
+        [
+          51.128,
+          "polygons:325:local",
+          0.0
+        ],
+        [
+          60.302,
+          "polygons:333:edge",
+          0.0
+        ],
+        [
+          60.553,
+          "areas:10:east-pocket-square-paving",
+          0.0
+        ]
+      ],
+      "length": 25.06,
+      "width": 7.04,
+      "modelGroundAtFront": 28.49,
+      "calibrationProjectionRidge": [
+        [
+          4857.34,
+          2827.45
+        ],
+        [
+          4587.12,
+          2641.96
+        ]
+      ],
+      "referenceRidgeDeltaPixels": [
+        [
+          131.66,
+          76.55
+        ],
+        [
+          49.88,
+          64.04
+        ]
+      ],
+      "building": {
+        "fid": "zouyu-a7",
+        "ring": [
+          [
+            115.13,
+            -85.97
+          ],
+          [
+            138.01,
+            -96.21
+          ],
+          [
+            140.89,
+            -89.78
+          ],
+          [
+            118.01,
+            -79.54
+          ]
+        ],
+        "holes": [],
+        "center": [
+          128.01,
+          -87.88
+        ],
+        "axis": -0.42097,
+        "tint": "clay",
+        "height": 4.3,
+        "villageRoof": {
+          "ridgeXZ": [
+            [
+              116.57,
+              -82.76
+            ],
+            [
+              139.45,
+              -93.0
+            ]
+          ],
+          "eaveHeight": 2.75,
+          "rise": 1.55,
+          "leftCourseMetres": 0.29,
+          "keepTerrain": true,
+          "sources": [
+            "https://www.ytkj.edu.cn/info/1049/8478.htm",
+            "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.70670%2C37.80677%2C18",
+            "https://livingatlas.arcgis.com/wayback/#active=13192&mapCenter=120.70670%2C37.80677%2C18"
+          ],
+          "evidence": "两期高分影像复核连续长条瓦屋面，校方航拍辨认双坡和三角形山墙。"
+        }
+      }
+    },
+    {
+      "shapeByEpoch": {
+        "2024-03": [
+          [
+            68.62,
+            -93.54
+          ],
+          [
+            88.45,
+            -99.02
+          ],
+          [
+            90.74,
+            -90.95
+          ],
+          [
+            71.52,
+            -85.32
+          ]
+        ],
+        "2025-06": [
+          [
+            67.95,
+            -94.02
+          ],
+          [
+            87.91,
+            -100.55
+          ],
+          [
+            90.87,
+            -92.36
+          ],
+          [
+            70.78,
+            -85.14
+          ]
+        ]
+      },
+      "lengthM": 20.847,
+      "widthM": 8.779,
+      "crossDateIoU": 0.781,
+      "cornerPairDistanceM": [
+        0.824,
+        1.622,
+        1.416,
+        0.762
+      ],
+      "roadClearanceM": 0.999,
+      "nearby": [
+        [
+          9.99,
+          "zouyu-b2"
+        ],
+        [
+          11.358,
+          "943174"
+        ],
+        [
+          17.887,
+          "943176"
+        ]
+      ],
+      "sourceImagery": [
+        {"captureDate": "2024-03-09", "platform": "WorldView-3", "nativeMetres": 0.31, "archiveSamplingMetres": 0.60},
+        {"captureDate": "2025-06-02", "platform": "Legion-2", "nativeMetres": 0.34, "archiveSamplingMetres": 0.60}
+      ],
+      "scope": "两期影像均见连续砖红屋面。平面取联合拟合，双坡和檐高为展示估计。",
+      "registration": "校园本地米制 XZ，按影像 EPSG:3857 反投影至 WGS 84 后换算。",
+      "building": {
+        "fid": "zouyu-a8",
+        "ring": [
+          [
+            68.345,
+            -93.675
+          ],
+          [
+            88.233,
+            -99.925
+          ],
+          [
+            90.865,
+            -91.55
+          ],
+          [
+            70.977,
+            -85.3
+          ]
+        ],
+        "holes": [],
+        "center": [
+          79.605,
+          -92.613
+        ],
+        "axis": -0.30449,
+        "tint": "clay",
+        "height": 4.35,
+        "villageRoof": {
+          "ridgeXZ": [
+            [
+              69.661,
+              -89.487
+            ],
+            [
+              89.549,
+              -95.738
+            ]
+          ],
+          "eaveHeight": 2.8,
+          "eaveAnchorXZ": [79.605, -92.613],
+          "rise": 1.55,
+          "keepTerrain": true,
+          "heightSource": "Estimated eave and ridge heights with dual-date imagery footprint",
+          "sources": [
+            "https://livingatlas.arcgis.com/wayback/#active=13192&mapCenter=120.70635%2C37.80675%2C18",
+            "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.70635%2C37.80675%2C18"
+          ]
+        }
+      }
+    },
+    {
+      "shapeByEpoch": {
+        "2024-03": [
+          [
+            108.12,
+            -72.63
+          ],
+          [
+            116.97,
+            -76.11
+          ],
+          [
+            119.22,
+            -71.75
+          ],
+          [
+            110.45,
+            -67.25
+          ]
+        ],
+        "2025-06": [
+          [
+            106.68,
+            -72.08
+          ],
+          [
+            115.77,
+            -76.0
+          ],
+          [
+            118.48,
+            -70.66
+          ],
+          [
+            109.53,
+            -66.65
+          ]
+        ]
+      },
+      "lengthM": 9.988,
+      "widthM": 5.715,
+      "crossDateIoU": 0.711,
+      "cornerPairDistanceM": [
+        1.541,
+        1.205,
+        1.317,
+        1.098
+      ],
+      "roadClearanceM": 32.358,
+      "nearby": [
+        [
+          3.567,
+          "zouyu-a7"
+        ],
+        [
+          20.341,
+          "943172"
+        ],
+        [
+          27.84,
+          "943175"
+        ]
+      ],
+      "sourceImagery": [
+        {"captureDate": "2024-03-09", "platform": "WorldView-3", "nativeMetres": 0.31, "archiveSamplingMetres": 0.60},
+        {"captureDate": "2025-06-02", "platform": "Legion-2", "nativeMetres": 0.34, "archiveSamplingMetres": 0.60}
+      ],
+      "scope": "两期影像均见条形砖红屋面。平面取联合拟合，双坡和檐高为展示估计。",
+      "registration": "校园本地米制 XZ，按影像 EPSG:3857 反投影至 WGS 84 后换算。",
+      "building": {
+        "fid": "zouyu-a9",
+        "ring": [
+          [
+            107.428,
+            -72.216
+          ],
+          [
+            116.549,
+            -76.286
+          ],
+          [
+            118.878,
+            -71.066
+          ],
+          [
+            109.756,
+            -66.997
+          ]
+        ],
+        "holes": [],
+        "center": [
+          113.152,
+          -71.641
+        ],
+        "axis": -0.41971,
+        "tint": "clay",
+        "height": 3.55,
+        "villageRoof": {
+          "ridgeXZ": [
+            [
+              108.592,
+              -69.606
+            ],
+            [
+              117.713,
+              -73.676
+            ]
+          ],
+          "eaveHeight": 2.55,
+          "rise": 1.0,
+          "keepTerrain": true,
+          "heightSource": "Estimated eave and ridge heights with dual-date imagery footprint",
+          "sources": [
+            "https://livingatlas.arcgis.com/wayback/#active=13192&mapCenter=120.70635%2C37.80675%2C18",
+            "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.70635%2C37.80675%2C18"
+          ]
+        }
+      }
+    },
+    {
+      "sample": "A10",
+      "shapeByEpoch": {
+        "2024-03": [
+          [
+            82.884,
+            -39.728
+          ],
+          [
+            106.268,
+            -44.839
+          ],
+          [
+            107.87,
+            -39.835
+          ],
+          [
+            84.058,
+            -34.512
+          ]
+        ],
+        "2025-06": [
+          [
+            84.165,
+            -40.154
+          ],
+          [
+            105.521,
+            -45.371
+          ],
+          [
+            107.443,
+            -39.835
+          ],
+          [
+            85.446,
+            -34.618
+          ]
+        ]
+      },
+      "ridgeByEpoch": {
+        "2024-03": [
+          [
+            83.418,
+            -37.28
+          ],
+          [
+            107.229,
+            -42.177
+          ]
+        ],
+        "2025-06": [
+          [
+            85.126,
+            -37.386
+          ],
+          [
+            106.375,
+            -42.603
+          ]
+        ]
+      },
+      "ridgeDirectionsDegrees": [
+        -11.62,
+        -13.79
+      ],
+      "crossDateIoU": 0.851,
+      "maximumCornerDifferenceM": 1.392,
+      "lengthM": 22.132,
+      "widthM": 5.202,
+      "roadClearanceM": 1.069,
+      "nearestBuildingM": 21.511,
+      "sourceImagery": [
+        {
+          "captureDate": "2024-03-09",
+          "platform": "WorldView-3",
+          "nativeMetres": 0.31,
+          "archiveSamplingMetres": 0.6,
+          "nominalPositionAccuracyMetres": 5,
+          "metadataURL": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r12/MapServer/5/query?f=json&geometry=120.70633580800221%2C37.8063394821295&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSAMP_RES%2CSRC_DESC%2CNICE_DESC&returnGeometry=false"
+        },
+        {
+          "captureDate": "2025-06-02",
+          "platform": "WorldView Legion 2",
+          "nativeMetres": 0.34,
+          "archiveSamplingMetres": 0.6,
+          "nominalPositionAccuracyMetres": 5,
+          "metadataURL": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.70633580800221%2C37.8063394821295&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSAMP_RES%2CSRC_DESC%2CNICE_DESC&returnGeometry=false"
+        }
+      ],
+      "scope": "两期影像均见砖红条形屋面与同向屋脊。四边略向内收，巷道一侧收进 0.93 米。檐高与坡度为低矮民居体量的显示估计。",
+      "registration": "影像 EPSG:3857 反投影至 WGS84 后换算校园本地东向、南向米制坐标。",
+      "building": {
+        "fid": "zouyu-a10",
+        "ring": [
+          [
+            84.328,
+            -39.966
+          ],
+          [
+            105.895,
+            -44.936
+          ],
+          [
+            107.063,
+            -39.866
+          ],
+          [
+            85.496,
+            -34.897
+          ]
+        ],
+        "holes": [],
+        "center": [
+          95.696,
+          -39.916
+        ],
+        "axis": -0.2265,
+        "tint": "clay",
+        "height": 3.95,
+        "villageRoof": {
+          "ridgeXZ": [
+            [
+              84.912,
+              -37.431
+            ],
+            [
+              106.479,
+              -42.401
+            ]
+          ],
+          "eaveAnchorXZ": [
+            95.696,
+            -39.916
+          ],
+          "eaveHeight": 2.8,
+          "rise": 1.15,
+          "keepTerrain": true,
+          "heightSource": "Illustrative eave and roof rise; footprint and roof ridge direction from two dated optical views",
+          "sources": [
+            "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r12/MapServer/5/query?f=json&geometry=120.70633580800221%2C37.8063394821295&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSAMP_RES%2CSRC_DESC%2CNICE_DESC&returnGeometry=false",
+            "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.70633580800221%2C37.8063394821295&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSAMP_RES%2CSRC_DESC%2CNICE_DESC&returnGeometry=false"
+          ]
+        }
+      }
+    },
+    {
+      "sample": "Northeast outer roof",
+      "shapeByEpoch": {
+        "2024-03": [
+          [
+            403.342,
+            116.813
+          ],
+          [
+            415.059,
+            115.48
+          ],
+          [
+            416.946,
+            120.262
+          ],
+          [
+            404.05,
+            122.144
+          ]
+        ],
+        "2025-06": [
+          [
+            401.298,
+            117.048
+          ],
+          [
+            413.25,
+            115.323
+          ],
+          [
+            415.688,
+            123.007
+          ],
+          [
+            403.106,
+            124.653
+          ]
+        ]
+      },
+      "ridgeByEpoch": {
+        "2024-03": [
+          [
+            403.814,
+            119.008
+          ],
+          [
+            415.924,
+            117.518
+          ]
+        ],
+        "2025-06": [
+          [
+            401.927,
+            120.419
+          ],
+          [
+            414.351,
+            118.93
+          ]
+        ]
+      },
+      "locationWGS84": [
+        120.7098987,
+        37.8049093
+      ],
+      "crossDateIoU": 0.514,
+      "sharedFootprintM2": 45.714,
+      "lengthM": 10.07,
+      "widthM": 4.54,
+      "sourceImagery": [
+        {
+          "captureDate": "2021-12-07",
+          "platform": "GeoEye-1",
+          "nativeMetres": 0.46,
+          "archiveSamplingMetres": 0.6,
+          "nominalPositionAccuracyMetres": 5,
+          "metadataURL": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r15/MapServer/5/query?f=json&geometry=120.70978651720293%2C37.80490786031552&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSAMP_RES%2CSRC_DESC%2CNICE_DESC&returnGeometry=false"
+        },
+        {
+          "captureDate": "2022-03-06",
+          "platform": "WorldView-3",
+          "nativeMetres": 0.31,
+          "archiveSamplingMetres": 0.6,
+          "nominalPositionAccuracyMetres": 5,
+          "metadataURL": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2023_r11/MapServer/5/query?f=json&geometry=120.70978651720293%2C37.80490786031552&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSAMP_RES%2CSRC_DESC%2CNICE_DESC&returnGeometry=false"
+        },
+        {
+          "captureDate": "2023-06-05",
+          "platform": "WorldView-2",
+          "nativeMetres": 0.5,
+          "archiveSamplingMetres": 0.6,
+          "nominalPositionAccuracyMetres": 5,
+          "metadataURL": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2024_r13/MapServer/5/query?f=json&geometry=120.70978651720293%2C37.80490786031552&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSAMP_RES%2CSRC_DESC%2CNICE_DESC&returnGeometry=false"
+        },
+        {
+          "captureDate": "2024-03-09",
+          "platform": "WorldView-3",
+          "nativeMetres": 0.31,
+          "archiveSamplingMetres": 0.6,
+          "nominalPositionAccuracyMetres": 5,
+          "metadataURL": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r12/MapServer/5/query?f=json&geometry=120.70988884465864%2C37.80490786031552&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSAMP_RES%2CSRC_DESC%2CNICE_DESC&returnGeometry=false"
+        },
+        {
+          "captureDate": "2025-06-02",
+          "platform": "WorldView Legion 2",
+          "nativeMetres": 0.34,
+          "archiveSamplingMetres": 0.6,
+          "nominalPositionAccuracyMetres": 5,
+          "metadataURL": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.70988884465864%2C37.80490786031552&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSAMP_RES%2CSRC_DESC%2CNICE_DESC&returnGeometry=false"
+        }
+      ],
+      "scope": "2021 至 2025 年五期均可辨同址短瓦屋面。2024 年南檐邻近植被遮挡，因此采用两期共见的保守矩形。东侧弯曲土路两期可见，屋门至道路的通行地面受树荫遮挡。",
+      "layout": {
+        "nearestVisibleUnmodeledDirtTrackMetres": {
+          "2024-03": 9.09,
+          "2025-06": 8.49
+        },
+        "nearestMappedRoadEdgeMetres": 34.81,
+        "nearestMappedBuildingMetres": 31.8,
+        "sourceBasis": "Visible roof trace; the apparent roof edge includes viewpoint and shadow uncertainty."
+      },
+      "building": {
+        "fid": "zouyu-northeast-old-roof",
+        "ring": [
+          [
+            403.869,
+            117.172
+          ],
+          [
+            413.869,
+            115.957
+          ],
+          [
+            414.416,
+            120.462
+          ],
+          [
+            404.416,
+            121.677
+          ]
+        ],
+        "holes": [],
+        "center": [
+          408.869,
+          118.842
+        ],
+        "axis": -0.12085,
+        "tint": "clay",
+        "height": 3.95,
+        "villageRoof": {
+          "ridgeXZ": [
+            [
+              404.143,
+              119.424
+            ],
+            [
+              414.143,
+              118.21
+            ]
+          ],
+          "eaveAnchorXZ": [
+            408.869,
+            118.842
+          ],
+          "eaveHeight": 2.8,
+          "rise": 1.15,
+          "keepTerrain": true,
+          "heightSource": "Display estimates from the established low tiled-roof model. Footprint and ridge trace are imagery-derived.",
+          "sources": [
+            "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r12/MapServer/5/query?f=json&geometry=120.70988884465864%2C37.80490786031552&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSAMP_RES%2CSRC_DESC%2CNICE_DESC&returnGeometry=false",
+            "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.70988884465864%2C37.80490786031552&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSAMP_RES%2CSRC_DESC%2CNICE_DESC&returnGeometry=false"
+          ]
+        }
+      }
+    }
+  ],
+  "roofFinishBasis": "On well resolved faces the rectified school image has a repeated band across the slope. Estimate is retained only where its spectral peak exceeds ten times the local median. Band depth is illustrative. B1 and B2 have full-length flanking roof sections. The lighter gridded roof has an estimated longitudinal repeat of 0.82 m."
+}

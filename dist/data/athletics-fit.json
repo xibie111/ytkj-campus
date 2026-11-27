@@ -1,0 +1,76 @@
+{
+  "fits": [
+    {
+      "item": "S2B_51STB_20250611_0_L2A",
+      "profiles": 54,
+      "free_fit": [
+        -1.5882904747248565,
+        -4.50438684524476,
+        73.67684677469154,
+        51.69431971483387,
+        -0.021991648121564466
+      ],
+      "old_edge_rmse_m": 10.751985222435323,
+      "standard_edge_rmse_m": 5.722761571129799,
+      "free_edge_rmse_m": 2.746381115411334,
+      "implemented_apron_edge_rmse_m": 3.400001896697721,
+      "leave_one_date_out_rmse_m": 3.8419119334769003
+    },
+    {
+      "item": "S2B_51STB_20261014_0_L2A",
+      "profiles": 59,
+      "free_fit": [
+        0.08181668484246238,
+        -3.2009024210701456,
+        77.58900305515687,
+        53.84693447057089,
+        -0.055873756747250675
+      ],
+      "old_edge_rmse_m": 13.500902629635865,
+      "standard_edge_rmse_m": 7.377818335377369,
+      "free_edge_rmse_m": 3.271742492875195,
+      "implemented_apron_edge_rmse_m": 3.767345580220957,
+      "leave_one_date_out_rmse_m": 4.242630325231781
+    },
+    {
+      "item": "S2C_51STB_20250520_0_L2A",
+      "profiles": 56,
+      "free_fit": [
+        -0.5552707684347484,
+        -2.2565233955133266,
+        72.80910470261426,
+        52.64897147721084,
+        -0.048964194993294526
+      ],
+      "old_edge_rmse_m": 11.855299196903564,
+      "standard_edge_rmse_m": 6.079091802469932,
+      "free_edge_rmse_m": 3.137588477234953,
+      "implemented_apron_edge_rmse_m": 3.111829478050188,
+      "leave_one_date_out_rmse_m": 3.330375023581876
+    }
+  ],
+  "median": [
+    -0.5552707684347484,
+    -3.2009024210701456,
+    73.67684677469154,
+    52.64897147721084,
+    -0.048964194993294526
+  ],
+  "grandstand": {
+    "height": 16,
+    "heightSource": "校方航拍按球场标线估高",
+    "meta": "膜顶约 16 m · 校方航拍估算，未经实测",
+    "note": "南侧主席台中央有五个相连的白色膜顶，左右各接一段露天看台。",
+    "roofSource": "https://www.ytkj.edu.cn/info/1115/6346.htm",
+    "geometryBasis": "2024 年 5 月 30 日校方影片约 30.9 秒。依大场罚球区、球门区与中圈估算五峰及前檐高度，照片未提供相机参数或测绘控制点。",
+    "imageCheck": {
+      "source": "https://www.ytkj.edu.cn/info/1115/6346.htm",
+      "date": "2024-05-30",
+      "seconds": 30.9,
+      "estimatedEaveMetres": 13,
+      "estimatedPeakMetres": 16,
+      "priorRoofReference": "https://www.ytkj.edu.cn/info/1081/3549.htm",
+      "basis": "七个地面标线点与名义规则场地尺寸约束针孔投影。高程未经现场测量。"
+    }
+  }
+}

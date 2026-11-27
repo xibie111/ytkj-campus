@@ -1,0 +1,142 @@
+{
+  "ring": [
+    [
+      69.0,
+      192.1
+    ],
+    [
+      74.6,
+      202.7
+    ],
+    [
+      84.6,
+      214.3
+    ],
+    [
+      95.0,
+      226.5
+    ],
+    [
+      103.5,
+      236.9
+    ],
+    [
+      108.2,
+      243.6
+    ],
+    [
+      114.4,
+      246.9
+    ],
+    [
+      120.2,
+      247.9
+    ],
+    [
+      125.4,
+      246.5
+    ],
+    [
+      135.4,
+      240.5
+    ],
+    [
+      147.3,
+      231.0
+    ],
+    [
+      159.0,
+      221.4
+    ],
+    [
+      171.1,
+      211.4
+    ],
+    [
+      181.2,
+      202.5
+    ],
+    [
+      186.4,
+      197.0
+    ],
+    [
+      187.3,
+      194.3
+    ],
+    [
+      181.8,
+      188.2
+    ],
+    [
+      177.1,
+      185.5
+    ],
+    [
+      173.7,
+      188.2
+    ],
+    [
+      167.7,
+      194.4
+    ],
+    [
+      158.5,
+      203.7
+    ],
+    [
+      148.9,
+      212.4
+    ],
+    [
+      138.6,
+      221.6
+    ],
+    [
+      130.0,
+      229.2
+    ],
+    [
+      122.8,
+      235.0
+    ],
+    [
+      118.8,
+      236.3
+    ],
+    [
+      113.4,
+      230.1
+    ],
+    [
+      102.8,
+      219.0
+    ],
+    [
+      91.9,
+      207.3
+    ],
+    [
+      81.5,
+      195.7
+    ],
+    [
+      74.2,
+      188.1
+    ]
+  ],
+  "evidence": {
+    "winterPhoto": "https://www.ytkj.edu.cn/info/1049/8471.htm",
+    "reviewPhotoReport": "https://www.ytkj.edu.cn/info/1081/7454.htm",
+    "reviewPhoto": "https://www.ytkj.edu.cn/__local/8/53/6E/AFFD486C564F5BC4DB1B3855C05_CE6BFD7F_1ABD6B5.jpg",
+    "photoScope": "校方冬季图显示博雅楼南角浅色转弯铺地及弯形路缘；2026年3月报道有同楼浅灰石铺地近景。冬季原图未给拍摄日期，调研近照不能独立解算整个转角或铺砖排列。",
+    "opticalMetadata": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.98888572223913%2C37.73005572063103&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=SRC_DATE%2CSRC_RES%2CSRC_ACC%2CSAMP_RES%2CSRC_DESC&returnGeometry=false",
+    "acquired": "2025-04-13",
+    "sensor": "WorldView-3",
+    "nativePixelMetres": 0.31,
+    "sampledPixelMetres": 0.6,
+    "nominalHorizontalAccuracyMetres": 5,
+    "sceneGrid": "EPSG:3857",
+    "limits": "平面轮廓来自正射可见地坪边，保留建筑前种植与玻璃围护的带宽。铺面标高采用现有地形。"
+  }
+}

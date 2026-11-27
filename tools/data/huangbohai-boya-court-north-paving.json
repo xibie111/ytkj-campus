@@ -1,0 +1,90 @@
+{
+  "ring": [
+    [
+      34.8965,
+      103.6685
+    ],
+    [
+      42.37,
+      100.4675
+    ],
+    [
+      48.5443,
+      98.2971
+    ],
+    [
+      54.6411,
+      95.6461
+    ],
+    [
+      66.2875,
+      89.0742
+    ],
+    [
+      78.1586,
+      80.5415
+    ],
+    [
+      88.047,
+      70.9335
+    ],
+    [
+      91.3759,
+      65.7869
+    ],
+    [
+      95.0924,
+      68.7448
+    ],
+    [
+      91.3684,
+      73.4216
+    ],
+    [
+      86.8933,
+      78.4347
+    ],
+    [
+      75.1557,
+      88.86
+    ],
+    [
+      68.7346,
+      92.9693
+    ],
+    [
+      62.464,
+      96.6038
+    ],
+    [
+      56.3156,
+      99.4978
+    ],
+    [
+      44.1128,
+      104.9399
+    ],
+    [
+      36.5402,
+      107.8576
+    ]
+  ],
+  "evidence": {
+    "name": "博雅花园北侧球场外缘浅色步道",
+    "worldView3": {
+      "acquired": "2025-04-13",
+      "provider": "Esri / Vantor",
+      "referenceProjection": "EPSG:3857",
+      "metadata": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.990436%2C37.733681&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=false"
+    },
+    "beijing3": {
+      "timeLabel": "20260424",
+      "crossCheck": "20260304",
+      "provider": "天地图·山东",
+      "url": "https://www.sdmap.gov.cn/map.html",
+      "displayZoom": 18,
+      "nativeGsdMetres": null
+    },
+    "basis": "按天地图4月浅色铺面边缘绘制，2025年WorldView-3的相同浅色地物核对宽度和走向。西端接既有花园步道分岔，两期均可见。约56米可辨主体和短接头按影像估算，材质及施工尺寸待实测。"
+  }
+}

@@ -1,0 +1,535 @@
+{
+  "coordinates": "Local metres. X east, Y up, Z south.",
+  "excludedFootprints": [
+    {
+      "id": "B022",
+      "sourceFragment": "G025",
+      "basis": "2023 年校方场区图和 2024-03-09、2025-06-02 影像都显示两翼之间是露天庭院。树冠及铺地连续穿过旧轮廓。",
+      "planSource": "https://www.ytkj.edu.cn/__local/3/F6/32/5241A8114C0D15B821962C7CB32_2114B07F_7811D.pdf#page=9"
+    }
+  ],
+  "houdeRoof": {
+    "roofColor": "#cbbb9c",
+    "planColor": "#c8b69a",
+    "roofSource": "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.70214%2C37.80906%2C18",
+    "roofDetailSources": [
+      "https://livingatlas.arcgis.com/wayback/#active=13192&mapCenter=120.70214%2C37.80906%2C18",
+      "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.70214%2C37.80906%2C18"
+    ],
+    "roofDetails": [
+      {
+        "ring": [
+          [
+            -264.089,
+            -352.715
+          ],
+          [
+            -264.781,
+            -353.409
+          ],
+          [
+            -278.464,
+            -339.767
+          ],
+          [
+            -277.772,
+            -339.073
+          ]
+        ],
+        "height": 0.065,
+        "color": "#9b8b73"
+      }
+    ],
+    "geometryBasis": "2024-03-09 与 2025-06-02 两期影像均显示专家公寓为暖米色屋面，中央可辨约 19 米的横向分界。模型按 2025 近直视影像估放这条分界，显示带略抬以防闪烁。沿用现有建筑轮廓，屋面实际高差未测。"
+  },
+  "firstTeaching": {
+    "id": "B023",
+    "replaces": [
+      "B029"
+    ],
+    "ring": [
+      [
+        -104.34,
+        -212.14
+      ],
+      [
+        -198.25,
+        -183.64
+      ],
+      [
+        -190.63,
+        -158.48
+      ],
+      [
+        -96.72,
+        -186.98
+      ]
+    ],
+    "groundAnchor": [
+      -131.65,
+      -190.52
+    ],
+    "roofColor": "#c4b79d",
+    "rooflights": [
+      {
+        "axis": [
+          [
+            -178.36,
+            -175.94
+          ],
+          [
+            -157.41,
+            -182.3
+          ]
+        ],
+        "width": 9.2,
+        "rise": 0.75,
+        "frames": 7
+      },
+      {
+        "axis": [
+          [
+            -136.64,
+            -188.6
+          ],
+          [
+            -116.93,
+            -194.58
+          ]
+        ],
+        "width": 9.2,
+        "rise": 0.75,
+        "frames": 7
+      }
+    ],
+    "frontEndPanels": {
+      "widthMetres": 12.2
+    },
+    "roofGrille": {
+      "center": [
+        -148.15,
+        -184.83
+      ],
+      "radius": 5.35,
+      "angle": -0.29464827300388613
+    },
+    "geometryBasis": "2023、2024、2025 三期屋面可辨同一连续主楼。按三期可见长檐中位位置，沿既有长轴向西补齐，保留原东界与南侧门厅立面线。墙脚和檐高待测。",
+    "sources": [
+      "https://www.ytkj.edu.cn/info/1115/6342.htm",
+      "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.70358%2C37.80770%2C18"
+    ],
+    "dates": [
+      "2023-06-05",
+      "2024-03-09",
+      "2025-06-02"
+    ],
+    "note": "校方航拍中可见屋顶两组青色采光带；南侧玻璃雨篷按校方画面复建。"
+  },
+  "financeCourt": {
+    "pavingRingXZ": [[250.08,-191.19],[254.9,-193.26],[264.43,-194.39],[275.43,-197.99],[272.97,-199.81],[269,-205.8],[263.81,-204.22],[241,-202.27],[240.4,-202.39],[241.77,-199.75],[245.28,-196.67]],
+    "ringXZ": [[238.25,-202.83],[245.28,-196.67],[250.08,-191.19],[254.9,-193.26],[278.12,-196.01],[272.97,-199.81],[269,-205.8],[263.81,-204.22],[241,-202.27]],
+    "anchorXZ": [258.45,-198.8],
+    "levelMetres": 50.87,
+    "slopeXZ": [0,-0.01553],
+    "blendMetres": 13,
+    "allowFill": true,
+    "protectedBuildingIds": ["B015","B024"],
+    "subdivisions": 18,
+    "planSource": "https://www.ytkj.edu.cn/__local/3/F6/32/5241A8114C0D15B821962C7CB32_2114B07F_7811D.pdf#page=9",
+    "gradeSource": "https://doi.org/10.5067/ATLAS/ATL03.007",
+    "basis": "2023 年校方场区图与两期影像支持内庭铺地。公开激光轨道在庭院西侧，两组共 23 个地面回波约束南北向缓坡。庭内无直接高程点，台面基准采用原模型铺装范围地面中位数 50.87 米，横坡估为零。"
+  },
+  "financeNorthWing": {
+    "id": "B015",
+    "name": "第四教学楼北翼",
+    "kind": "teaching",
+    "ring": [[261.59,-245.65],[268.88,-249.22],[273.17,-245.61],[279.95,-231.21],[266.67,-221.44],[261.27,-218.60],[245.20,-216.61],[240.42,-214.94],[235.08,-215.07],[229.71,-213.41],[227.25,-209.91],[230.02,-201.54],[234.03,-195.52],[230.40,-192.64],[226.05,-189.18],[224.80,-188.60],[224.50,-189.17],[224.19,-189.01],[221.03,-194.97],[221.34,-195.14],[209.60,-217.30],[210.85,-218.60],[219.29,-224.34],[229.49,-229.43],[236.05,-231.06],[259.82,-232.87],[262.52,-238.15]],
+    "modelBaseMetres": 47.56,
+    "height": 33.84,
+    "floors": 5,
+    "wallColor": "#e4dfd2",
+    "note": "西立面南端的方塔邻近架空连廊。",
+    "meta": "北翼普通屋面约 69–72 米，西塔塔顶约 81 米（EGM2008）",
+    "roofSource": "https://www.ytkj.edu.cn/__local/3/F6/32/5241A8114C0D15B821962C7CB32_2114B07F_7811D.pdf#page=9",
+    "geometryBasis": "2023 校方场区图与 2024-03-09、2025-06-02 影像核对折线屋身和临西路的塔脚。结合原 B015 可核对的东北转角，场区图控制点拟合均方根约 2.3 米。塔楼水平定位按两期屋顶和临地轮廓核对，局部控制为米级近似。",
+    "heightSource": "ICESat-2 屋面回波与校方两张航拍相对量测",
+    "westApronGrade": {
+      "ringXZ": [[195.8,-222.4],[202,-223.7],[208.3,-222.0],[214.9,-218.6],[223.0,-202.1],[228.7,-192.1],[230.3,-186.0],[228.2,-180.5],[224.5,-181.2],[219.9,-187.0],[211,-200.4],[199,-213.7],[194.7,-217.8]],
+      "anchorXZ": [227,-185], "levelMetres": 47.56, "slopeXZ": [0.026,-0.01553],
+      "blendMetres": 34, "maximumCutMetres": 12.5, "maximumFillMetres": 0,
+      "southFadeZ": [-184,-178], "allowFill": true,
+      "protectedBuildingIds": ["G018","B024"], "subdivisions": 18,
+      "maximumWestWallGroundMetresEGM2008": [[211.54,-213.65,47.61],[214.94,-207.21,48.19],[217.72,-201.97,48.15],[220.46,-196.81,48.94]],
+      "pixelControls8478": [[2966,2012],[3047,2004],[3113,2003],[3178,1993]],
+      "basis": "西墙踢脚可见部位约束四个地面上界，墙外 2020-10-19 一条轨道的两组地面回波约束绝对高程和南北纵坡。约二十米停车带路缘在校方航拍中的相对纵差约 0.2 米。2.6% 东西横坡使北侧墙脚满足照片上界。停车带绝对高度、横断面和转弯后的端部按连续地面近似。"
+    },
+    "floorSources": ["https://www.ytkj.edu.cn/info/1049/8478.htm","https://www.ytkj.edu.cn/info/1049/8465.htm"],
+    "financeWingRoof": {
+      "insetMetres": 4.0, "riseMetres": 2.25, "eaveAboveBaseMetres": 21.89, "capDropMetres": 1.70,
+      "slopeColor": "#64655f", "capColor": "#d8cab0",
+      "tower": {
+        "ring": [[224.19,-189.01],[221.03,-194.97],[226.68,-197.97],[229.65,-192.13]],
+        "westEdge": 0, "eaveAboveBaseMetres": 32.64, "riseMetres": 1.20,
+        "wallColor": "#e4dfd2", "roofColor": "#61635f"
+      }
+    },
+    "heightChecks": {
+      "gradeSource": "https://doi.org/10.5067/ATLAS/ATL03.007",
+      "track": "2020-10-19 RGT 392 gt3r",
+      "adjacentGroundProxyXZ": [227,-185], "groundProxyMetresEGM2008": 47.56,
+      "highConfidenceReturns": 18, "roofRangeMetresEGM2008": [69.36,72.32],
+      "eaveMetresEGM2008": 69.45, "ridgeMetresEGM2008": 71.70, "centralRoofMetresEGM2008": 70.0,
+      "towerEaveMetresEGM2008": 80.20, "towerRidgeMetresEGM2008": 81.40,
+      "towerEaveImagePixels": [[3223,1644],[4565,682]], "towerRidgeImagePixels": [[3240,1625.5],[4572.5,667.5]],
+      "towerEaveReprojectionPx": [0.20,0.27], "towerRidgeReprojectionPx": [0.13,0.18],
+      "cnbh": {"height_m":12.77,"valid_cells":13,"footprint_cells":14,"min_m":11.47,"max_m":13.59},
+      "limits": "西翼轨道 18 个高置信回波中，14 个落在普通屋面，另 4 个落在塔位投影内；后者约 69–72 米，无法据此识别塔顶。塔高独立取自校方双视航拍和附近地面基准。东北端缺少屋顶及地面实测点，其坡面、基座与可见楼层按现有地形展示。"
+    }
+  },
+  "financeSouthWing": {
+    "id": "B024",
+    "name": "财经学院（第四教学楼）",
+    "kind": "teaching",
+    "ring": [[251.58,-160.11],[240.55,-154.91],[232.03,-171.99],[236.51,-174.70],[240.06,-174.62],[241.79,-172.20],[245.98,-173.88],[247.36,-182.15],[251.58,-185.02],[261.92,-187.78],[277.75,-190.55],[285.89,-195.63],[281.96,-203.76],[293.54,-208.44],[305.48,-181.97],[299.44,-177.37],[287.45,-171.72],[258.89,-168.24],[255.96,-169.50],[252.95,-167.79],[250.64,-170.21],[248.76,-166.11]],
+    "labelPoint": [268,-179.7],
+    "modelBaseMetres": 47.56,
+    "height": 24.77,
+    "floors": 5,
+    "floorSources": ["https://www.ytkj.edu.cn/info/1049/8478.htm","https://www.ytkj.edu.cn/info/1049/8465.htm"],
+    "wallColor": "#e5e1d7",
+    "note": "南、北两翼围合一处庭院，西端连廊的底层通向庭内。",
+    "meta": "南翼西端坡檐约 70.2 米，内脊约 72.3 米（EGM2008） · 据航拍和邻近地面回波推估",
+    "identitySource": "https://www.ytkj.edu.cn/info/1083/8716.htm",
+    "roofSource": "https://www.ytkj.edu.cn/__local/3/F6/32/5241A8114C0D15B821962C7CB32_2114B07F_7811D.pdf#page=9",
+    "geometryBasis": "合并校方 2023 场区图的西端方形楼体、折线长翼与 B024 原有东端的临庭转角，以 2021 年 CBRA 和 2024-03-09、2025-06-02 两期影像校核。西侧建筑边缘与现有车道路面之间预留约 1.5 米；场区图控制点拟合均方根约 2.3 米。",
+    "heightSource": "校方两张航拍的相对高度与 ICESat-2 相邻地面回波",
+    "heightChecks": {
+      "gradeSource": "https://doi.org/10.5067/ATLAS/ATL03.007",
+      "gradeDate": "2020-10-19",
+      "groundProxyXZ": [227,-185],
+      "groundProxyMetresEGM2008": 47.56,
+      "westBridgeLipMetresEGM2008": 66.16,
+      "southAttachmentMetresEGM2008": 67.02,
+      "lowerFasciaMetresEGM2008": 68.83,
+      "eaveMetresEGM2008": 70.16,
+      "innerRidgeMetresEGM2008": 72.33,
+      "stereoPhotos": ["https://www.ytkj.edu.cn/info/1049/8478.htm","https://www.ytkj.edu.cn/info/1049/8465.htm"],
+      "stereoImageOrder": ["8478","8465"],
+      "eaveImagePixels": [[3552.3,1746.0],[4978.3,840.0]],
+      "ridgeImagePixels": [[3579.3,1713.7],[4988.3,809.3]],
+      "eaveReprojectionPx": [0.42,0.56],
+      "ridgeReprojectionPx": [1.17,1.55],
+      "cnbh": {"height_m":11.67,"valid_cells":5,"footprint_cells":16,"min_m":10.93,"max_m":12.43},
+      "floorBasis": "西向照片可辨三排常规窗、上部窄窗带和临地的立面层。模型采用五排窗带，未取得楼层剖面。",
+      "limits": "西端方塔的同一条斜脊两端由双视航拍量取。门槛采用西侧轨道 23 个地面回波的拟合标高，楼内缺少直接屋顶高程点。其余屋面沿用西端相对剖面，浅色中央屋面深度、层数和逐面绝对标高待测。"
+    },
+    "financeWingRoof": {"insetMetres":4.2,"riseMetres":2.17,"slopeColor":"#64645e","capColor":"#d8cab0"}
+  },
+  "teaching10Grade": {
+    "ringXZ": [[47,-258],[62,-257],[65,-245],[61,-237],[45,-238],[43,-247]],
+    "anchorXZ": [53,-248],
+    "levelMetres": 31.6,
+    "slopeXZ": [0.025,0.008],
+    "blendMetres": 16,
+    "basis": "两期校方航拍相对高差与 ICESat-2 西侧地面低点约束。31.6 米是门厅近旁的展示基准，修整限于前庭与门厅。门槛和坡面待实测。"
+  },
+  "buildings": [
+    {
+      "id": "east-teaching-10",
+      "name": "第十教学楼",
+      "kind": "teaching",
+      "labelSpan": 150,
+      "viewDirection": [-0.95,0.83,0.47],
+      "viewWidth": 129,
+      "ring": [[26.77,-312.44],[81.74,-310.52],[78.95,-230.57],[61.96,-231.16],[62.83,-256.14],[21.85,-257.57],[22.41,-273.56],[63.39,-272.13],[64.29,-298.12],[26.32,-299.44]],
+      "floors": 6,
+      "height": 24.1,
+      "modelBaseMetres": 32.1,
+      "wallColor": "#ded5c0",
+      "roofColor": "#c6c2b6",
+      "heightSource": "ICESat-2 ATL03 近屋缘回波及校方航拍",
+      "heightChecks": {
+        "datum": "EGM2008",
+        "date": "2024-09-07",
+        "track": "RGT 1253 gt2l",
+        "highConfidenceReturns": 13,
+        "observedElevationRangeMetres": [56.02,57.51],
+        "displayParapetElevationMetres": 56.2,
+        "displayBaseElevationMetres": 32.1,
+        "method": "近屋缘光子簇估檐顶，临西墙脚低处点控制基座。六排窗来自校方斜航拍。"
+      },
+      "roofSource": "https://www.ytkj.edu.cn/__local/5/71/4D/E24AF4832B5999EB7045FABA491_5EFBB06F_C82000.jpg",
+      "floorSources": ["https://www.ytkj.edu.cn/__local/5/71/4D/E24AF4832B5999EB7045FABA491_5EFBB06F_C82000.jpg"],
+      "geometryBasis": "校方两次航拍核对屋翼与开敞凹院。用三期开放 Sentinel-2 原生十米影像支持轮廓的整体位置和朝向。楼角、入口与外墙尺寸为近似。",
+      "meta": "主楼展示高度约 24 m"
+    },
+    {
+      "id": "east-teaching-10-south",
+      "name": "第十教学楼南翼",
+      "tenthSouthFacade": {
+        "sources": ["https://www.ytkj.edu.cn/info/1049/8465.htm", "https://www.ytkj.edu.cn/info/1049/8478.htm"],
+        "photoDates": ["2024-11-30", "2025-04-08"],
+        "basis": "两张校方原片辨认短翼西面两排窄窗、南面两排窗带及近东端门廊。立面构件按照片比例估算，门槛顺应现有模型地坪。"
+      },
+      "kind": "teaching",
+      "ring": [[53.96,-231.44],[78.95,-230.57],[78.18,-208.58],[53.19,-209.45]],
+      "floors": 3,
+      "height": 13.9,
+      "modelBaseMetres": 32.1,
+      "wallColor": "#ded5c0",
+      "roofColor": "#c6c2b6",
+      "heightSource": "两期航拍相对高度估算",
+      "roofSource": "https://www.ytkj.edu.cn/__local/5/71/4D/E24AF4832B5999EB7045FABA491_5EFBB06F_C82000.jpg",
+      "geometryBasis": "邻接较低屋翼，屋顶和主楼相差约十米。由立体照片匹配估算分段位置和高度。"
+    },
+    {
+      "id": "east-teaching-10-portico",
+      "name": "第十教学楼红色门厅",
+      "kind": "service",
+      "ring": [[55.42,-254.43],[62.73,-254.18],[62.46,-246.38],[55.15,-246.63]],
+      "height": 9.3,
+      "modelBaseMetres": 31,
+      "wallColor": "#a34235",
+      "roofColor": "#ad5844",
+      "planColor": "#a34235",
+      "porticoFacing": [-1,0],
+      "heightSource": "两期航拍相对高度估算",
+      "roofSource": "https://www.ytkj.edu.cn/__local/5/71/4D/E24AF4832B5999EB7045FABA491_5EFBB06F_C82000.jpg",
+      "geometryBasis": "校方两次航拍可辨红色矩形门厅。宽约八米，落于西向凹院，门槛位置和构件尺寸为近似。"
+    },
+    {
+      "id": "xuefu-east-building-27",
+      "name": "27号楼（学府路东侧）",
+      "kind": "unknown",
+      "labelGroup": "surroundings",
+      "labelSpan": 113,
+      "ring": [[-36.57,-456.12],[-34.72,-446.8],[-49.43,-443.88],[-51.28,-453.2]],
+      "height": 9,
+      "roofRise": 1.7,
+      "roofColors": ["#a86751","#ad7963"],
+      "planColor": "#ad7963",
+      "heightSource": "CNBH 2020 遥感估高与相邻屋面比对",
+      "roofSource": "https://doi.org/10.5281/zenodo.7861676",
+      "geometryBasis": "由 CBRA 2021 建筑掩膜内的主体拟合。以两期高清影像核对红瓦屋面，以高德截图核对楼号。轮廓仅覆盖可辨认的主体。",
+      "note": "红瓦主屋范围以两期影像对照。",
+      "meta": "主屋范围近似 · 屋脊展示高度约 9 m"
+    },
+    {
+      "kind": "teaching",
+      "floorSources": [
+        "https://www.ytkj.edu.cn/info/1049/8478.htm",
+        "https://www.ytkj.edu.cn/info/1049/8465.htm"
+      ],
+      "roofColor": "#bab8ad",
+      "roofSource": "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.70677%2C37.80800%2C18",
+      "geometryBasis": "2024-03-09、2025-06-02 屋面提取两翼和连廊。2024-11-30、2025-04-08 校方航拍辨认窗排及地面架空通道。墙脚与绝对标高为展示估计。",
+      "heightSource": "双机位相对高差与本模型地坪近似",
+      "id": "east-teaching-9",
+      "name": "第九教学楼",
+      "ring": [
+        [
+          103.86,
+          -251.85
+        ],
+        [
+          141.7,
+          -251.1
+        ],
+        [
+          151.89,
+          -251.66
+        ],
+        [
+          159.81,
+          -255.94
+        ],
+        [
+          169.77,
+          -245.22
+        ],
+        [
+          155.57,
+          -237.79
+        ],
+        [
+          142.45,
+          -236.7
+        ],
+        [
+          103.67,
+          -239.15
+        ]
+      ],
+      "modelBaseMetres": 49.3,
+      "height": 24.2,
+      "floors": 5,
+      "viewDirection": [
+        -1,
+        0.58,
+        0.23
+      ],
+      "viewWidth": 102,
+      "viewCenter": [
+        131.2,
+        -228
+      ],
+      "labelSpan": 71,
+      "ninthTeachingWest": true,
+      "roofStructure": {
+        "ring": [
+          [
+            144.4,
+            -248.9
+          ],
+          [
+            152.4,
+            -249.0
+          ],
+          [
+            152.7,
+            -243.7
+          ],
+          [
+            144.5,
+            -243.6
+          ]
+        ],
+        "height": 2.8
+      },
+      "note": "九教所在组团的两翼围着院落。东侧连廊下方留有架空通道。",
+      "meta": "各翼楼号待核 · 地坪与建筑高程为估算",
+      "heightChecks": {
+        "approximateNorthEaveMetres": 73.5,
+        "approximateSouthEaveMetres": 68.4,
+        "reconstruction": "原片两机位支持北翼较南翼高约5米。展示标高采用附近期粗地形，并留出架空净空。"
+      }
+    },
+    {
+      "kind": "teaching",
+      "floorSources": [
+        "https://www.ytkj.edu.cn/info/1049/8478.htm",
+        "https://www.ytkj.edu.cn/info/1049/8465.htm"
+      ],
+      "roofColor": "#bab8ad",
+      "roofSource": "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.70677%2C37.80800%2C18",
+      "geometryBasis": "2024-03-09、2025-06-02 屋面提取两翼和连廊。2024-11-30、2025-04-08 校方航拍辨认窗排及地面架空通道。墙脚与绝对标高为展示估计。",
+      "heightSource": "双机位相对高差与本模型地坪近似",
+      "id": "east-teaching-9-south",
+      "preserveBoundaryRoadGrade": true,
+      "name": "东山教学组团南翼",
+      "modelPartName": "东山教学组团南翼",
+      "ring": [
+        [
+          101.83,
+          -213.23
+        ],
+        [
+          142.69,
+          -212.57
+        ],
+        [
+          153.49,
+          -212.62
+        ],
+        [
+          153.73,
+          -200.01
+        ],
+        [
+          101.64,
+          -200.95
+        ]
+      ],
+      "modelBaseMetres": 44.4,
+      "height": 24.0,
+      "floors": 5,
+      "ninthTeachingWest": true,
+      "roofStructure": {
+        "ring": [
+          [
+            143.3,
+            -210.65
+          ],
+          [
+            151.8,
+            -210.55
+          ],
+          [
+            152.0,
+            -202.75
+          ],
+          [
+            143.4,
+            -202.8
+          ]
+        ],
+        "height": 2.7
+      },
+      "note": "九教所在组团的南翼，西端首层可见入口。",
+      "meta": "该翼楼号待核 · 地坪与建筑高程为估算"
+    },
+    {
+      "kind": "teaching",
+      "floorSources": [
+        "https://www.ytkj.edu.cn/info/1049/8478.htm",
+        "https://www.ytkj.edu.cn/info/1049/8465.htm"
+      ],
+      "roofColor": "#bab8ad",
+      "roofSource": "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.70677%2C37.80800%2C18",
+      "geometryBasis": "2024-03-09、2025-06-02 屋面提取两翼和连廊。2024-11-30、2025-04-08 校方航拍辨认窗排及地面架空通道。墙脚与绝对标高为展示估计。",
+      "heightSource": "双机位相对高差与本模型地坪近似",
+      "id": "east-teaching-9-bridge",
+      "name": "东山教学组团连廊",
+      "modelPartName": "东山教学组团连廊",
+      "ring": [
+        [
+          142.21,
+          -237.6
+        ],
+        [
+          155.14,
+          -237.65
+        ],
+        [
+          154.62,
+          -211.96
+        ],
+        [
+          141.74,
+          -212.15
+        ]
+      ],
+      "modelBaseMetres": 58.1,
+      "height": 10.2,
+      "passage": {
+        "soffitAboveThresholdMetres": 4.4,
+        "westFacadeEdges": [
+          3
+        ],
+        "westWindowBandsMetres": [
+          [
+            5.22,
+            6.24
+          ],
+          [
+            6.97,
+            7.99
+          ],
+          [
+            8.72,
+            9.74
+          ]
+        ],
+        "pierCentersXZ": [
+          [
+            142.01,
+            -232.4
+          ]
+        ],
+        "pierWidthMetres": 0.53
+      },
+      "note": "两翼夹着开放院落，东侧三排窗带下方留有架空通道。",
+      "meta": "按校方航拍复建三排窗带和架空通道。"
+    }
+  ]
+}

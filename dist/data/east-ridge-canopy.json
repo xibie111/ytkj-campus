@@ -1,0 +1,86 @@
+{
+  "acquisition": "2026-03-06",
+  "product": "NASA ICESat-2 ATL08 v007",
+  "granule": "ATL08_20260306103415_12533006_007_01.h5",
+  "track": 1253,
+  "beam": "gt1l",
+  "productDOI": "https://doi.org/10.5067/ATLAS/ATL08.007",
+  "traceURL": "https://openaltimetry.earthdatacloud.nasa.gov/data/api/icesat2/atl08?minx=120.706&miny=37.806&maxx=120.715&maxy=37.8153&date=2026-03-06&trackId=1253&outputFormat=json",
+  "quantity": "ATL08 canopy height above classified ground, in metres",
+  "filter": "Strong beam gt1l, seven consecutive approximately 100 m segments whose centres fall in ESA WorldCover 2021 class 10.",
+  "comparisonBaselineMetres": 12,
+  "interpolationWeight": 0.75,
+  "coreOffsetMetres": 30,
+  "maximumOffsetMetres": 50,
+  "endFadeMetres": 25,
+  "method": "Interpolate canopy height between consecutive segment centres and blend with the 12 m display mean. Scale only indicative forest height; taper towards the ends and across the track. This represents a local forest-height envelope.",
+  "validation": {
+    "method": "Leave out one interior station at a time, on this one acquisition and beam.",
+    "stations": [
+      {
+        "zMetres": -826.138,
+        "observedMetres": 11.86,
+        "predictedMetres": 9.457
+      },
+      {
+        "zMetres": -726.215,
+        "observedMetres": 9.489,
+        "predictedMetres": 10.68
+      },
+      {
+        "zMetres": -626.715,
+        "observedMetres": 8.627,
+        "predictedMetres": 9.283
+      },
+      {
+        "zMetres": -526.791,
+        "observedMetres": 7.26,
+        "predictedMetres": 8.935
+      },
+      {
+        "zMetres": -426.868,
+        "observedMetres": 7.198,
+        "predictedMetres": 11.563
+      }
+    ],
+    "baselineRmseMetres": 3.556,
+    "localRmseMetres": 2.428
+  },
+  "stations": [
+    [
+      569.3482,
+      -926.0618,
+      7.7285
+    ],
+    [
+      559.9538,
+      -826.1383,
+      11.86
+    ],
+    [
+      550.5594,
+      -726.2148,
+      9.4892
+    ],
+    [
+      540.494,
+      -626.7147,
+      8.6272
+    ],
+    [
+      530.4286,
+      -526.7912,
+      7.26
+    ],
+    [
+      521.7052,
+      -426.8677,
+      7.1982
+    ],
+    [
+      512.3108,
+      -327.3676,
+      15.5568
+    ]
+  ]
+}

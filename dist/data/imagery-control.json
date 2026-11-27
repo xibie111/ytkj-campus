@@ -1,0 +1,97 @@
+{
+  "coverageWGS84": [
+    120.6881954,
+    37.7926458,
+    120.7223046,
+    37.8166113
+  ],
+  "completeModelCoverage": true,
+  "capture": "2025-06-02",
+  "publication": "2026-11-18",
+  "provider": "Vantor",
+  "product": "Vivid",
+  "sensor": "WorldView Legion-2 (LG02)",
+  "sourcePixelMetres": 0.34,
+  "basemapSampleMetres": 0.6,
+  "sourceAccuracyFieldMetres": 5,
+  "coordinates": {
+    "query": "EPSG:4326",
+    "service": "EPSG:3857",
+    "originalSensorCRS": null
+  },
+  "release": 3692,
+  "feature": 5058815,
+  "metadata": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/5058815",
+  "viewer": "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.70525%2C37.80598%2C18",
+  "terms": "https://www.arcgis.com/home/item.html?id=83b1b21c156f4c62a6dc0d90b088879c",
+  "siteUse": "Link to Esri for comparison. The downloadable basemap uses Copernicus Sentinel-2. No commercial imagery is embedded.",
+  "registration": {
+    "pitch": {
+      "independent_target_geometry": "raw color break at red apron / green turf",
+      "model_minus_visible_center_m_east": 0.32,
+      "model_minus_visible_center_m_north": 1.62,
+      "horizontal_model_minus_visible_center_m": 1.65,
+      "visible_long_axis_deg_cw_from_north_mod180": 72.87,
+      "model_long_axis_deg_cw_from_north_mod180": 74.47,
+      "approximate_interpretation_uncertainty_m": 1.5,
+      "approximate_axis_read_uncertainty_degrees": 1
+    },
+    "gate_proxy": {
+      "independent_target_geometry": "straight north edge pale band adjoining the central island, not identifiable as exact wall",
+      "visible_long_axis_deg_cw_from_north_mod180": 72.57,
+      "model_long_axis_deg_cw_from_north_mod180": 73.71,
+      "approximate_interpretation_uncertainty_m": 3,
+      "approximate_axis_read_uncertainty_degrees": 3
+    },
+    "B023_roof": {
+      "independent_target_geometry": "four visually read upper plane corners of primary roof; excludes cast shadow and north rear annex",
+      "model_minus_visible_center_m_east": 16.1,
+      "model_minus_visible_center_m_north": 7.41,
+      "horizontal_model_minus_visible_center_m": 17.73,
+      "visible_long_axis_deg_cw_from_north_mod180": 73.18,
+      "model_long_axis_deg_cw_from_north_mod180": 73.12,
+      "approximate_interpretation_uncertainty_m": 2.5,
+      "approximate_axis_read_uncertainty_degrees": 1
+    },
+    "limitations": "Relative image readings only. The gate target is a band at the island edge. The B023 comparison is partial model roof versus full visible upper roof, not a ground control point."
+  },
+  "airbusCatalogue": {
+    "source": "https://api.oneatlas.airbus.com/guides/oneatlas-data/g-search/",
+    "releaseUse": "Catalogue comparison. No high-resolution pixel cutout is distributed with the site.",
+    "scenes": [
+      {
+        "sensor": "Pléiades Neo 3",
+        "acquisitionUTC": "2025-09-17T02:40:23.820Z",
+        "catalogueNominalMetres": 0.3,
+        "completeModelCoverage": true,
+        "incidenceDegrees": 32.317,
+        "catalogueUUID": "9b390675-3489-436b-9bf5-63005201849d",
+        "acquisitionID": "ACQ_PNEO3_06224802307665",
+        "publicPreview": "https://access.foundation.api.oneatlas.airbus.com/api/v1/items/9b390675-3489-436b-9bf5-63005201849d/quicklook",
+        "previewStatus": "Downsampled quicklook; orthorectification, scene GSD, and publication licence for original not verified."
+      },
+      {
+        "sensor": "Pléiades 1B",
+        "acquisitionUTC": "2026-07-30T02:52:42.055Z",
+        "catalogueNominalMetres": 0.5,
+        "completeModelCoverage": true,
+        "incidenceDegrees": 3.84,
+        "catalogueUUID": "de0e8868-4f34-49b1-9680-8aecea3e6f5a",
+        "acquisitionID": "DS_PHR1B_202607300252420_FR1_PX_E120N37_0820_01502",
+        "previewStatus": "Catalogue verified; local cloud, ortho pixel size, and publication licence not verified."
+      }
+    ]
+  },
+  "supplementalViewers": {
+    "googleMaps": {
+      "url": "https://www.google.com/maps/@37.808422,120.708740,19z/data=!3m1!1e3",
+      "use": "Satellite visual comparison",
+      "captureDate": null
+    },
+    "amap": {
+      "url": "https://uri.amap.com/marker?position=120.708740,37.808422&name=%E8%93%AC%E8%8E%B1%E4%B8%9C%E5%B1%B1%E5%85%AD%E6%95%99&coordinate=wgs84&callnative=0",
+      "use": "Map location using official WGS84 URI and model roof anchor; provided screen captures were used for building identity.",
+      "captureDate": null
+    }
+  }
+}

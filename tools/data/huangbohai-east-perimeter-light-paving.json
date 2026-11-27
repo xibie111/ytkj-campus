@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "name": "S5/S6 east perimeter light paving",
+  "evidence": {
+    "observedPaving": [
+      {
+        "displayedDate": "2026-04-25",
+        "provider": "Tianditu Shandong",
+        "sensor": "BJ3",
+        "viewZoom": 17
+      },
+      {
+        "displayedDate": "2026-10-30",
+        "provider": "Tianditu Shandong",
+        "sensor": "ZY3",
+        "viewZoom": 16
+      }
+    ],
+    "observedGeometry": "Light strip on the campus side of the earthwork road, northeast of S6/S7. Footprint only. Approach function, pavement composition and ground grade have not been measured.",
+    "registration": "Fine trace on BJ3 with 2026-04-24 BJ3 and 2025-04-13 WorldView-3 139 static-point model anchor. Independent October image checks its bend and continuity. October local transformation has 60 inliers and a 0.97 pixel mean horizontal difference."
+  },
+  "ring": [
+    [
+      235.803,
+      -73.893
+    ],
+    [
+      249.635,
+      -60.397
+    ],
+    [
+      266.924,
+      -42.535
+    ],
+    [
+      285.471,
+      -23.483
+    ],
+    [
+      310.617,
+      3.507
+    ],
+    [
+      331.359,
+      28.509
+    ],
+    [
+      343.615,
+      43.59
+    ],
+    [
+      349.268,
+      53.112
+    ],
+    [
+      351.147,
+      60.251
+    ],
+    [
+      351.137,
+      67.785
+    ],
+    [
+      349.238,
+      75.317
+    ],
+    [
+      345.764,
+      83.64
+    ],
+    [
+      339.462,
+      88.391
+    ],
+    [
+      332.531,
+      92.746
+    ],
+    [
+      323.077,
+      99.873
+    ],
+    [
+      317.421,
+      92.333
+    ],
+    [
+      324.985,
+      85.6
+    ],
+    [
+      331.917,
+      80.85
+    ],
+    [
+      338.221,
+      74.512
+    ],
+    [
+      342.322,
+      68.569
+    ],
+    [
+      343.905,
+      61.433
+    ],
+    [
+      342.969,
+      55.484
+    ],
+    [
+      338.886,
+      49.136
+    ],
+    [
+      329.774,
+      36.438
+    ],
+    [
+      306.516,
+      9.45
+    ],
+    [
+      281.686,
+      -17.936
+    ],
+    [
+      263.452,
+      -35.798
+    ],
+    [
+      244.908,
+      -56.436
+    ],
+    [
+      233.904,
+      -66.361
+    ]
+  ]
+}

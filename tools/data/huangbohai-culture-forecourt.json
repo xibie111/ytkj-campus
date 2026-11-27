@@ -1,0 +1,310 @@
+{
+  "sources": {
+    "satellite": "2025-04-13 WorldView-3, Esri/Vantor Wayback revision 3692",
+    "nativeSourceM": 0.31,
+    "publishedSourceSampleM": 0.6,
+    "localGridApproxM": 0.94,
+    "sourcePositionalAccuracyM": 5,
+    "referenceOnly": true,
+    "officialOrientation": "https://www.ytkj.edu.cn/info/1081/6842.htm",
+    "streetCloseup": "https://www.enneinc.cn/news/shownews.php?id=352",
+    "orthophotoAtSite": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r11/MapServer/5/query?f=json&geometry=120.986117146%2C37.732687849&inSR=4326&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=false",
+    "limit": "绿岛缘石以2025-04-13影像九点拟合。车行坪按可辨色界接现有车道，靠建筑阴影的边线、缘石截面和树高均为估计。树种未核。"
+  },
+  "centreXZ": [
+    -121.7475,
+    -54.1478
+  ],
+  "radiusMetres": 5.644,
+  "kerbWidthMetres": 0.28,
+  "kerbHeightMetres": 0.13,
+  "apronXZ": [
+    [
+      -136.0544,
+      -61.8949
+    ],
+    [
+      -133.2679,
+      -62.8838
+    ],
+    [
+      -129.0173,
+      -63.2605
+    ],
+    [
+      -123.9639,
+      -64.3436
+    ],
+    [
+      -119.0521,
+      -64.9087
+    ],
+    [
+      -114.5654,
+      -64.6732
+    ],
+    [
+      -112.884,
+      -62.8367
+    ],
+    [
+      -112.629,
+      -57.4685
+    ],
+    [
+      -112.6101,
+      -52.1003
+    ],
+    [
+      -112.9123,
+      -47.3913
+    ],
+    [
+      -113.8569,
+      -44.1892
+    ],
+    [
+      -116.4545,
+      -41.4392
+    ],
+    [
+      -119.3827,
+      -38.3501
+    ],
+    [
+      -122.1503,
+      -35.1574
+    ],
+    [
+      -126.3725,
+      -29.4972
+    ],
+    [
+      -130.8593,
+      -28.6496
+    ],
+    [
+      -132.3706,
+      -31.9459
+    ],
+    [
+      -133.2207,
+      -40.0453
+    ],
+    [
+      -134.5903,
+      -47.768
+    ],
+    [
+      -136.1961,
+      -55.114
+    ]
+  ],
+  "apronSourceUV": [
+    [
+      442.3,
+      513.5
+    ],
+    [
+      445.25,
+      512.45
+    ],
+    [
+      449.75,
+      512.05
+    ],
+    [
+      455.1,
+      510.9
+    ],
+    [
+      460.3,
+      510.3
+    ],
+    [
+      465.05,
+      510.55
+    ],
+    [
+      466.83,
+      512.5
+    ],
+    [
+      467.1,
+      518.2
+    ],
+    [
+      467.12,
+      523.9
+    ],
+    [
+      466.8,
+      528.9
+    ],
+    [
+      465.8,
+      532.3
+    ],
+    [
+      463.05,
+      535.22
+    ],
+    [
+      459.95,
+      538.5
+    ],
+    [
+      457.02,
+      541.89
+    ],
+    [
+      452.55,
+      547.9
+    ],
+    [
+      447.8,
+      548.8
+    ],
+    [
+      446.2,
+      545.3
+    ],
+    [
+      445.3,
+      536.7
+    ],
+    [
+      443.85,
+      528.5
+    ],
+    [
+      442.15,
+      520.7
+    ]
+  ],
+  "rimControls": [
+    {
+      "azimuthClockwiseFromEast": 5,
+      "sourceUV": [
+        462.9789,
+        522.0937
+      ],
+      "xz": [
+        -116.5217,
+        -53.8014
+      ],
+      "curbProminence": 6.89,
+      "radialResidualM": -0.4065
+    },
+    {
+      "azimuthClockwiseFromEast": 45,
+      "sourceUV": [
+        461.8341,
+        525.9941
+      ],
+      "xz": [
+        -117.603,
+        -50.1281
+      ],
+      "curbProminence": 9.005,
+      "radialResidualM": 0.1299
+    },
+    {
+      "azimuthClockwiseFromEast": 85,
+      "sourceUV": [
+        458.0078,
+        527.9856
+      ],
+      "xz": [
+        -121.2172,
+        -48.2524
+      ],
+      "curbProminence": 14.541,
+      "radialResidualM": 0.2755
+    },
+    {
+      "azimuthClockwiseFromEast": 125,
+      "sourceUV": [
+        454.0085,
+        526.5249
+      ],
+      "xz": [
+        -124.9948,
+        -49.6281
+      ],
+      "curbProminence": 16.665,
+      "radialResidualM": -0.0784
+    },
+    {
+      "azimuthClockwiseFromEast": 165,
+      "sourceUV": [
+        451.9925,
+        523.0723
+      ],
+      "xz": [
+        -126.8991,
+        -52.8798
+      ],
+      "curbProminence": 14.184,
+      "radialResidualM": -0.3383
+    },
+    {
+      "azimuthClockwiseFromEast": 205,
+      "sourceUV": [
+        452.0122,
+        519.0743
+      ],
+      "xz": [
+        -126.8806,
+        -56.6451
+      ],
+      "curbProminence": 14.505,
+      "radialResidualM": 0.0646
+    },
+    {
+      "azimuthClockwiseFromEast": 245,
+      "sourceUV": [
+        454.8509,
+        516.0362
+      ],
+      "xz": [
+        -124.1992,
+        -59.5063
+      ],
+      "curbProminence": 14.349,
+      "radialResidualM": 0.249
+    },
+    {
+      "azimuthClockwiseFromEast": 285,
+      "sourceUV": [
+        458.9512,
+        516.0076
+      ],
+      "xz": [
+        -120.3262,
+        -59.5332
+      ],
+      "curbProminence": 5.788,
+      "radialResidualM": -0.0739
+    },
+    {
+      "azimuthClockwiseFromEast": 325,
+      "sourceUV": [
+        462.324,
+        518.1972
+      ],
+      "xz": [
+        -117.1403,
+        -57.4711
+      ],
+      "curbProminence": 16.716,
+      "radialResidualM": 0.0369
+    }
+  ],
+  "holdoutRmsM": 0.3135,
+  "tree": {
+    "h": 6.4,
+    "r": 2.55,
+    "basis": "承建方门前照片中树高约为圆岛可见直径一半，冠径不足岛宽一半。模型树位取岛心近似。"
+  }
+}
